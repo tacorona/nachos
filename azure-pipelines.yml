@@ -11,8 +11,10 @@
 # https://aka.ms/yaml
 
 trigger:
-- 
-main
+  batch: false
+  branches:
+    include:
+    - main
 pool:
 - task: SoapUIProForAzureDevOpsTask@2
   inputs:
