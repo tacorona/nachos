@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="504d956c-0249-44d6-b090-8c6e8d2e7bee" activeEnvironment="Default" name="HOMIE" resourceRoot="${projectDir}" soapui-version="5.6.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="0cc9a279-0530-49c2-a0fb-615494350e3f" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://acc-coronadirect.cs107.force.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://acc-coronadirect.cs107.force.com</con:endpoint></con:endpoints><con:resource name="Aura" path="/aura" id="892eb255-421f-4fd0-94ec-82f52b309108"><con:settings/><con:parameters><con:parameter><con:name>r</con:name><con:value>11</con:value><con:style>QUERY</con:style><con:default>11</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>other.HOMIE_Ctrl.DoOffer</con:name><con:value>1</con:value><con:style>QUERY</con:style><con:default>1</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Aura 1" id="1d92263b-1eae-4f0a-be79-efefb89119a8" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:aura="https://acc-coronadirect.cs107.force.com/aura">aura:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html ; charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>401</con:status><con:params/><con:element xmlns:aura="https://acc-coronadirect.cs107.force.com/aura">aura:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=UTF-8</con:mediaType><con:status>500 400</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="9dae3167-ee1c-4d41-9314-5c98a310ce8d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Cookie" value="BrowserId_sec=ys0KegpxEeyVMkNpQNtULQ; inst=APP_1q; sfdc-stream=u00214E5B9tngFkjERT8sgiz/PCqVM9jKLkqPxquiQzz/QbIhfCDWfOxK8f9rZls4Rx4jFHz77MlcKb7aY0o=; force-proxy-stream=u0021Z9M07K2WpXG32nk55OzhDm+AGQ4LPnCVdBeVicWvVvb/BqZV0QnEz0eq18xV3VWt70h20yX2+12p3Q==; force-stream=u00214E5B9tngFkjERT8sgiz/PCqVM9jKLkqPxquiQzz/QbIhfCDWfOxK8f9rZls4Rx4jFHz77MlcKb7aY0o="/>&#13;
+  &lt;con:entry key="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://acc-coronadirect.cs107.force.com</con:endpoint><con:request>message=%7B%22actions%22%3A%5B%7B%22id%22%3A%221266%3Ba%22%2C%22descriptor%22%3A%22apex%3A%2F%2FHOMIE_Ctrl%2FACTION%24DoOffer%22%2C%22callingDescriptor%22%3A%22markup%3A%2F%2Fc%3AHOMIE%22%2C%22params%22%3A%7B%22l%22%3A%22%7B%5C%22Date_ToOffer__c%5C%22%3A%5C%222021-09-10%5C%22%2C%5C%22HOM_ListedProperty__c%5C%22%3Afalse%2C%5C%22HOM_BedroomCount__c%5C%22%3A0%2C%5C%22BO_C_OFFERTE_ID__c%5C%22%3A%5C%22FBBF12CA1627F649AFEBC8911A831460%5C%22%2C%5C%22HOM_VerandaCount__c%5C%22%3A0%2C%5C%22HOM_GarageCount__c%5C%22%3A0%2C%5C%22HOM_StudyroomCount__c%5C%22%3A0%2C%5C%22HOM_HousePropertyTypeCode__c%5C%22%3A%5C%223%5C%22%2C%5C%22LanguageCode__c%5C%22%3A%5C%222%5C%22%2C%5C%22GenderCode__c%5C%22%3A%5C%221%5C%22%2C%5C%22RecordTypeId%5C%22%3A%5C%2201220000000AxAvAAK%5C%22%2C%5C%22Status%5C%22%3A%5C%22Incomplete%5C%22%2C%5C%22HOM_OtherroomCount__c%5C%22%3A0%2C%5C%22HOM_DiningroomCount__c%5C%22%3A0%2C%5C%22HOM_SameHouseAddress__c%5C%22%3Atrue%2C%5C%22HOM_ValuationChoice__c%5C%22%3A%5C%22HOMIE%5C%22%2C%5C%22HOM_SalonCount__c%5C%22%3A0%2C%5C%22HOM_BathroomCount__c%5C%22%3A0%2C%5C%22HOM_CommercialUsage__c%5C%22%3Afalse%2C%5C%22OrganizationIdentifier__c%5C%22%3A%5C%22CORONA%5C%22%2C%5C%22HOM_RoofTypeCode__c%5C%22%3A%5C%221%5C%22%2C%5C%22HOM_OutBuilding__c%5C%22%3Afalse%2C%5C%22Country%5C%22%3A%5C%22BE%5C%22%2C%5C%22Periodicity__c%5C%22%3A%5C%2212%5C%22%2C%5C%22IntermediaryIdentifier__c%5C%22%3A%5C%22%5C%22%2C%5C%22UserAgent__c%5C%22%3A%5C%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36%5C%22%2C%5C%22MobilePhone%5C%22%3A%5C%220499565676%5C%22%2C%5C%22Phone%5C%22%3A%5C%22023345355%5C%22%2C%5C%22FirstName%5C%22%3A%5C%22TEST%20ACC%20FRI%20IV%5C%22%2C%5C%22LastName%5C%22%3A%5C%22TEST%20ACC%20FRI%20IV%5C%22%2C%5C%22Birthdate__c%5C%22%3A%5C%221999-01-01%5C%22%2C%5C%22HOM_DwellingTypeCode__c%5C%22%3A%5C%221%5C%22%2C%5C%22PostalCode%5C%22%3A%5C%229000%5C%22%2C%5C%22City%5C%22%3A%5C%22GENT-ZUID%5C%22%2C%5C%22StreetName__c%5C%22%3A%5C%22Aan%20de%20Bocht%5C%22%2C%5C%22StreetRoad65ID__c%5C%22%3A%5C%22122387%5C%22%2C%5C%22HouseNumber__c%5C%22%3A%5C%2210%5C%22%2C%5C%22BoxNumber__c%5C%22%3A%5C%221%5C%22%2C%5C%22HOM_Volume__c%5C%22%3A560%2C%5C%22HOM_BuildingId__c%5C%22%3A%5C%22grb_1378515.q6InWF5sMa0mIl4ueQhzRq6B9GA%5C%22%2C%5C%22HOM_RentMonthlyAmount__c%5C%22%3A%5C%22209.2342%5C%22%2C%5C%22Email%5C%22%3A%5C%22michael.kulpok%40coronadirect.be%5C%22%2C%5C%22Email__r%5C%22%3A%7B%5C%22HasOptedOutOfEmail__c%5C%22%3Afalse%7D%2C%5C%22Date_Start__c%5C%22%3A%5C%222021-09-11%5C%22%2C%5C%22CurrentlyInsured__c%5C%22%3A%5C%22true%5C%22%2C%5C%22IBAN__c%5C%22%3A%5C%22BE33734051811446%5C%22%7D%22%2C%22selectedFormulas%22%3A%22%5B%5C%22plus%5C%22%2C%5C%22in%2B10000%5C%22%5D%22%7D%2C%22version%22%3Anull%7D%5D%7D&amp;aura.context=%7B%22mode%22%3A%22PROD%22%2C%22fwuid%22%3A%22OTBI25Tua-5W8ZKazww6Fg%22%2C%22app%22%3A%22c%3AHOMIE_MainApp%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fc%3AHOMIE_MainApp%22%3A%227zUCE9Yk_i5GQtfg-kaO-g%22%7D%2C%22dn%22%3A%5B%5D%2C%22globals%22%3A%7B%22srcdoc%22%3Atrue%7D%2C%22uad%22%3Atrue%7D&amp;aura.pageURI=%2Fnl%2Fhuurdersverzekering%2Fbereken-je-prijs&amp;aura.token=undefined</con:request><con:originalUri>https://acc-coronadirect.cs107.force.com/aura</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="r" value="11"/>
+  <con:entry key="other.HOMIE_Ctrl.DoOffer" value="1"/>
+</con:parameters><con:parameterOrder><con:entry>r</con:entry><con:entry>other.HOMIE_Ctrl.DoOffer</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite name="TestRunner" id="cad4ff68-ccf1-44ef-b2e7-94161a0d38d5">
+		<con:settings/>
+		<con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType>
+		<con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestRunner" searchProperties="false" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" id="9b648710-5869-42c9-b9fc-5a3e7305f7ed" zephyrTestName="" zephyrTestId="">
+			<con:settings/>
+			<con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="calltestcase" name="TestRunner" id="4a165dc4-7a1e-44bf-9a4e-3b554bcf88bb">
+				<con:settings/>
+				<con:config xsi:type="con:RunTestCaseStep" ignoreEmptyProperties="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<con:targetTestCase>4ca11a48-16b9-4323-b09c-dd956aca2b58</con:targetTestCase>
+					<con:properties>
+					<con:property><con:name>grant_Type</con:name></con:property><con:property><con:name>scope</con:name></con:property><con:property><con:name>validity_period</con:name></con:property><con:property><con:name>yesterday</con:name></con:property><con:property><con:name>currentDate</con:name></con:property><con:property><con:name>tomorrow</con:name></con:property><con:property><con:name>selectedToken</con:name></con:property><con:property><con:name>requestLanguage</con:name></con:property><con:property><con:name>email</con:name></con:property><con:property><con:name>CommercialProduct</con:name></con:property><con:property><con:name>Scenario</con:name></con:property><con:property><con:name>ExternalContractNumber</con:name></con:property><con:property><con:name>ExternalContractVersionNumber</con:name></con:property><con:property><con:name>activeFromDate</con:name></con:property><con:property><con:name>activeToDate</con:name></con:property><con:property><con:name>dialogResult</con:name></con:property><con:property><con:name>LoopOnReusableAction</con:name></con:property><con:property><con:name>reusableAction</con:name></con:property><con:property><con:name>firstName</con:name></con:property><con:property><con:name>offerPost</con:name></con:property></con:properties>
+					<con:returnProperties/>
+					<con:runMode>SINGLETON_AND_FAIL</con:runMode>
+				</con:config>
+			</con:testStep>
+			<con:properties/>
+		<con:reportParameters/></con:testCase>
+		<con:properties/>
+	<con:reportParameters/></con:testSuite><con:testSuite name="ENGINE" id="8d8e6163-3df5-4746-bb63-1a8de900547f">
+<con:settings/>
+<con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType>
+<con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="GENERATE" searchProperties="false" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" id="4ca11a48-16b9-4323-b09c-dd956aca2b58" zephyrTestName="" zephyrTestId="">
+<con:settings/>
+<con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="mMethod" id="a728f41c-208a-41e7-a298-908ad1dc29a1">
+				<con:settings/>
+				<con:config><script><![CDATA[//imports
+import groovy.util.*
+import groovy.swing.SwingBuilder
+import javax.swing.WindowConstants as WC
+import java.awt.BorderLayout as BL
+import javax.swing.BoxLayout as BXL
+import javax.swing.JOptionPane
+import javax.swing.JTabbedPane
+import javax.swing.JScrollPane
+import java.awt.*
+import java.text.*
+import javax.swing.*
+import com.eviware.soapui.support.XmlHolder
+import com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus
+import com.eviware.soapui.model.testsuite.Assertable
+def alert = com.eviware.soapui.support.UISupport
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+//define current test case
+def tCase = testRunner.testCase
+def responseHolder
+//remove CS.GENERATE properties
+log.info("Remove properties from " + tCase.name)
+def propertyNames0 = tCase.getPropertyNames()
+for(name in propertyNames0){
+	tCase.removeProperty(name)
+}
+def currentProject = tCase.testSuite.project
+//define keywords
+def reusableActionPropertyName = "reusableAction"
+def loopOnReusableActionPropertyName = "LoopOnReusableAction"
+//define reporting keywords
+def notKeywords = ['Scenario','CommercialProduct','ExternalContractNumber']
+//define arrays
+def sysarray = new Object[128][4]
+row=0
+def swaggerver = ['V1','V2','V3']
+def testenv = ['localhost','int','acc']
+def app = ['homie']
+//def testapplications = ['homie']
+def testapplication = ['coronadirect']
+def userapplication = ['testRunner@gmail.com']
+def testdb = ['D', 'T', 'A','P']
+def testenvinstance = ['1']
+def testdata = 'mMethod'
+def testlanguage = ['fr','nl']
+
+//define counters
+def incrementSOD = "0"
+def retry_deliveryService = "0"
+def retry_orderNumber = "0"
+def retry_salesOrderRating = "0"
+def retry_billingRequest = "0"
+def retry_free = "0"
+
+//define date values
+def pcfD = new Date()
+sdfC = new SimpleDateFormat("yyyy-MM-dd")
+sdfD = new SimpleDateFormat("dd/MM/yyyy")
+def activeFromDate = sdfC.format(pcfD)
+def activeToDate = sdfC.format(pcfD+7)
+def yesterday = sdfC.format(pcfD-1)
+def currentDate = sdfC.format(pcfD)
+def tomorrow = sdfC.format(pcfD+1)
+//define EnCo values
+
+def grant_Type = "client_credentials"
+def scope = "openid"
+def validity_period = "-2"
+
+def client_id_dev = ['7lINlK62kscc7tjcDTMv1xddANUa']
+def client_secret_dev = ['Pil3AsoVgysK3vQf_lYWN7seDvIa']
+
+def client_id_int = ['e0002653-2c80-43ba-be54-a6dfa2e21fa7']
+def client_secret_int = ['90299f72-63a6-4a62-8624-67758db23251']
+
+def client_id_acc = ['e0002653-2c80-43ba-be54-a6dfa2e21fa7']
+def client_secret_acc = ['90299f72-63a6-4a62-8624-67758db23251']
+
+def client_id_prd =['ZGMfqchyDwiy1Tziom8WyZyfeHQa']
+def client_secret_prd =['Ghnx0Ve7CfYefmpJJN6QpktZKAAa']
+
+// Define properties on current test case
+tCase.setPropertyValue("grant_Type",grant_Type)
+tCase.setPropertyValue("scope",scope)
+tCase.setPropertyValue("validity_period",validity_period)
+
+tCase.setPropertyValue("yesterday",yesterday)
+tCase.setPropertyValue("currentDate",currentDate)
+tCase.setPropertyValue("tomorrow",tomorrow)
+tCase.setPropertyValue("selectedToken","token2")
+//define random languages
+Random randomLanguage = new Random()
+ArrayList rL = new ArrayList()
+rL.size()
+rL.add("FR")
+rL.add("NL")
+rL.add("DE")
+rL.add("EN")
+tCase.setPropertyValue("requestLanguage",rL[randomLanguage.nextInt(rL.size())])
+//define hosts
+P1ENCO = "@vlds626.netpost:1522/SCOSD1"
+A1ENCO = "@vlds626.netpost:1522/SCOSD1"
+T1ENCO = "@vlds626.netpost:1522/SCOSD1"
+D1ENCO = "@vlds626.netpost:1522/SCOSD1"
+
+//T1CTM = "jdbc:sqlserver://vwds745"+(char)92+"sql1;databaseName=CTM_DEV_030;integratedSecurity=true;"
+
+//remove PROJECT properties
+COSsanity = "/sanity-test"
+
+def propertyNames = currentProject.getPropertyNames()
+for(name in propertyNames){
+	currentProject.removeProperty(name);
+}
+def tTransformations
+def tTransformationsSteps = ["None"]
+def tTransformationsProperties
+def appvalueold
+//main UI
+Font font = new Font("Calibri", Font.ITALIC, 8)
+def frame = new SwingBuilder()
+frame.edt{
+	frame.setVariable('myDialog-properties',[:])
+	def tScn = currentProject.testSuites["SCENARIOS"]
+	def testscn = tScn.getTestCaseList().name
+	def vars = frame.variables
+	def dial = frame.dialog(title:'CoronaDirect testRunner v1.0',id:'myDialog', modal:true, pack:true, show:true, background:java.awt.Color.BLACK) {
+		//lookAndFeel 'nimbus'
+		panel(name: 'Env', constraints: BorderLayout.WEST, border: compoundBorder([emptyBorder(10)])) {
+			boxLayout(axis: BXL.X_AXIS)
+			panel(border: compoundBorder([emptyBorder(10), titledBorder('Environments')]) ) {
+				boxLayout(axis: BXL.Y_AXIS)
+				panel(border: compoundBorder([emptyBorder(10), titledBorder('Applications')]) ) {
+					boxLayout(axis: BXL.Y_AXIS)
+					scrollPane(id:'u', horizontalScrollBarPolicy:JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS) {
+						panel(constraints: BorderLayout.WEST, border: compoundBorder([emptyBorder(10)]) ){
+							boxLayout(axis: BXL.Y_AXIS)
+							tableLayout (cellpadding: 2){
+								tr{
+									td{label ""}
+									td{label "DV1"}
+								}
+								for (appvalue in app){
+									
+									if (appvalue != 'ALL'){
+										//tableLayout (cellpadding: 2){
+										tr{
+											td{label appvalue}
+											for (testenvvalue in testenv){
+												if(testenvvalue != 'localhost'){
+													for (testenvinstancevalue in testenvinstance){
+															url = ("https://" + "api." + testenvvalue + "." + appvalue)
+															log. info url
+															row++
+															try{
+																urlConnect = new URL(url)
+																def connection = urlConnect.openConnection()
+																connection.setConnectTimeout(5000)
+																connection.setReadTimeout(5000)
+																connection.setRequestMethod("GET")
+																if (appvalue == 'EVS'){
+																	connection.setRequestProperty("Accept","application/xml")
+																}
+																connection.setRequestProperty("Host", appvalue + "-" + testenvvalue + testenvinstancevalue + ".netpost")
+																connection.connect()
+																sysarray[row][3] = connection.getResponseCode()}
+															catch (all){
+																assert true
+															}
+															//connection.setRequestProperty("X-Forwarded-For", "<your ip address>")
+															if (appvalueold != null){
+																appvalue = appvalueold
+																appvalueold = ""
+															}
+															sysarray[row][0] = appvalue
+															sysarray[row][1] = testenvvalue
+															sysarray[row][2] = testenvinstancevalue
+															td{
+																button(id:'xxx',sysarray[row][3].toString(), preferredSize: [25, 25])
+																xxx.setFont(font)
+																if (sysarray[row][3].toString() != '200'){
+																	xxx.setBackground(Color.RED)
+																}
+																else{
+																	xxx.setBackground(Color.GREEN)
+																}
+															}
+														
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			panel(border: compoundBorder([emptyBorder(10), titledBorder('Setup:')]) ) {
+				boxLayout(axis: BXL.Y_AXIS)
+				panel(border: compoundBorder([emptyBorder(10), titledBorder('Select your test scenario:')]) ) {
+					tableLayout (cellpadding: 4){
+						tr{
+							td {
+								scrollPane( verticalScrollBarPolicy:JScrollPane.VERTICAL_SCROLLBAR_ALWAYS) {
+									textArea(id:'scd', text:'Select your test scenario (scn_xxx) below...',lineWrap:true, wrapStyleWord:true, preferredSize: [350, 100],editable:false)
+								}
+							}
+						}
+						tr {
+							td {
+								comboBox(id:'scn', maximumRowCount:5, editable:true, items:testscn, preferredSize: [367, 20], actionPerformed: {
+									def selectedScenario = tScn.testCases[vars.scn.selectedItem]
+									def selectedScenarioProperties = selectedScenario.getPropertyNames()
+									scd.setText(null)
+									for (name2 in selectedScenarioProperties) {
+										scd.append name2 + ": " + selectedScenario.getPropertyValue(name2) + "\n"
+									}
+								})
+							}
+						}
+					}
+				}
+				panel(border: compoundBorder([emptyBorder(10), titledBorder('Enter your test data:')]) ) {
+					tableLayout (cellpadding: 4){
+						tr {
+							td {
+								label 'Swagger version'
+							}
+							td {
+								comboBox(id:'cpd', items:swaggerver)
+							}
+						}
+						/*tr {
+							td {
+								label 'Special app'
+							}
+							td {
+								comboBox(id:'spa', items:testapplications)
+							}
+						}*/
+						tr {
+							td {
+								label 'Test environment'
+							}
+							td {
+								comboBox(id:'env', items:testenv)
+							}
+							td {
+								label 'Localhost on'
+							}
+							td {
+								comboBox(id:'aps', items:app)
+							}
+						}
+						tr {
+							td {
+								label 'Tested Application'
+							}
+							td {
+								comboBox(id:'testapplication', items:testapplication)
+							}
+						}
+						tr {
+							td {
+								label 'User'
+							}
+							td {
+								comboBox(id:'userapplication', items:userapplication)
+							}
+						}
+						tr {
+							td {
+								label 'Database'
+							}
+							td {
+								comboBox(id:'dba', items:testdb)
+							}
+						}
+						tr {
+							td {
+								label 'Instance'
+							}
+							td {
+								comboBox(id:'ins', items:testenvinstance)
+							}
+						}
+						tr {
+							td {
+								label 'Language'
+							}
+							td {
+								comboBox(id:'lan', items:testlanguage)
+							}
+						}
+						tr {
+							td {
+								label 'Test data name'
+							}
+							td {
+								textField(id:'dat', columns:10, testdata.toString())
+							}
+						}
+						tr {
+							td {
+								label 'Contract start date'
+							}
+							td {
+								textField(id:'csd', columns:10, activeFromDate.toString())
+							}
+						}
+						tr {
+							td {
+								label 'Contract end date'
+							}
+							td {
+								textField(id:'ced', columns:10, activeToDate.toString())
+							}
+						}
+					}
+				}
+			}
+			panel(id: 'woaw', border: compoundBorder([emptyBorder(10), titledBorder('Post-processing:')]) ) {
+				boxLayout(axis: BXL.Y_AXIS)
+				panel(border: compoundBorder([emptyBorder(10), titledBorder('Copy test results from here:')]) ) {
+					boxLayout(axis: BXL.Y_AXIS)
+					scrollPane( verticalScrollBarPolicy:JScrollPane.VERTICAL_SCROLLBAR_ALWAYS) {
+						textArea(id:'resultArea', lineWrap:true,wrapStyleWord:true, columns:40, rows:16,editable:true)
+					}
+				}
+				panel(border: compoundBorder([emptyBorder(10), titledBorder('Selected transformation:')]) ) {
+					boxLayout(axis: BXL.Y_AXIS)
+					scrollPane( verticalScrollBarPolicy:JScrollPane.VERTICAL_SCROLLBAR_ALWAYS) {
+						textArea(id:'transformationResultArea', lineWrap:true,wrapStyleWord:true, columns:40, rows:6,editable:true)
+					}
+				}
+				panel(border: compoundBorder([emptyBorder(10), titledBorder('Transformation:')]) ) {
+					borderLayout(vgap: 5)
+					tableLayout (cellpadding: 4){
+						tr {
+							td {
+								label 'Action'
+							}
+							td {
+								comboBox(id:'TTS', items:tTransformationsSteps, actionPerformed: {
+									tTransformationsStepsDetails = tTransformations.testSteps[vars.TTS.selectedItem]
+									if (tTransformationsStepsDetails.hasProperty("Request")){
+										tTransformationsStepsNodeList = tTransformationsStepsDetails.testRequest.getRequestContent()
+										if (tTransformationsStepsNodeList != ""){
+											int counter = 0
+											holder = groovyUtils.getXmlHolder("$tTransformationsStepsNodeList")
+											use (groovy.xml.dom.DOMCategory) {
+												for(node in holder.getDomNodes("//*")) {
+													node.children().each { child ->
+														if (child.getNodeValue() != null) {
+															counter++
+															transformationResultArea.append "Transformation: " + tTransformationsStepsDetails.name + "\n"
+															transformationResultArea.append "Field " + counter + ": " + child.getNodeValue() + "\n"
+															transformationResultArea.append "----------------------------------------------------------------------------------------------------" + "\n"
+														}
+													}
+												}
+											}
+										}
+									}
+								})
+							}
+							td {
+								button('GO!',preferredSize:[80,24],actionPerformed:{
+									u = vars.TTS.selectedItem
+									testRunner.runTestStep(tTransformations.testSteps[u])
+									responseHolder = groovyUtils.getXmlHolder(tTransformations.testSteps[u].testRequest.response.getContentAsXml())
+								})
+							}
+						}
+					}
+				}
+			}
+		}
+		boxLayout(axis: BXL.Y_AXIS)
+		panel(border: compoundBorder([emptyBorder(10)])) {
+			button('Ok',preferredSize:[80,24],actionPerformed:{
+				vars.dialogResult = 'Run'
+				def email = vars.userapplication.selectedItem		
+				def tScnCase = tScn.testCases[vars.scn.selectedItem]
+				def tScnCaseSteps = tScnCase.getTestStepList()
+				def int ssize = tScnCaseSteps.size()
+				log.info("Amount of steps for current scenario is " + ssize)
+				//def int elementindex = 1
+				//log.info("Current step index is " + elementindex)
+				def commercialProduct = vars.cpd.selectedItem
+				tTransformations = currentProject.testSuites["TRANSFORMATIONS"].testCases[commercialProduct]
+				tTransformationsSteps = tTransformations.getTestStepList().name
+				tTransformationsSteps.each{
+					TTS.addItem(it)
+				}
+				tCase.setPropertyValue("email",email)
+				tCase.setPropertyValue("CommercialProduct",commercialProduct)
+				tCase.setPropertyValue("Scenario",tScnCase.name)
+				tCase.setPropertyValue("ExternalContractNumber",vars.dat.text)
+				tCase.setPropertyValue("ExternalContractVersionNumber","0")
+				tCase.setPropertyValue("activeFromDate",vars.csd.text)
+				tCase.setPropertyValue("activeToDate",vars.ced.text)
+				tCase.setPropertyValue("dialogResult",vars.dialogResult)
+				//BEGIN in case of acceptance test environment, DB password changes for PRS
+				if (vars.dba.selectedItem == 'A'){
+					
+						tCase.testSuite.project.setPropertyValue("connectionStringENCO","jdbc:oracle:thin:PRE_READ/PRE_R_"+vars.dba.selectedItem+vars.ins.selectedItem+evaluate(vars.dba.selectedItem+vars.ins.selectedItem+"ENCO"))
+				log.info("test")
+				}
+				else{
+					log.info "write to project if <> A alors " + vars.dba.selectedItem + vars.ins.selectedItem + "ENCO"
+					tCase.testSuite.project.setPropertyValue("connectionStringENCO","jdbc:oracle:thin:COS_READ/COS_R_" + vars.dba.selectedItem + vars.ins.selectedItem + evaluate(vars.dba.selectedItem+vars.ins.selectedItem+"ENCO"))
+				//tCase.testSuite.project.setPropertyValue("connectionStringCTM",evaluate(vars.dba.selectedItem+vars.ins.selectedItem+"CTM"))
+				}
+				
+				if (vars.env.selectedItem != 'localhost'){
+					if (vars.env.selectedItem == 'prd'){
+						tCase.testSuite.project.setPropertyValue("endPoint","coronadirect.be")
+						client_id = client_id_prd[0]
+						client_secret = client_secret_prd[0]
+						}
+					else{
+							subpath = vars.env.selectedItem
+							log.info("subpat h= " + subpath)
+						
+							
+						
+						if (vars.env.selectedItem == 'int'){
+							tCase.testSuite.project.setPropertyValue("endPoint", subpath + "-" + vars.testapplication.selectedItem + ".cs108.force.com")
+							client_id = client_id_int[0]
+							client_secret = client_secret_int[0]
+							}
+							else{
+								if(vars.env.selectedItem == 'dev'){
+									client_id = client_id_dev[0]
+									client_secret = client_secret_dev[0]
+									}
+									else{
+										tCase.testSuite.project.setPropertyValue("endPoint", subpath + "-" + vars.testapplication.selectedItem + ".cs107.force.com")
+											client_id = client_id_acc[0]
+											client_secret = client_secret_acc[0]
+										}
+									}
+								}
+							}
+				
+				tCase.testSuite.project.setPropertyValue("client_id",client_id)
+				tCase.testSuite.project.setPropertyValue("client_secret",client_secret)
+				//for each property step within a scenario
+				log.info("For each test step inside scenario '" + tScnCase.name + "'")
+				tScnCaseSteps.each{
+					if (it.hasProperty(reusableActionPropertyName)){
+						if (it.getPropertyValue(reusableActionPropertyName) != ""){
+							//to be developed: and if reusableActionPropertyName exists as a test suite
+							log.info("Reading properties from test step "+ it.name + " and calling reusable action " + it.getPropertyValue(reusableActionPropertyName))
+							//BEGIN scenario property test steps
+							def scenarioTestStep = tScnCase.testSteps[it.name]
+							def reusableAction = it.getPropertyValue(reusableActionPropertyName).toUpperCase()
+							def reusableActionTestSuite = currentProject.testSuites[reusableAction]
+							def reusableActionTestCase = reusableActionTestSuite.testCases[commercialProduct]
+							//Necessary to execute test steps instead of test cases
+							//testRunner = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner(reusableActionTestCase, null)
+							def reusableActionTestCaseSteps = reusableActionTestCase.getTestStepList()
+							//BEGIN some stuff related to localhost
+							ArrayList oldEndPoint = new ArrayList()
+							oldEndPoint.size()
+							if (vars.env.selectedItem == 'localhost'){
+								reusableActionTestCaseSteps.each{
+									if (it.hasProperty("Endpoint")){
+										requestService = (it.getPropertyValue("Endpoint") - it.getPropertyValue("Endpoint").substring(10)).substring(7).toUpperCase()
+										if (requestService == vars.aps.selectedItem || vars.aps.selectedItem == "ALL"){
+											//SAVE old endpoints for reusableActionTestCase
+											oldEndPoint.add(it.name + "--" + it.getPropertyValue("Endpoint"))
+											log.info("old endpoint " + it.getPropertyValue("Endpoint") + " saved for request " + it.name)
+											//set endpoint to localhost for all reusableActionTestCase testSteps
+											it.getHttpRequest().setEndpoint("http://localhost:8080")
+											log.info("Endpoint set to "+ it.getPropertyValue("Endpoint") + " for request " + it.name)
+										}
+									}
+								}
+							}
+							//END the stuff related to localhost
+							//remove reusableActionTestCase properties
+							log.info("Removing properties from " + reusableActionTestSuite.name + "." + reusableActionTestCase.name)
+							def reusableActionTestCaseProperties = reusableActionTestCase.getPropertyNames()
+							for(name in reusableActionTestCaseProperties){
+								reusableActionTestCase.removeProperty(name)
+							}
+							//set tCase properties to reusableActionTestCase
+							log.info("Set properties from " + tCase.name + " to " + reusableActionTestSuite.name + "." + reusableActionTestCase.name)
+							def currentTestCaseProperties = tCase.getPropertyNames()
+							for(name in currentTestCaseProperties){
+								reusableActionTestCase.setPropertyValue(name,tCase.getPropertyValue(name))
+								log.info(name + ": " + reusableActionTestCase.getPropertyValue(name))
+							}
+							//set scenarioTestStep properties and values to reusableActionTestCase
+							log.info("Set properties from " + scenarioTestStep.name + " to " + reusableActionTestSuite.name + "." + reusableActionTestCase.name)
+							def scenarioTestStepProperties = scenarioTestStep.getPropertyNames()
+							for(name in scenarioTestStepProperties){
+								value = scenarioTestStep.getPropertyValue(name)
+								//BEGIN some preparatory work for counters
+								if (name.contains("_")){
+									rawname = name.split("_")
+									name = rawname[0]
+									if (value.contains(":")){
+										rawvalue = value.split(":")
+										//BEGIN something if rawvalue[0] is empty!
+										if (rawvalue[0] == ""){
+											value = reusableActionTestCase.getPropertyValue(name)
+										}
+										//END something if rawvalue[0] is empty!
+										else{
+											value = rawvalue[0]
+										}
+									}
+									log.info("Keep only left part of property name (" + name + ") and left part of property value (" + value + ")")
+								}
+								//END some preparatory work for counters
+								reusableActionTestCase.setPropertyValue(name,value)
+								log.info(name + ": " + reusableActionTestCase.getPropertyValue(name))
+							}
+							//set property loopOnReusableAction to tCase
+							tCase.setPropertyValue("LoopOnReusableAction",scenarioTestStep.getPropertyValue(loopOnReusableActionPropertyName))
+							tCase.setPropertyValue(reusableActionPropertyName,scenarioTestStep.getPropertyValue(reusableActionPropertyName))
+							//check if some test steps have to be disabled in reusableActionTestCase
+							for(name in scenarioTestStepProperties){
+								if (scenarioTestStep.getPropertyValue(name).toUpperCase() == "DISABLED"){
+									if (reusableActionTestCase.getTestStepByName(name) != null){
+										if (reusableActionTestCase.testSteps[name].disabled == false){
+											log.info("Disable request " + reusableActionTestCase.testSteps[name].name)
+											reusableActionTestCase.testSteps[name].disabled = true}
+									}
+								}
+							}
+							//BEGIN reusableActionTestCase
+							def properties = new com.eviware.soapui.support.types.StringToObjectMap()
+							def async = false
+							def loopOnReusableAction = Integer.parseInt(context.expand('${#TestCase#LoopOnReusableAction}'))
+							for (i in 1..loopOnReusableAction){
+								//BEGIN counters
+								//for each property in scnerio test step
+								for (name in scenarioTestStepProperties){
+									//if property name contains '_'
+									if (name.contains("_")){
+										counterType = name.split("_")
+										//split property value into initial value and counter value
+										if (scenarioTestStep.getPropertyValue(name).contains(":")){
+											counterValue = scenarioTestStep.getPropertyValue(name).split(":")
+											switch(counterType[1].toUpperCase()){
+												//if right part of property name contains 'INT'
+											case 'INT':
+												//add counter value to property having same name in reusable test case
+												incrementedValue = Integer.parseInt(reusableActionTestCase.getPropertyValue(counterType[0])) + Integer.parseInt(counterValue[1])
+												break
+												//if right part of property name contains 'DTE'
+											case 'DTE':
+												def dateValue = new SimpleDateFormat("yyyy-MM-dd").parse(reusableActionTestCase.getPropertyValue(counterType[0]))
+												incrementedValue = sdfC.format(dateValue + Integer.parseInt(counterValue[1]))
+												break
+											default:
+												break
+											}
+											log.info(reusableActionTestCase.getPropertyValue(counterType[0]) + " + " + Integer.parseInt(counterValue[1]) + " = " + incrementedValue)
+											reusableActionTestCase.setPropertyValue(counterType[0], incrementedValue.toString())
+										}
+									}
+								}
+								//END counters
+								log.info("Execute reusable action " + reusableActionTestCase.name + " - Iteration " + i + " of " + loopOnReusableAction)
+								/*reusableActionTestCaseSteps.each{
+									testStep->
+									testStepContext = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext(testStep)
+									if (testStep.disabled == false){
+										sleep(500)
+										log.info("Execute step: " + testStep.name)
+										myTestStepResult = testStep.run(testRunner, testStepContext)
+										myStatus = myTestStepResult.getStatus()
+										testStepConfigType = testStep.config.type
+										log.info("Test step type: " + testStepConfigType)
+										if (myStatus != TestStepStatus.FAILED){
+											log.info "The step status is: " + myStatus.toString()
+										}
+										else{
+											log.error "The step status is: " + myStatus.toString()
+											if(testStepConfigType != 'properties' && testStepConfigType != 'delay' && testStepConfigType != 'goto' && testStepConfigType != 'groovy'){
+												log.info("Step is not properties, delay, goto or groovy")
+												log.info(testStep.getAssertionList().size().toString())
+												counter = testStep.getAssertionList().size()
+												log.info("Number of assertions: " + counter)
+												for (count in 0..counter){
+													log.info("Assertion :" + testStep.getAssertionAt(count).getName() + " :: " + testStep.getAssertionAt(count).getStatus())
+													error = testStep.getAssertionAt(count).getErrors()
+													if (error != null){
+														log.info(error[0].getMessage())
+													}
+													log.info("—————————- Line to seperate each assertion status in logs —————–")
+												}
+											}
+										}
+									}
+								}*/
+								reusableActionTestCase.run(properties, async)
+								//set reusableActionTestCase properties to tCase
+								log.info("Set properties from " + reusableActionTestSuite.name + "." + reusableActionTestCase.name + " to " + tCase.name)
+								reusableActionTestCaseProperties = reusableActionTestCase.getPropertyNames()
+								for(name in reusableActionTestCaseProperties){
+									tCase.setPropertyValue(name,reusableActionTestCase.getPropertyValue(name))
+								}
+								log.info("----------------------------------------------------------------------------------------------------")
+							}
+							//END reusableActionTestCase
+							//re-enable disabled test steps in reusableActionTestCase if necessary
+							reusableActionTestCaseSteps.each{
+								if (it.disabled){
+									it.disabled = false
+									log.info("Re-enabling "+it.name)
+								}
+							}
+							//END scenario property test steps
+							//remove tTransformations properties
+							log.info("Removing old properties from " + tTransformations.name)
+							tTransformationsProperties = tTransformations.getPropertyNames()
+							for(name in tTransformationsProperties){
+								tTransformations.removeProperty(name)
+							}
+							//set tCase properties to tTransformations
+							log.info("Set properties from " + tCase.name + " to transformations")
+							currentTestCaseProperties = tCase.getPropertyNames()
+							for(name in currentTestCaseProperties){
+								tTransformations.setPropertyValue(name,tCase.getPropertyValue(name))
+							}
+							//BEGIN again some stuff related to localhost
+							//restore old endpoints for reusableActionTestCase
+							if (vars.env.selectedItem == 'localhost'){
+								//for each test step inside reussable action test case
+								reusableActionTestCaseSteps.each{
+									//for each test step inside old endpoints
+									for (name in oldEndPoint){
+										requestNameAndOldEndPointValue = name.split("--")
+										//check if test step name in old endpoint equals test step inside reussable action test case
+										if (requestNameAndOldEndPointValue[0] == it.name){
+											//set old endpoint back to test step inside reusable action test case
+											it.getHttpRequest().setEndpoint(requestNameAndOldEndPointValue[1])
+											log.info("Set old endpoint " + requestNameAndOldEndPointValue[1] + " back to test step inside reusable action " + it.name)
+										}
+									}
+								}
+							}
+							//END again the stuff related to localhost
+						}
+						else{
+							testRunner.cancel("No reusableAction property value found in " + it.name + "!")
+						}
+					}
+					else{
+						testRunner.cancel("No reusableAction property found in " + it.name + "!")
+					}
+					//elementindex++
+				}
+			})
+			button('Cancel',preferredSize:[80,24],actionPerformed:{
+				vars.dialogResult = 'Cancel'
+				testRunner.testCase.testSuite.project.setPropertyValue("dialogResult",vars.dialogResult)
+				testRunner.cancel("Test aborted by user")
+				dispose()
+			})
+			button('Results',preferredSize:[80,24],actionPerformed:{
+				log.info("Get properties from " + tTransformations.name + " to transformations")
+				tTransformationsProperties = tTransformations.getPropertyNames()
+				resultArea.append("Test scenario: " + tTransformations.getPropertyValue("Scenario") + "\n")
+				resultArea.append("Commercial product: " + tTransformations.getPropertyValue("CommercialProduct") + "\n")
+				resultArea.append("External contract number: " + tTransformations.getPropertyValue("ExternalContractNumber") + "\n")
+				resultArea.append("Party Id: " + tTransformations.getPropertyValue("partyId") + "\n")
+				resultArea.append("--------------------------------------------------------------------------------\n")
+				for(name in tTransformationsProperties){
+					if (notKeywords.contains(name) == false){
+						resultArea.append(name + " : " + tTransformations.getPropertyValue(name) + "\n")
+					}
+				}
+				resultArea.append("--------------------------------------------------------------------------------\n")
+			})
+		}
+	}
+	}]]></script></con:config>
+			</con:testStep>
+			<con:setupScript/>
+<con:tearDownScript/>
+<con:properties>
+			<con:property><con:name>grant_Type</con:name><con:value>client_credentials</con:value></con:property><con:property><con:name>scope</con:name><con:value>openid</con:value></con:property><con:property><con:name>validity_period</con:name><con:value>-2</con:value></con:property><con:property><con:name>yesterday</con:name><con:value>2022-02-15</con:value></con:property><con:property><con:name>currentDate</con:name><con:value>2022-02-16</con:value></con:property><con:property><con:name>tomorrow</con:name><con:value>2022-02-17</con:value></con:property><con:property><con:name>selectedToken</con:name><con:value>token2</con:value></con:property><con:property><con:name>requestLanguage</con:name><con:value>FR</con:value></con:property><con:property><con:name>email</con:name><con:value>testRunner@gmail.com</con:value></con:property><con:property><con:name>CommercialProduct</con:name><con:value>V1</con:value></con:property><con:property><con:name>Scenario</con:name><con:value>scn_001_HomieOffer</con:value></con:property><con:property><con:name>ExternalContractNumber</con:name><con:value>mMethod</con:value></con:property><con:property><con:name>ExternalContractVersionNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>activeFromDate</con:name><con:value>2022-02-16</con:value></con:property><con:property><con:name>activeToDate</con:name><con:value>2022-02-23</con:value></con:property><con:property><con:name>dialogResult</con:name><con:value>Run</con:value></con:property><con:property><con:name>LoopOnReusableAction</con:name><con:value>1</con:value></con:property><con:property><con:name>reusableAction</con:name><con:value>HOMIE</con:value></con:property><con:property><con:name>firstName</con:name><con:value>${#TestCase#ExternalContractNumber}</con:value></con:property><con:property><con:name>offerPost</con:name><con:value/></con:property></con:properties>
+<con:reportParameters/></con:testCase>
+		<con:properties>
+</con:properties>
+<con:setupScript/>
+	<con:reportParameters/></con:testSuite><con:testSuite name="SCENARIOS" id="3ce53222-5212-4019-bfbb-3e1dadb70bcd">						
+	<con:settings/>					
+	<con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType>					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+	<con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="scn_001_HomieOffer" searchProperties="false" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" id="def80631-d6e4-44c3-8f89-062be8d00aaf" zephyrTestName="" zephyrTestId="">					
+		<con:settings/>				
+		<con:savedRecentRuns>1</con:savedRecentRuns>				
+						
+		<con:testStep type="properties" name="HOMIE_VALUES" id="b1802cc2-81b6-409d-a271-b90f250c9b15">				
+			<con:settings/>			
+			<con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">			
+				<con:properties>		
+						
+						
+					<con:property><con:name>ExternalContractVersionNumber_int</con:name><con:value>0:1</con:value></con:property><con:property><con:name>firstName</con:name><con:value>${#TestCase#ExternalContractNumber}</con:value></con:property><con:property><con:name>offerPost</con:name><con:value/></con:property><con:property>	
+						<con:name>LoopOnReusableAction</con:name>
+						<con:value>1</con:value>
+					</con:property>	
+					<con:property>	
+						<con:name>reusableAction</con:name>
+						<con:value>HOMIE</con:value>
+					</con:property>	
+				</con:properties>		
+			</con:config>			
+		</con:testStep><con:setupScript/>				
+		<con:properties>				
+						
+			<con:property>			
+				<con:name>Description</con:name>		
+				<con:value>Compare premium policies AS400 + µService + MCA</con:value>		
+			</con:property>			
+			<con:property>			
+				<con:name>Version</con:name>		
+				<con:value>1</con:value>		
+			</con:property>			
+			<con:property>			
+				<con:name>Service</con:name>		
+				<con:value>PolicyData</con:value>		
+			</con:property>			
+		</con:properties>				
+	<con:reportParameters/></con:testCase><con:properties/>					
+<con:reportParameters/></con:testSuite><con:testSuite id="d8bb9967-cc92-421a-b218-530e5f250129" name="TOKEN"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="052a1456-1eb2-444c-a580-1ebcbaf7cd8a" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="V1" searchProperties="false" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" zephyrTestName="" zephyrTestId=""><con:description>Check the status of de SMS-API </con:description><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:loadTest id="b3b79f4a-a252-416d-be43-57177bc44d6c" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting><con:setting id="hasBeenConvertedToLoadUITest">true</con:setting></con:settings><con:threadCount>10</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>30</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type><con:config><testDelay>0</testDelay><randomFactor>0.0</randomFactor></con:config></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval><con:reportParameters/></con:loadTest><con:properties><con:property><con:name>grant_Type</con:name><con:value>client_credentials</con:value></con:property><con:property><con:name>scope</con:name><con:value>openid</con:value></con:property><con:property><con:name>validity_period</con:name><con:value>-2</con:value></con:property><con:property><con:name>yesterday</con:name><con:value>2021-06-07</con:value></con:property><con:property><con:name>currentDate</con:name><con:value>2021-06-08</con:value></con:property><con:property><con:name>tomorrow</con:name><con:value>2021-06-09</con:value></con:property><con:property><con:name>selectedToken</con:name><con:value>token2</con:value></con:property><con:property><con:name>requestLanguage</con:name><con:value>NL</con:value></con:property><con:property><con:name>email</con:name><con:value>testRunner@gmail.com</con:value></con:property><con:property><con:name>CommercialProduct</con:name><con:value>V1</con:value></con:property><con:property><con:name>Scenario</con:name><con:value>scn_001_Policy</con:value></con:property><con:property><con:name>ExternalContractNumber</con:name><con:value>mMethod23080</con:value></con:property><con:property><con:name>ExternalContractVersionNumber</con:name><con:value>0</con:value></con:property><con:property><con:name>activeFromDate</con:name><con:value>2021-06-08</con:value></con:property><con:property><con:name>activeToDate</con:name><con:value>2021-06-15</con:value></con:property><con:property><con:name>dialogResult</con:name><con:value>Run</con:value></con:property><con:property><con:name>granttype</con:name><con:value>client_credentials</con:value></con:property><con:property><con:name>realm</con:name><con:value>515</con:value></con:property><con:property><con:name>clientid</con:name><con:value>515-mca</con:value></con:property><con:property><con:name>clientsecret</con:name><con:value>cRXdK96KUTdsVefZ</con:value></con:property><con:property><con:name>ObtainAccessToken</con:name><con:value/></con:property><con:property><con:name>LoopOnReusableAction</con:name><con:value>1</con:value></con:property><con:property><con:name>reusableAction</con:name><con:value>token</con:value></con:property><con:property><con:name>accesstoken</con:name><con:value>4VKO38YoXlXRHP49KIu_kBmZpQI</con:value></con:property></con:properties><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite name="TRANSFORMATIONS" id="669e0e5b-3840-40f6-bdd2-debf3748992e">
+<con:settings/>
+<con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<con:testCase id="6a86e583-4685-49b8-aece-fed7ed55f8ae" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="V1" searchProperties="false" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" zephyrTestName="" zephyrTestId=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:properties><con:property><con:name>grant_Type</con:name><con:value>client_credentials</con:value></con:property><con:property><con:name>scope</con:name><con:value>openid</con:value></con:property><con:property><con:name>validity_period</con:name><con:value>-2</con:value></con:property><con:property><con:name>yesterday</con:name><con:value>2022-02-15</con:value></con:property><con:property><con:name>currentDate</con:name><con:value>2022-02-16</con:value></con:property><con:property><con:name>tomorrow</con:name><con:value>2022-02-17</con:value></con:property><con:property><con:name>selectedToken</con:name><con:value>token2</con:value></con:property><con:property><con:name>requestLanguage</con:name><con:value>FR</con:value></con:property><con:property><con:name>email</con:name><con:value>testRunner@gmail.com</con:value></con:property><con:property><con:name>CommercialProduct</con:name><con:value>V1</con:value></con:property><con:property><con:name>Scenario</con:name><con:value>scn_001_HomieOffer</con:value></con:property><con:property><con:name>ExternalContractNumber</con:name><con:value>mMethod</con:value></con:property><con:property><con:name>ExternalContractVersionNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>activeFromDate</con:name><con:value>2022-02-16</con:value></con:property><con:property><con:name>activeToDate</con:name><con:value>2022-02-23</con:value></con:property><con:property><con:name>dialogResult</con:name><con:value>Run</con:value></con:property><con:property><con:name>LoopOnReusableAction</con:name><con:value>1</con:value></con:property><con:property><con:name>reusableAction</con:name><con:value>HOMIE</con:value></con:property><con:property><con:name>firstName</con:name><con:value>${#TestCase#ExternalContractNumber}</con:value></con:property><con:property><con:name>offerPost</con:name><con:value/></con:property></con:properties><con:reportParameters/></con:testCase><con:properties>
+<con:property>
+				<con:name>initialTestSuiteLabel</con:name>
+				<con:value>SANITY</con:value>
+			</con:property>
+			<con:property>
+				<con:name>initialTestCaseLabel</con:name>
+				<con:value>Builds</con:value>
+			</con:property>
+		</con:properties>
+<con:reportParameters/></con:testSuite><con:testSuite id="ff6acb56-7e4e-48e7-9949-3df6a1edc011" name="HOMIE"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="b45fe7b7-9e27-4078-b3b2-3940c5c2a544" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="V1" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="offerPost" id="ea5d1b06-e6c5-4bf4-8960-1343895a5308"><con:settings/><con:config service="https://acc-coronadirect.cs107.force.com" resourcePath="/aura" methodName="Aura 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="offerPost" id="9dae3167-ee1c-4d41-9314-5c98a310ce8d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Cookie" value="BrowserId_sec=ys0KegpxEeyVMkNpQNtULQ; inst=APP_1q; sfdc-stream=u00214E5B9tngFkjERT8sgiz/PCqVM9jKLkqPxquiQzz/QbIhfCDWfOxK8f9rZls4Rx4jFHz77MlcKb7aY0o=; force-proxy-stream=u0021Z9M07K2WpXG32nk55OzhDm+AGQ4LPnCVdBeVicWvVvb/BqZV0QnEz0eq18xV3VWt70h20yX2+12p3Q==; force-stream=u00214E5B9tngFkjERT8sgiz/PCqVM9jKLkqPxquiQzz/QbIhfCDWfOxK8f9rZls4Rx4jFHz77MlcKb7aY0o="/>&#13;
+  &lt;con:entry key="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://${#Project#endPoint}</con:endpoint><con:request>message=%7B%22actions%22%3A%5B%7B%22id%22%3A%221266%3Ba%22%2C%22descriptor%22%3A%22apex%3A%2F%2FHOMIE_Ctrl%2FACTION%24DoOffer%22%2C%22callingDescriptor%22%3A%22markup%3A%2F%2Fc%3AHOMIE%22%2C%22params%22%3A%7B%22l%22%3A%22%7B%5C%22Date_ToOffer__c%5C%22%3A%5C%222021-09-10%5C%22%2C%5C%22HOM_ListedProperty__c%5C%22%3Afalse%2C%5C%22HOM_BedroomCount__c%5C%22%3A0%2C%5C%22BO_C_OFFERTE_ID__c%5C%22%3A%5C%22FBBF12CA1627F649AFEBC8911A831460%5C%22%2C%5C%22HOM_VerandaCount__c%5C%22%3A0%2C%5C%22HOM_GarageCount__c%5C%22%3A0%2C%5C%22HOM_StudyroomCount__c%5C%22%3A0%2C%5C%22HOM_HousePropertyTypeCode__c%5C%22%3A%5C%223%5C%22%2C%5C%22LanguageCode__c%5C%22%3A%5C%222%5C%22%2C%5C%22GenderCode__c%5C%22%3A%5C%221%5C%22%2C%5C%22RecordTypeId%5C%22%3A%5C%2201220000000AxAvAAK%5C%22%2C%5C%22Status%5C%22%3A%5C%22Incomplete%5C%22%2C%5C%22HOM_OtherroomCount__c%5C%22%3A0%2C%5C%22HOM_DiningroomCount__c%5C%22%3A0%2C%5C%22HOM_SameHouseAddress__c%5C%22%3Atrue%2C%5C%22HOM_ValuationChoice__c%5C%22%3A%5C%22HOMIE%5C%22%2C%5C%22HOM_SalonCount__c%5C%22%3A0%2C%5C%22HOM_BathroomCount__c%5C%22%3A0%2C%5C%22HOM_CommercialUsage__c%5C%22%3Afalse%2C%5C%22OrganizationIdentifier__c%5C%22%3A%5C%22CORONA%5C%22%2C%5C%22HOM_RoofTypeCode__c%5C%22%3A%5C%221%5C%22%2C%5C%22HOM_OutBuilding__c%5C%22%3Afalse%2C%5C%22Country%5C%22%3A%5C%22BE%5C%22%2C%5C%22Periodicity__c%5C%22%3A%5C%2212%5C%22%2C%5C%22IntermediaryIdentifier__c%5C%22%3A%5C%22%5C%22%2C%5C%22UserAgent__c%5C%22%3A%5C%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36%5C%22%2C%5C%22MobilePhone%5C%22%3A%5C%220499565676%5C%22%2C%5C%22Phone%5C%22%3A%5C%22023345355%5C%22%2C%5C%22FirstName%5C%22%3A%5C%22${#TestCase#firstName}%5C%22%2C%5C%22LastName%5C%22%3A%5C%22${#TestCase#firstName}%5C%22%2C%5C%22Birthdate__c%5C%22%3A%5C%221999-01-01%5C%22%2C%5C%22HOM_DwellingTypeCode__c%5C%22%3A%5C%221%5C%22%2C%5C%22PostalCode%5C%22%3A%5C%229000%5C%22%2C%5C%22City%5C%22%3A%5C%22GENT-ZUID%5C%22%2C%5C%22StreetName__c%5C%22%3A%5C%22Aan%20de%20Bocht%5C%22%2C%5C%22StreetRoad65ID__c%5C%22%3A%5C%22122387%5C%22%2C%5C%22HouseNumber__c%5C%22%3A%5C%2210%5C%22%2C%5C%22BoxNumber__c%5C%22%3A%5C%221%5C%22%2C%5C%22HOM_Volume__c%5C%22%3A560%2C%5C%22HOM_BuildingId__c%5C%22%3A%5C%22grb_1378515.q6InWF5sMa0mIl4ueQhzRq6B9GA%5C%22%2C%5C%22HOM_RentMonthlyAmount__c%5C%22%3A%5C%22209.2342%5C%22%2C%5C%22Email%5C%22%3A%5C%22michael.kulpok%40coronadirect.be%5C%22%2C%5C%22Email__r%5C%22%3A%7B%5C%22HasOptedOutOfEmail__c%5C%22%3Afalse%7D%2C%5C%22Date_Start__c%5C%22%3A%5C%222021-09-22%5C%22%2C%5C%22CurrentlyInsured__c%5C%22%3A%5C%22true%5C%22%2C%5C%22IBAN__c%5C%22%3A%5C%22BE33734051811446%5C%22%7D%22%2C%22selectedFormulas%22%3A%22%5B%5C%22plus%5C%22%2C%5C%22in%2B10000%5C%22%5D%22%7D%2C%22version%22%3Anull%7D%5D%7D&amp;aura.context=%7B%22mode%22%3A%22PROD%22%2C%22fwuid%22%3A%22OTBI25Tua-5W8ZKazww6Fg%22%2C%22app%22%3A%22c%3AHOMIE_MainApp%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fc%3AHOMIE_MainApp%22%3A%227zUCE9Yk_i5GQtfg-kaO-g%22%7D%2C%22dn%22%3A%5B%5D%2C%22globals%22%3A%7B%22srcdoc%22%3Atrue%7D%2C%22uad%22%3Atrue%7D&amp;aura.pageURI=%2Fnl%2Fhuurdersverzekering%2Fbereken-je-prijs&amp;aura.token=undefined</con:request><con:originalUri>https://acc-coronadirect.cs107.force.com/aura</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="r" value="11"/>
+  <con:entry key="other.HOMIE_Ctrl.DoOffer" value="1"/>
+</con:parameters><con:parameterOrder><con:entry>r</con:entry><con:entry>other.HOMIE_Ctrl.DoOffer</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:loadTest id="3d4b76a7-1494-45d3-948c-18613a259a01" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>2</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>10</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties><con:property><con:name>grant_Type</con:name><con:value>client_credentials</con:value></con:property><con:property><con:name>scope</con:name><con:value>openid</con:value></con:property><con:property><con:name>validity_period</con:name><con:value>-2</con:value></con:property><con:property><con:name>yesterday</con:name><con:value>2022-02-15</con:value></con:property><con:property><con:name>currentDate</con:name><con:value>2022-02-16</con:value></con:property><con:property><con:name>tomorrow</con:name><con:value>2022-02-17</con:value></con:property><con:property><con:name>selectedToken</con:name><con:value>token2</con:value></con:property><con:property><con:name>requestLanguage</con:name><con:value>FR</con:value></con:property><con:property><con:name>email</con:name><con:value>testRunner@gmail.com</con:value></con:property><con:property><con:name>CommercialProduct</con:name><con:value>V1</con:value></con:property><con:property><con:name>Scenario</con:name><con:value>scn_001_HomieOffer</con:value></con:property><con:property><con:name>ExternalContractNumber</con:name><con:value>mMethod</con:value></con:property><con:property><con:name>ExternalContractVersionNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>activeFromDate</con:name><con:value>2022-02-16</con:value></con:property><con:property><con:name>activeToDate</con:name><con:value>2022-02-23</con:value></con:property><con:property><con:name>dialogResult</con:name><con:value>Run</con:value></con:property><con:property><con:name>firstName</con:name><con:value>${#TestCase#ExternalContractNumber}</con:value></con:property><con:property><con:name>offerPost</con:name><con:value/></con:property><con:property><con:name>LoopOnReusableAction</con:name><con:value>1</con:value></con:property><con:property><con:name>reusableAction</con:name><con:value>HOMIE</con:value></con:property></con:properties></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>connectionStringENCO</con:name><con:value>jdbc:oracle:thin:COS_READ/COS_R_T1@vlds626.netpost:1522/SCOSD1</con:value></con:property><con:property><con:name>endPoint</con:name><con:value>int-coronadirect.cs108.force.com</con:value></con:property><con:property><con:name>client_id</con:name><con:value>e0002653-2c80-43ba-be54-a6dfa2e21fa7</con:value></con:property><con:property><con:name>client_secret</con:name><con:value>90299f72-63a6-4a62-8624-67758db23251</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
