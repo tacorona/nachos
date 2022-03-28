@@ -17,3 +17,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- task: SoapUIProForAzureDevOpsTask@2
+  inputs:
+    project: 'C:\Users\MKU\Desktop\fixed\HOMIE-soapui-project.xml'
+    rootFolder: '$(Common.TestResultsDirectory)'
+    testSuite: 'TestRunner'
+    testCase: 'TestRunner'
