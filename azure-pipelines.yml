@@ -11,11 +11,10 @@
 # https://aka.ms/yaml
 
 trigger:
-| -
-    main
+-main
 
 pool:
-| - task: SoapUIProForAzureDevOpsTask@2
+-task: SoapUIProForAzureDevOpsTask@2
   inputs:
     project: 'C:\Users\MKU\Desktop\fixed\HOMIE-soapui-project.xml'
     rootFolder: '$(Common.TestResultsDirectory)'
@@ -24,10 +23,10 @@ pool:
     vmImage: ubuntu-latest
 
 steps:
-| - script: echo Hello, world!
-  displayName: 'Run a one-line script'
+-script: echo Hello, world!
+    displayName: 'Run a one-line script'
 
-| - script: |
+-script:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    displayName: 'Run a multi-line script'
