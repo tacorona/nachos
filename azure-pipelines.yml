@@ -4,3 +4,10 @@
     rootFolder: '$(Common.TestResultsDirectory)'
     testSuite: 'TestRunner'
     testCase: 'TestRunner'
+- task: SoapUIProForAzureDevOpsTask@2
+  inputs:
+    testRunnerPath: 'C:\Users\MKU\AppData\Local\SmartBear\SoapUI-5.6.0\bin\TestRunner.bat'
+    project: 'C:\Users\MKU\Desktop\fixed\HOMIE-soapui-project.xml'
+    rootFolder: '$(Common.TestResultsDirectory)'
+    testSuite: 'TestRunner'
+    testCase: 'TestRunner'
