@@ -22,5 +22,5 @@ steps:
   inputs:
     project: 'C:\Users\MKU\Desktop\fixed\HOMIE-soapui-project.xml'
     rootFolder: '$(Common.TestResultsDirectory)'
-    testSuite: 'TestRunner'
-    testCase: 'TestRunner'
+    testSuite: 'Homie'
+    testCase: 'V1'
