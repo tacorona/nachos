@@ -11,7 +11,8 @@
 # https://aka.ms/yaml
 
 trigger:
-| - main
+| -
+    main
 
 pool:
 | - task: SoapUIProForAzureDevOpsTask@2
