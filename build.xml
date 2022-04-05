@@ -1,0 +1,18 @@
+<project name="MyProject" default="testreport" basedir="."> 
+	<target name="soapui">
+		<exec dir="." executable="C:/Users/MKU/AppData/Local/SmartBear/SoapUI-5.6.0/bin/testrunner.bat">
+			<arg line="-sQUOTEBRAND -cV1 -a -j -f'C:/Users/MKU/Downloads/mMethod/mMethod/Framework/FrameworkFinal/FrameworkFinal/REPORT' -I -t'//C:/Users/MKU/soapui-settings.xml' -i 'C:/mmethod/BRAND/BRAND-soapui-project.xml'"/>
+		</exec>
+	</target>
+	<target name = "testreport" depends = "soapui"> 
+		<junitreport todir="C:/Users/MKU/Downloads/mMethod/mMethod/Framework/FrameworkFinal/FrameworkFinal/REPORT">
+			<fileset dir="C:/Users/MKU/Downloads/mMethod/mMethod/Framework/FrameworkFinal/FrameworkFinal/REPORT">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report todir="C:/Users/MKU/Downloads/mMethod/mMethod/Framework/FrameworkFinal/FrameworkFinal/REPORT/HTML"
+			styledir="C:/Users/MKU/Downloads/apache-ant-1.10.12-bin/apache-ant-1.10.12/etc"
+			format="noframes">
+			</report>
+		</junitreport>
+	</target>
+</project>

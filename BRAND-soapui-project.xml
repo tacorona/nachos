@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="16dfae98-160b-4e2c-a167-accb142cb554" activeEnvironment="Default" name="BRAND" resourceRoot="${projectDir}" soapui-version="5.6.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="true"/>
+  <con:entry key="Export All" value="true"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="QUOTEBRAND"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="true"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="true"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="V1"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value="C:\Users\MKU\AppData\Local\SmartBear\SoapUI-5.6.0\bin"/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="C:\Users\MKU\AppData\Local\SmartBear\SoapUI-5.6.0\bin"/>
+  <con:entry key="Ignore Errors" value="true"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="e1057638-6fef-41d1-9fd6-06afc56f2963" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://test.api.coronadirect.be" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://test.api.coronadirect.be</con:endpoint></con:endpoints><con:resource name="Quote" path="/external/home/insurance/v1/Quote" id="a8eb126b-5410-48b3-8a43-2255f426b779"><con:settings/><con:parameters/><con:method name="Quote 1" id="d258f3ce-75fd-4078-8bcb-e33226576ca0" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="c6c577a0-d7fc-4174-9410-9afd13bc76ef" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="9ce13f0f-b55b-474e-9b86-ccacb92aa8bf" name="QUOTEBRAND"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="84f09b22-b95d-4a66-b895-e6adc57cd247" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="V1" searchProperties="true"><con:settings/><con:testStep type="groovy" name="GroovyScript" id="8d0d9ff3-5992-4d4c-8b4d-436c2ccdaf96"><con:settings/><con:config><script>import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+
+def myTestCase = context.testCase
+
+def counter,next,previous,size
+
+Workbook workbook1 = Workbook.getWorkbook(new File("C:\\Users\\MKU\\example.xls"))
+
+Sheet sheet1 = workbook1.getSheet(0)
+
+size= sheet1.getRows().toInteger()
+
+propTestStep = myTestCase.getTestStepByName("Properties")
+
+propTestStep.setPropertyValue("Total", size.toString())
+
+counter = propTestStep.getPropertyValue("Count").toString()
+
+counter = counter.toInteger()
+
+next = (counter > size-2? 0: counter+1)
+
+Cell f1 = sheet1.getCell(0,counter)
+
+workbook1.close()
+
+field1 = f1.getContents()
+
+propTestStep.setPropertyValue("Field1", field1)
+
+propTestStep.setPropertyValue("Count", next.toString())
+
+next++
+
+propTestStep.setPropertyValue("Next", next.toString())
+
+if (counter == size-1)
+
+{
+propTestStep.setPropertyValue("StopVal", "T")
+
+log.info "Setting the StopVal property now..."
+
+}
+
+else if (counter==0)
+
+{
+
+def runner = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner(testRunner.testCase, null)
+
+propTestStep.setPropertyValue("StopVal", "F")
+
+}
+
+else
+
+{
+
+propTestStep.setPropertyValue("StopVal", "F")
+
+}</script></con:config></con:testStep><con:testStep type="properties" name="Properties" id="693fef46-8311-43a2-a791-9fa0c02c246a"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Field1</con:name><con:value>811</con:value></con:property><con:property><con:name>Total</con:name><con:value>4</con:value></con:property><con:property><con:name>Count</con:name><con:value>0</con:value></con:property><con:property><con:name>Next</con:name><con:value>1</con:value></con:property><con:property><con:name>StopVal</con:name><con:value>T</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="process" id="986ff311-7b97-482e-bc68-ef9d7460a942"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/home/insurance/v1/Quote" methodName="Quote 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="25618d6b-21dd-46cf-ba8e-f74838a97427" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Content-type" value="application/json"/>&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="c21c90b45aeb4940ba952ccb71b52ed2"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>[
+    {
+        "requester": {
+            "transactionIdentifier": "7CB961CC6EFA47C2C3DB57B78712D653",
+            "organizationIdentifier": "CORONA",
+            "coronaTransactionIdentifier": "1ADC44F8173A90D89226158CC176BDE2"
+        },
+        "persons": {
+            "policyHolder": {
+                "streetName": "Genieskensstraat",
+                "postalCode": "3630",
+                "languageCode": "2",
+                "houseNumberIdentifier": "95",
+                "genderCode": "1",
+                "firstGivenName": "KDH",
+                "familyName": "Corona",
+                "eMailAddress": "koen.dhoore@coronadirect.be",
+                "cityName": "MAASMECHELEN",
+                "birthDate": "1982-01-01"
+            }
+        },
+        "contract": {
+            "volume": ${Properties#Field1},
+            "verandaCount": 0,
+            "valuationChoice": "VS",
+            "streetName": "Genieskensstraat",
+            "secondHomeIndicator": false,
+            "roofTypeCode": "1",
+            "postalCode": "3630",
+            "payment": {
+                "frequencyCode": "1"
+            },
+            "outBuildingIndicator": false,
+            "listedPropertyIndicator": false,
+            "insuredAmountTheftPercentage": "50",
+            "indirectLossesPercentage": "10",
+            "housePropertyTypeCode": "1",
+            "houseNumberIdentifier": "95",
+            "dwellingTypeCode": "2",
+            "contractEffectiveDate": "2022-04-02",
+            "contentsInsuranceWantedIndicator": false,
+            "contentsAmount": 60000.0,
+            "commercialUsageIndicator": false,
+            "claimsPastFiveYearsAmount": 0,
+            "cityName": "MAASMECHELEN",
+            "buildingInsuranceWantedIndicator": true,
+            "buildingId": "grb_4782337.1N4Zl7p8jhpgKyforFjs3Obh5NQ"
+        }
+    }
+]</con:request><con:originalUri>https://test.api.coronadirect.be/external/home/insurance/v1/Quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Loop" id="3c190b6d-b541-49ec-be29-aa19bc728d5a"><con:settings/><con:config><script>def myTestCase = context.testCase
+def runner
+
+propTestStep = myTestCase.getTestStepByName("Properties")
+
+endLoop = propTestStep.getPropertyValue("StopVal").toString()
+
+if (endLoop.toString() == "T" || endLoop.toString()=="True" || endLoop.toString()=="true")
+
+{
+
+log.info ("Exit Groovy Data Source Looper")
+
+assert true
+
+}
+
+else
+
+{
+
+testRunner.gotoStepByName("GroovyScript")
+
+}</script></con:config></con:testStep><con:properties><con:property><con:name>grant_Type</con:name><con:value>client_credentials</con:value></con:property><con:property><con:name>scope</con:name><con:value>openid</con:value></con:property><con:property><con:name>validity_period</con:name><con:value>-2</con:value></con:property><con:property><con:name>yesterday</con:name><con:value>2022-03-08</con:value></con:property><con:property><con:name>currentDate</con:name><con:value>2022-03-09</con:value></con:property><con:property><con:name>tomorrow</con:name><con:value>2022-03-10</con:value></con:property><con:property><con:name>selectedToken</con:name><con:value>token2</con:value></con:property><con:property><con:name>requestLanguage</con:name><con:value>NL</con:value></con:property><con:property><con:name>email</con:name><con:value>testRunner@gmail.com</con:value></con:property><con:property><con:name>CommercialProduct</con:name><con:value>V1</con:value></con:property><con:property><con:name>Scenario</con:name><con:value>scn_004_Carv2Quote</con:value></con:property><con:property><con:name>ExternalContractNumber</con:name><con:value>mMethod</con:value></con:property><con:property><con:name>ExternalContractVersionNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>activeFromDate</con:name><con:value>2022-03-09</con:value></con:property><con:property><con:name>activeToDate</con:name><con:value>2022-03-16</con:value></con:property><con:property><con:name>dialogResult</con:name><con:value>Run</con:value></con:property><con:property><con:name>firstName</con:name><con:value>${#TestCase#ExternalContractNumber}</con:value></con:property><con:property><con:name>organizationIdentifier</con:name><con:value>CORONA</con:value></con:property><con:property><con:name>transactionIdentifier</con:name><con:value>abcdef123456789</con:value></con:property><con:property><con:name>coronaTransactionIdentifier</con:name><con:value>4182c357ce7a4d268d4d131e90086c63</con:value></con:property><con:property><con:name>digitalSigning</con:name><con:value>true</con:value></con:property><con:property><con:name>packageType</con:name><con:value>BE</con:value></con:property><con:property><con:name>personalAssistance</con:name><con:value>true</con:value></con:property><con:property><con:name>luggage</con:name><con:value>false</con:value></con:property><con:property><con:name>policyReference</con:name><con:value>123-223-223</con:value></con:property><con:property><con:name>licensePlatesCar</con:name><con:value>"1ABC123","1XYZ456","1QRS789"</con:value></con:property><con:property><con:name>licensePlatesMotor</con:name><con:value>"1MAB123", "1MYZ456"</con:value></con:property><con:property><con:name>numberOfBicycles</con:name><con:value>3</con:value></con:property><con:property><con:name>numberOfPedelecs</con:name><con:value>1</con:value></con:property><con:property><con:name>numberOfHoverboards</con:name><con:value>0</con:value></con:property><con:property><con:name>numberOfSteps</con:name><con:value>1</con:value></con:property><con:property><con:name>numberOfSegways</con:name><con:value>1</con:value></con:property><con:property><con:name>propositionDate</con:name><con:value>2021-10-25</con:value></con:property><con:property><con:name>contractEffectiveDateKnown</con:name><con:value>true</con:value></con:property><con:property><con:name>contractEffectiveDate</con:name><con:value>2021-10-25</con:value></con:property><con:property><con:name>frequencyCode</con:name><con:value>12</con:value></con:property><con:property><con:name>meansCode</con:name><con:value>1</con:value></con:property><con:property><con:name>accountnumber</con:name><con:value>BE4700000000</con:value></con:property><con:property><con:name>bic</con:name><con:value>GBSDJKDSJ</con:value></con:property><con:property><con:name>familyName1</con:name><con:value>Klant</con:value></con:property><con:property><con:name>firstGivenName1</con:name><con:value>Test Senior</con:value></con:property><con:property><con:name>birthDate1</con:name><con:value>1980-10-01</con:value></con:property><con:property><con:name>genderCode1</con:name><con:value>1</con:value></con:property><con:property><con:name>streetName</con:name><con:value>Brusselsesteenweg</con:value></con:property><con:property><con:name>houseNumberIdentifier</con:name><con:value>2</con:value></con:property><con:property><con:name>boxNumberIdentifier</con:name><con:value>C</con:value></con:property><con:property><con:name>postalCode</con:name><con:value>2800</con:value></con:property><con:property><con:name>cityName</con:name><con:value>MECHELEN</con:value></con:property><con:property><con:name>languageCode</con:name><con:value>1</con:value></con:property><con:property><con:name>homeTelephone</con:name><con:value>031112233</con:value></con:property><con:property><con:name>emailAddress</con:name><con:value>test.senior@email.com</con:value></con:property><con:property><con:name>mobileTelephone</con:name><con:value>031112233</con:value></con:property><con:property><con:name>roleCode1</con:name><con:value>VM</con:value></con:property><con:property><con:name>familyName2</con:name><con:value>Klant</con:value></con:property><con:property><con:name>firstGivenName2</con:name><con:value>Test Junior</con:value></con:property><con:property><con:name>birthDate2</con:name><con:value>1960-10-01</con:value></con:property><con:property><con:name>genderCode2</con:name><con:value>1</con:value></con:property><con:property><con:name>roleCode2</con:name><con:value>FM</con:value></con:property><con:property><con:name>quotePost</con:name><con:value/></con:property><con:property><con:name>LoopOnReusableAction</con:name><con:value>1</con:value></con:property><con:property><con:name>reusableAction</con:name><con:value>quotecarv2</con:value></con:property><con:property><con:name>ciVersionId</con:name><con:value/></con:property><con:property><con:name>identifier</con:name><con:value/></con:property></con:properties></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
