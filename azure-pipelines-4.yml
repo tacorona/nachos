@@ -17,6 +17,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: BatchScript@1
+- task: Ant@1
   inputs:
-    filename: 'C:\Temp\startsoapui2.bat'
+    buildFile: 'C:\Users\MKU\Downloads\mMethod\mMethod\Framework\Ant\build.xml'
+    options: 
+    publishJUnitResults: true
+    testResultsFiles: '**/TEST-*.xml'
+    javaHomeOption: 'JDKVersion'
