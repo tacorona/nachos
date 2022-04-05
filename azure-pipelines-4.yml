@@ -19,4 +19,4 @@ steps:
   displayName: 'Run a multi-line script'
 - task: BatchScript@1
   inputs:
-    filename: 'C:\Temp\startsoapui.bat'
+    filename: 'C:\Temp\startsoapui2.bat'
