@@ -38,7 +38,7 @@ def myTestCase = context.testCase
 
 def counter,next,previous,size
 
-Workbook workbook1 = Workbook.getWorkbook(new File("C:\\Users\\MKU\\example.xls"))
+Workbook workbook1 = Workbook.getWorkbook(new File("D:\\a\\1\\s\\example.xls"))
 
 Sheet sheet1 = workbook1.getSheet(0)
 
