@@ -228,16 +228,22 @@ next = (counter > size-2? 0: counter+1)
 Cell f1 = sheet1.getCell(0,counter)
 Cell f2 = sheet1.getCell(1,counter)
 Cell f3 = sheet1.getCell(2,counter)
+Cell f4 = sheet1.getCell(3,counter)
+Cell f5 = sheet1.getCell(4,counter)
 
 workbook1.close()
 
 field1 = f1.getContents()
 field2 = f2.getContents()
 field3 = f3.getContents()
+field4 = f4.getContents()
+field5 = f5.getContents()
 
 propTestStep.setPropertyValue("Field1", field1)
 propTestStep.setPropertyValue("Field2", field2)
-propTestStep.setPropertyValue("Check1", field3)
+propTestStep.setPropertyValue("Field3", field3)
+propTestStep.setPropertyValue("Field4", field4)
+propTestStep.setPropertyValue("Check1", field5)
 
 //
 
@@ -272,7 +278,7 @@ else
 
 propTestStep.setPropertyValue("StopVal", "F")
 
-}</script></con:config></con:testStep><con:testStep type="properties" name="Properties" id="1206e89b-5216-4b8b-8404-68bcffe04315"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Field1</con:name><con:value>3425</con:value></con:property><con:property><con:name>Field2</con:name><con:value>2012</con:value></con:property><con:property><con:name>Total</con:name><con:value>12</con:value></con:property><con:property><con:name>Count</con:name><con:value>0</con:value></con:property><con:property><con:name>Next</con:name><con:value>1</con:value></con:property><con:property><con:name>StopVal</con:name><con:value>T</con:value></con:property><con:property><con:name>Check1</con:name><con:value>500</con:value></con:property><con:property><con:name>Result1</con:name><con:value>500</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="process" id="e107e3fe-e9d4-4d64-af08-99160f0c8c12"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/quote" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="73e09949-db67-4404-82b9-9d26f6293928" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+}</script></con:config></con:testStep><con:testStep type="properties" name="Properties" id="1206e89b-5216-4b8b-8404-68bcffe04315"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Field1</con:name><con:value>3425</con:value></con:property><con:property><con:name>Field2</con:name><con:value>2012</con:value></con:property><con:property><con:name>Field3</con:name><con:value/></con:property><con:property><con:name>Field4</con:name><con:value/></con:property><con:property><con:name>Total</con:name><con:value>12</con:value></con:property><con:property><con:name>Count</con:name><con:value>0</con:value></con:property><con:property><con:name>Next</con:name><con:value>1</con:value></con:property><con:property><con:name>StopVal</con:name><con:value>T</con:value></con:property><con:property><con:name>Check1</con:name><con:value>500</con:value></con:property><con:property><con:name>Result1</con:name><con:value>500</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="process" id="e107e3fe-e9d4-4d64-af08-99160f0c8c12"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/quote" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="73e09949-db67-4404-82b9-9d26f6293928" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
   &lt;con:entry key="Ocp-Apim-Subscription-Key" value="b709132fd0a24fd8b18f6ac0e0f52f49"/>&#13;
   &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
   &lt;con:entry key="Content-Type" value="application/json"/>&#13;
@@ -330,8 +336,8 @@ propTestStep.setPropertyValue("StopVal", "F")
         "propertyTypeCode": "1",
         "specification": {
             "vehicleMakeName": "Peugeot",
-            "length": 4.76,
-            "heigth": 1.55
+            "length": ${Properties#Field3},//4.76
+            "heigth": ${Properties#Field4} //1.55
         }
     },
     "contract": {
