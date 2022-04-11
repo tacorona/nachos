@@ -15,7 +15,7 @@ errorLog = []
 	
 // Initiate EXCEL
 def fs = new FileInputStream(path + "Testcases.xls");
-Workbook wb = HSSFWorkbook.create(fs);
+Workbook wb = HSSFWorkbook(fs);
 def ws = wb.getSheet("TestCases")  
 def totalRows = ws.getPhysicalNumberOfRows()
 def totalColumns = ws.getRow(0).getPhysicalNumberOfCells()
