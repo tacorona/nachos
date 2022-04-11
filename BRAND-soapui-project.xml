@@ -34,7 +34,7 @@ for(def i=1; i<totalRows; i++){
 	errorLog.clear()
 	fail = false
 	def row = sheet.getRow(i)
-			  log.info("rows: " + row)
+	log.info("rows: " + row)
 
 	//Populate variables with data from excel
 	for (var in variables.getPropertyList()){
@@ -158,6 +158,13 @@ saveFile("Testcases");
 
 // Find the column number for given column name
 def getColumn(name){
+	def fs = new FileInputStream(path + "Testcases.xls");
+	HSSFWorkbook wb = new HSSFWorkbook(fs);
+	HSSFSheet sheet = wb.getSheet("TestCases");
+	def totalRows = sheet.getPhysicalNumberOfRows()
+	def totalColumns = sheet.getRow(0).getPhysicalNumberOfCells()
+
+	
 	def row = sheet.getRow(0)
 	def colmnNumber
 	for (def j=1; j<totalColumns; j++) {
@@ -684,6 +691,12 @@ class Functions{
     
 	// Find the column number for given column name
 	def getColumn(name){
+		def fs = new FileInputStream(path + "Testcases.xls");
+		HSSFWorkbook wb = new HSSFWorkbook(fs);
+		HSSFSheet sheet = wb.getSheet("TestCases");
+		def totalRows = sheet.getPhysicalNumberOfRows()
+		def totalColumns = sheet.getRow(0).getPhysicalNumberOfCells()
+
 		def row = sheet.getRow(0)
 		def colmnNumber
 		for (def j=1; j<totalColumns; j++) {
