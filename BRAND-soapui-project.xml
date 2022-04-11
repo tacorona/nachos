@@ -7,7 +7,7 @@ import groovy.json.JsonSlurper
 
 //Global variables
 date = new Date().format( 'yyyyMMdd' )
-path = "C:\\SoapUITests\\";
+path = "D:\\a\\1\\s\\";
 def variables = testRunner.testCase.getTestStepByName("Variables")
 def fail = false
 errorLog = []
