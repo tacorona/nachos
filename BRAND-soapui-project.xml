@@ -17,7 +17,6 @@ errorLog = []
 def fs = new FileInputStream(path + "Testcases.xls");
 HSSFWorkbook wb = new HSSFWorkbook(fs);
 HSSFSheet sheet = wb.getSheet("TestCases");
-//def ws = wb.getSheet("TestCases")  
 def totalRows = sheet.getPhysicalNumberOfRows()
 def totalColumns = sheet.getRow(0).getPhysicalNumberOfCells()
 
@@ -33,7 +32,7 @@ for(def i=1; i<totalRows; i++){
 	def response = ""
 	errorLog.clear()
 	fail = false
-	def row = ws.getRow(i)
+	def row = sheet.getRow(i)
 
 	//Populate variables with data from excel
 	for (var in variables.getPropertyList()){
