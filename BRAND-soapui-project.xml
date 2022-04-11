@@ -156,7 +156,7 @@ saveFile("Testcases");
 
 // Find the column number for given column name
 def getColumn(name){
-	def row = ws.getRow(0)
+	def row = sheet.getRow(0)
 	def colmnNumber
 	for (def j=1; j<totalColumns; j++) {
      	def cell = row.getCell(j)
@@ -316,7 +316,7 @@ class Functions{
     
 	// Find the column number for given column name
 	def getColumn(name){
-		def row = ws.getRow(0)
+		def row = sheet.getRow(0)
 		def colmnNumber
 		for (def j=1; j<totalColumns; j++) {
 	     	def cell = row.getCell(j)
@@ -398,9 +398,9 @@ errorLog = []
 // Initiate EXCEL
  InputStream inputStream = new FileInputStream(path+"Testcases.xls");
  wb = WorkbookFactory.create(inputStream);
- ws = wb.getSheet("TestCases")  
- totalRows = ws.getPhysicalNumberOfRows()
- totalColumns = ws.getRow(0).getPhysicalNumberOfCells()
+ sheet = wb.getSheet("TestCases")  
+ totalRows = sheet.getPhysicalNumberOfRows()
+ totalColumns = sheet.getRow(0).getPhysicalNumberOfCells()
 
 // Initiate LOG dirs
 checkAndCreateFolder("Requests")
@@ -414,7 +414,7 @@ for(def i=1; i<totalRows; i++){
 	def response = ""
 	errorLog.clear()
 	fail = false
-	def row = ws.getRow(i)
+	def row = sheet.getRow(i)
 
 	//Populate variables with data from excel
 	for (var in variables.getPropertyList()){
@@ -535,7 +535,7 @@ saveFile("Testcases");
 
 // Find the column number for given column name
 def getColumn(name){
-	def row = ws.getRow(0)
+	def row = sheet.getRow(0)
 	def colmnNumber
 	for (def j=1; j<totalColumns; j++) {
      	def cell = row.getCell(j)
@@ -682,7 +682,7 @@ class Functions{
     
 	// Find the column number for given column name
 	def getColumn(name){
-		def row = ws.getRow(0)
+		def row = sheet.getRow(0)
 		def colmnNumber
 		for (def j=1; j<totalColumns; j++) {
 	     	def cell = row.getCell(j)
