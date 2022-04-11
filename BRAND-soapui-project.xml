@@ -16,9 +16,10 @@ errorLog = []
 // Initiate EXCEL
 def fs = new FileInputStream(path + "Testcases.xls");
 HSSFWorkbook wb = new HSSFWorkbook(fs);
-def ws = wb.getSheet("TestCases")  
-def totalRows = ws.getPhysicalNumberOfRows()
-def totalColumns = ws.getRow(0).getPhysicalNumberOfCells()
+HSSFSheet sheet = wb.getSheet("TestCases");
+//def ws = wb.getSheet("TestCases")  
+def totalRows = sheet.getPhysicalNumberOfRows()
+def totalColumns = sheet.getRow(0).getPhysicalNumberOfCells()
 
 // Initiate LOG dirs
 checkAndCreateFolder("Requests")
