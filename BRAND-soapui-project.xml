@@ -19,6 +19,7 @@ HSSFWorkbook wb = new HSSFWorkbook(fs);
 HSSFSheet sheet = wb.getSheet("TestCases");
 def totalRows = sheet.getPhysicalNumberOfRows()
 def totalColumns = sheet.getRow(0).getPhysicalNumberOfCells()
+log.info("totalColumns: " + totalColumns)
 
 // Initiate LOG dirs
 checkAndCreateFolder("Requests")
