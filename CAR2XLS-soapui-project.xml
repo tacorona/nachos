@@ -213,7 +213,7 @@ def cleanTest() {
     }
 }
 
-def execStep(es) {
+def execStep(es, j) {
     ArrayList err = []
     tStep01 = tCase.testSteps[es]
     tStep01.run(testRunner, context)
@@ -225,11 +225,12 @@ def execStep(es) {
                 checkValue = tCase.getPropertyValue(name).split("<-")
                 if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
                     err.add("failed -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]) + " != " + checkValue[1])
-                    log.info err[0]                
+                    throw new Exception("The number was negative")           
                 }
                 else{
                 err.add("passed -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]) + " == " + checkValue[1])
                 log.info err[0]
+                throw new Exception("Error on row " + j )
             }
             }
         }
@@ -269,7 +270,7 @@ def execSet(from, to, es) {
             log.info(sysarray[i][0] + " : " + sysarray[i][j])
             i++
         }
-        execStep es
+        execStep es, j
         i = 0
         j++
     }
