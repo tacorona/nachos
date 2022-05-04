@@ -106,7 +106,7 @@
 		},
 		"purchaseSituationCode": true
 	}
-}]</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="quote" path="/external/vehicle/insurance/v2/quote" id="5ecfd570-127b-4c3d-b571-10773dc3ef41"><con:settings/><con:parameters/><con:method name="Method 1" id="d2e6cd2d-953d-44b9-856f-764c794a94e2" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>401</con:status><con:params/><con:element xmlns:quot="https://test.api.coronadirect.be/external/vehicle/insurance/v2/quote">quot:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="c40def70-b071-4b47-a9ec-25b016de19cf" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>[{
+}]</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="quote" path="/external/vehicle/insurance/v2/quote" id="5ecfd570-127b-4c3d-b571-10773dc3ef41"><con:settings/><con:parameters/><con:method name="Method 1" id="d2e6cd2d-953d-44b9-856f-764c794a94e2" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>401</con:status><con:params/><con:element xmlns:quot="https://test.api.coronadirect.be/external/vehicle/insurance/v2/quote">quot:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="c40def70-b071-4b47-a9ec-25b016de19cf" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>[{
 	"requester": {
 		"organizationIdentifier": "string",
 		"transactionIdentifier": "string",
@@ -199,90 +199,91 @@
 		},
 		"purchaseSituationCode": true
 	}
-}]</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="4412662e-a95d-4d70-8fa9-69f3ba43da6d" name="QUOTECAR"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="0e92784b-8350-43f2-aec8-a1a921c60cd1" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="V1" searchProperties="true"><con:settings/><con:testStep type="groovy" name="GroovyScript" id="b12662be-9509-46d6-a6c2-024dd6b7e04e"><con:settings/><con:config><script>import com.eviware.soapui.support.XmlHolder
+}]</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="3b0177aa-47a3-4729-8321-0458937463f7" name="QUOTECAR"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="b8008cce-e61f-4587-910c-bd966df95551" failOnError="false" failTestCaseOnErrors="false" keepSession="false" maxResults="0" name="V1" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="groovy" name="GroovyScript" id="83423f68-afc1-417a-be82-e9e0cead6ba8"><con:settings/><con:config><script><![CDATA[import com.eviware.soapui.support.XmlHolder
 import jxl.*
 import jxl.write.*
+import groovy.json.JsonSlurper
 
-def myTestCase = context.testCase
+tCase = testRunner.testCase.testSuite.testCases[context.getTestCase().getLabel()]
 
-def counter,next,previous,size
-
-Workbook workbook1 = Workbook.getWorkbook(new File("D:\\a\\1\\s\\example.xls"))
-
-Sheet sheet1 = workbook1.getSheet(0)
-
-size = sheet1.getRows().toInteger()
-
-propTestStep = myTestCase.getTestStepByName("Properties")
-
-propTestStep.setPropertyValue("Total", size.toString())
-
-counter = propTestStep.getPropertyValue("Count").toString()
-
-counter = counter.toInteger()
-
-next = (counter > size-2? 0: counter+1)
-
-//
-
-Cell f1 = sheet1.getCell(0,counter)
-Cell f2 = sheet1.getCell(1,counter)
-Cell f3 = sheet1.getCell(2,counter)
-Cell f4 = sheet1.getCell(3,counter)
-Cell f5 = sheet1.getCell(4,counter)
-
-workbook1.close()
-
-field1 = f1.getContents()
-field2 = f2.getContents()
-field3 = f3.getContents()
-field4 = f4.getContents()
-field5 = f5.getContents()
-
-propTestStep.setPropertyValue("Field1", field1)
-propTestStep.setPropertyValue("Field2", field2)
-propTestStep.setPropertyValue("Field3", field3)
-propTestStep.setPropertyValue("Field4", field4)
-propTestStep.setPropertyValue("Check1", field5)
-
-//
-
-propTestStep.setPropertyValue("Count", next.toString())
-
-next++
-
-propTestStep.setPropertyValue("Next", next.toString())
-
-if (counter == size-1)
-
-{
-propTestStep.setPropertyValue("StopVal", "T")
-
-log.info "Setting the StopVal property now..."
-
+def cleanTest() {
+    def propertyNames = tCase.getPropertyNames()
+    for (name in propertyNames) {
+        tCase.removeProperty(name)
+    }
 }
 
-else if (counter==0)
-
-{
-
-def runner = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner(testRunner.testCase, null)
-
-propTestStep.setPropertyValue("StopVal", "F")
-
+def execStep(es) {
+    ArrayList err = []
+    tStep01 = tCase.testSteps[es]
+    tStep01.run(testRunner, context)
+    jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
+    if (jsonSlurper != "") {
+        def propertyNames = tCase.getPropertyNames()
+        for (name in propertyNames) {
+            if (name.substring(0, 2) == "c_") {
+                checkValue = tCase.getPropertyValue(name).split("<-")
+                if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
+                    err.add("failed -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]) + " != " + checkValue[1])
+                    log.info err[0]                
+                }
+                else{
+                err.add("passed -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]) + " == " + checkValue[1])
+                log.info err[0]
+            }
+            }
+        }
+    }
 }
 
-else
+def readXls(fn) {
+    Workbook workbook1 = Workbook.getWorkbook(new File(fn))
+    Sheet sheet1 = workbook1.getSheet(0)
+    sizeR = sheet1.getRows().toInteger() - 1
+    sizeC = sheet1.getColumns().toInteger() - 1
+    sysarray = new Object[sizeC + 1][sizeR + 1]
+    def i = 0, j = 0
+    while (j <= sizeR) {
+        while (i <= sizeC) {
+            cellValue = " "
+            if (sheet1.getCell(i, j).getContents() != "") {
+                cellValue = sheet1.getCell(i, j).getContents()
+            }
+            sysarray[i][j] = cellValue
+            log.info(sysarray[i][0] + " <- " + cellValue)
+            i++
+        }
+        i = 0
+        j++
+    }
+    workbook1.close()
+    j = 0
+}
 
-{
+def execSet(from, to, es) {
+    cleanTest()
+    def i = 0, j = from
+    while (j <= to && j <= sizeR) {
+        while (i <= sizeC) {
+            tCase.setPropertyValue(sysarray[i][0], sysarray[i][j])
+            log.info(sysarray[i][0] + " : " + sysarray[i][j])
+            i++
+        }
+        execStep es
+        i = 0
+        j++
+    }
+    j = 0
+}
 
-propTestStep.setPropertyValue("StopVal", "F")
+//###########################################
 
-}</script></con:config></con:testStep><con:testStep type="properties" name="Properties" id="1206e89b-5216-4b8b-8404-68bcffe04315"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Field1</con:name><con:value>3425</con:value></con:property><con:property><con:name>Field2</con:name><con:value>2012</con:value></con:property><con:property><con:name>Field3</con:name><con:value/></con:property><con:property><con:name>Field4</con:name><con:value/></con:property><con:property><con:name>Total</con:name><con:value>12</con:value></con:property><con:property><con:name>Count</con:name><con:value>0</con:value></con:property><con:property><con:name>Next</con:name><con:value>1</con:value></con:property><con:property><con:name>StopVal</con:name><con:value>T</con:value></con:property><con:property><con:name>Check1</con:name><con:value>500</con:value></con:property><con:property><con:name>Result1</con:name><con:value>500</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="process" id="e107e3fe-e9d4-4d64-af08-99160f0c8c12"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/quote" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="73e09949-db67-4404-82b9-9d26f6293928" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+readXls "C:\\Temp\\mMethod\\example.xls"
+execSet 3, 15, "process"]]></script></con:config></con:testStep><con:testStep type="restrequest" name="process" id="48b32d16-5792-4875-83e9-215298964a19"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/quote" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="73e09949-db67-4404-82b9-9d26f6293928" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
   &lt;con:entry key="Ocp-Apim-Subscription-Key" value="b709132fd0a24fd8b18f6ac0e0f52f49"/>&#13;
   &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
   &lt;con:entry key="Content-Type" value="application/json"/>&#13;
-&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>[{
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://${#TestCase#p_env}.api.coronadirect.be</con:endpoint><con:request>[{
     "requester": {
         "organizationIdentifier": "CORONA",
         "transactionIdentifier": "abcdef123456789",
@@ -331,19 +332,19 @@ propTestStep.setPropertyValue("StopVal", "F")
     ],
     "vehicle": {
         "categoryCode": "MV",
-        "vehicleFirstBroughtInTrafficYear": ${Properties#Field2},
-        "purchaseAmountInclTax": ${Properties#Field1},
+        "vehicleFirstBroughtInTrafficYear": ${#TestCase#p_vehicleFirstBroughtInTrafficYear},
+        "purchaseAmountInclTax": ${#TestCase#p_purchaseAmountInclTax},
         "propertyTypeCode": "1",
         "specification": {
             "vehicleMakeName": "Peugeot",
-            "length": ${Properties#Field3},//4.76
-            "heigth": ${Properties#Field4} //1.55
+            "length": ${#TestCase#p_length},//4.76
+            "heigth": ${#TestCase#p_height} //1.55
         }
     },
     "contract": {
         "averageMileagePerYearCount": 7500,
         "contractEffectiveDateKnown": true,
-        "contractEffectiveDate": "2022-10-02",
+        "contractEffectiveDate": "2022-05-05",
         "yearsProvableInsured": 5,
         "situationCode": 1,
         "otherYoungDriver": true,
@@ -369,66 +370,4 @@ propTestStep.setPropertyValue("StopVal", "F")
             "meansCode": "1"
         }
     }
-}]</con:request><con:originalUri>https://test.api.coronadirect.be/external/vehicle/insurance/v2/quote</con:originalUri><con:assertion type="GroovyScriptAssertion" id="54669d89-b282-4342-87d1-3553889137e1" name="Script Assertion"><con:configuration><scriptText>//imports
-
-import groovy.json.JsonSlurper
-
- 
-
-//grab the response
-
-def ResponseMessage = messageExchange.response.responseContent
-
- 
-
-//define a JsonSlurper
-
-def jsonSlurper = new JsonSlurper().parseText(ResponseMessage)
-
- 
-
-if (jsonSlurper != ""){
-
-def myTestCase = context.testCase
-propTestStep = myTestCase.getTestStepByName("Properties")
-
-propTestStep.setPropertyValue("Result1",jsonSlurper.results.deductableinfo.value.toString().replace('[','').replace(']',''))              
-
-
-}
-
-else{
-
-log.info "Empty response"          
-
-}</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Loop" id="e8a6393a-2ded-4145-9da2-a67bf79f3026"><con:settings/><con:config><script>def myTestCase = context.testCase
-def runner
-
-propTestStep = myTestCase.getTestStepByName("Properties")
-
-endLoop = propTestStep.getPropertyValue("StopVal").toString()
-
-if (propTestStep.getPropertyValue("Result1") != propTestStep.getPropertyValue("Check1")){
-	testRunner.fail("Failed") 
-}
-
-log.info("Expecting " + propTestStep.getPropertyValue("Check1") + " got  " + propTestStep.getPropertyValue("Result1")) 
-	
-
-if (endLoop.toString() == "T" || endLoop.toString()=="True" || endLoop.toString()=="true")
-
-{
-
-log.info ("Exit Groovy Data Source Looper")
-
-assert true
-
-}
-
-else
-
-{
-
-testRunner.gotoStepByName("GroovyScript")
-
-}</script></con:config></con:testStep><con:loadTest id="0e547467-3db9-4005-965e-834c30d85635" name="LoadTest 1"><con:settings/><con:threadCount>20</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties><con:property><con:name>grant_Type</con:name><con:value>client_credentials</con:value></con:property><con:property><con:name>scope</con:name><con:value>openid</con:value></con:property><con:property><con:name>validity_period</con:name><con:value>-2</con:value></con:property><con:property><con:name>yesterday</con:name><con:value>2022-03-08</con:value></con:property><con:property><con:name>currentDate</con:name><con:value>2022-03-09</con:value></con:property><con:property><con:name>tomorrow</con:name><con:value>2022-03-10</con:value></con:property><con:property><con:name>selectedToken</con:name><con:value>token2</con:value></con:property><con:property><con:name>requestLanguage</con:name><con:value>NL</con:value></con:property><con:property><con:name>email</con:name><con:value>testRunner@gmail.com</con:value></con:property><con:property><con:name>CommercialProduct</con:name><con:value>V1</con:value></con:property><con:property><con:name>Scenario</con:name><con:value>scn_004_Carv2Quote</con:value></con:property><con:property><con:name>ExternalContractNumber</con:name><con:value>mMethod</con:value></con:property><con:property><con:name>ExternalContractVersionNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>activeFromDate</con:name><con:value>2022-03-09</con:value></con:property><con:property><con:name>activeToDate</con:name><con:value>2022-03-16</con:value></con:property><con:property><con:name>dialogResult</con:name><con:value>Run</con:value></con:property><con:property><con:name>firstName</con:name><con:value>${#TestCase#ExternalContractNumber}</con:value></con:property><con:property><con:name>organizationIdentifier</con:name><con:value>CORONA</con:value></con:property><con:property><con:name>transactionIdentifier</con:name><con:value>abcdef123456789</con:value></con:property><con:property><con:name>coronaTransactionIdentifier</con:name><con:value>4182c357ce7a4d268d4d131e90086c63</con:value></con:property><con:property><con:name>digitalSigning</con:name><con:value>true</con:value></con:property><con:property><con:name>packageType</con:name><con:value>BE</con:value></con:property><con:property><con:name>personalAssistance</con:name><con:value>true</con:value></con:property><con:property><con:name>luggage</con:name><con:value>false</con:value></con:property><con:property><con:name>policyReference</con:name><con:value>123-223-223</con:value></con:property><con:property><con:name>licensePlatesCar</con:name><con:value>"1ABC123","1XYZ456","1QRS789"</con:value></con:property><con:property><con:name>licensePlatesMotor</con:name><con:value>"1MAB123", "1MYZ456"</con:value></con:property><con:property><con:name>numberOfBicycles</con:name><con:value>3</con:value></con:property><con:property><con:name>numberOfPedelecs</con:name><con:value>1</con:value></con:property><con:property><con:name>numberOfHoverboards</con:name><con:value>0</con:value></con:property><con:property><con:name>numberOfSteps</con:name><con:value>1</con:value></con:property><con:property><con:name>numberOfSegways</con:name><con:value>1</con:value></con:property><con:property><con:name>propositionDate</con:name><con:value>2021-10-25</con:value></con:property><con:property><con:name>contractEffectiveDateKnown</con:name><con:value>true</con:value></con:property><con:property><con:name>contractEffectiveDate</con:name><con:value>2021-10-25</con:value></con:property><con:property><con:name>frequencyCode</con:name><con:value>12</con:value></con:property><con:property><con:name>meansCode</con:name><con:value>1</con:value></con:property><con:property><con:name>accountnumber</con:name><con:value>BE4700000000</con:value></con:property><con:property><con:name>bic</con:name><con:value>GBSDJKDSJ</con:value></con:property><con:property><con:name>familyName1</con:name><con:value>Klant</con:value></con:property><con:property><con:name>firstGivenName1</con:name><con:value>Test Senior</con:value></con:property><con:property><con:name>birthDate1</con:name><con:value>1980-10-01</con:value></con:property><con:property><con:name>genderCode1</con:name><con:value>1</con:value></con:property><con:property><con:name>streetName</con:name><con:value>Brusselsesteenweg</con:value></con:property><con:property><con:name>houseNumberIdentifier</con:name><con:value>2</con:value></con:property><con:property><con:name>boxNumberIdentifier</con:name><con:value>C</con:value></con:property><con:property><con:name>postalCode</con:name><con:value>2800</con:value></con:property><con:property><con:name>cityName</con:name><con:value>MECHELEN</con:value></con:property><con:property><con:name>languageCode</con:name><con:value>1</con:value></con:property><con:property><con:name>homeTelephone</con:name><con:value>031112233</con:value></con:property><con:property><con:name>emailAddress</con:name><con:value>test.senior@email.com</con:value></con:property><con:property><con:name>mobileTelephone</con:name><con:value>031112233</con:value></con:property><con:property><con:name>roleCode1</con:name><con:value>VM</con:value></con:property><con:property><con:name>familyName2</con:name><con:value>Klant</con:value></con:property><con:property><con:name>firstGivenName2</con:name><con:value>Test Junior</con:value></con:property><con:property><con:name>birthDate2</con:name><con:value>1960-10-01</con:value></con:property><con:property><con:name>genderCode2</con:name><con:value>1</con:value></con:property><con:property><con:name>roleCode2</con:name><con:value>FM</con:value></con:property><con:property><con:name>quotePost</con:name><con:value/></con:property><con:property><con:name>LoopOnReusableAction</con:name><con:value>1</con:value></con:property><con:property><con:name>reusableAction</con:name><con:value>quotecarv2</con:value></con:property><con:property><con:name>ciVersionId</con:name><con:value/></con:property><con:property><con:name>identifier</con:name><con:value/></con:property><con:property><con:name>flowList</con:name><con:value>null</con:value></con:property><con:property><con:name>deductableinfo</con:name><con:value>500</con:value></con:property><con:property><con:name>result1</con:name><con:value>500</con:value></con:property></con:properties></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+}]</con:request><con:originalUri>https://test.api.coronadirect.be/external/vehicle/insurance/v2/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>p_env</con:name><con:value>test</con:value></con:property><con:property><con:name>p_vehicleFirstBroughtInTrafficYear</con:name><con:value>2012</con:value></con:property><con:property><con:name>p_purchaseAmountInclTax</con:name><con:value>2015</con:value></con:property><con:property><con:name>p_length</con:name><con:value>4.90</con:value></con:property><con:property><con:name>p_height</con:name><con:value>1.69</con:value></con:property><con:property><con:name>c_check1</con:name><con:value>results.deductableinfo.value&lt;-500</con:value></con:property></con:properties></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
