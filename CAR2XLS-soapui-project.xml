@@ -229,7 +229,9 @@ def execStep(es, j) {
             }
         }
     }
-    return "Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
+    if(statusVerb != "passed"){
+    	return "Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
+    }
 }
 
 def readXls(fn) {
