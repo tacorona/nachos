@@ -214,27 +214,22 @@ def cleanTest() {
 }
 
 def execStep(es, j) {
-    ArrayList err = []
     tStep01 = tCase.testSteps[es]
     tStep01.run(testRunner, context)
     jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
     if (jsonSlurper != "") {
+        statusVerb = "passed"
         def propertyNames = tCase.getPropertyNames()
         for (name in propertyNames) {
             if (name.substring(0, 2) == "c_") {
                 checkValue = tCase.getPropertyValue(name).split("<-")
                 if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
-                    err.add("failed -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]) + " != " + checkValue[1])
-                    throw new Exception("The number was negative")           
+                    statusVerb = "failed"
                 }
-                else{
-                err.add("passed -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]) + " == " + checkValue[1])
-                log.info err[0]
-                throw new Exception("Error on row " + j )
-            }
             }
         }
     }
+    return "Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
 }
 
 def readXls(fn) {
@@ -262,6 +257,7 @@ def readXls(fn) {
 }
 
 def execSet(from, to, es) {
+    ArrayList err = []
     cleanTest()
     def i = 0, j = from
     while (j <= to && j <= sizeR) {
@@ -270,9 +266,13 @@ def execSet(from, to, es) {
             log.info(sysarray[i][0] + " : " + sysarray[i][j])
             i++
         }
-        execStep es, j
+        a = execStep es, j
+        err.add(a)
         i = 0
         j++
+    }
+    if (err.size() > 0) {
+        throw new Exception("\n" + err)
     }
     j = 0
 }
