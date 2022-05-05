@@ -218,6 +218,7 @@ def execStep(es, j) {
     tStep01.run(testRunner, context)
     jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
     if (jsonSlurper != "") {
+    		returnCode = "err000"
         statusVerb = "passed"
         def propertyNames = tCase.getPropertyNames()
         for (name in propertyNames) {
@@ -225,13 +226,12 @@ def execStep(es, j) {
                 checkValue = tCase.getPropertyValue(name).split("<-")
                 if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
                     statusVerb = "failed"
+                    returnCode = "err001"
                 }
             }
         }
     }
-    if(statusVerb != "passed"){
-    	return "Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
-    }
+    return returnCode + " Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
 }
 
 def readXls(fn) {
@@ -269,7 +269,10 @@ def execSet(from, to, es) {
             i++
         }
         a = execStep es, j
-        err.add(a)
+        if(a.substring(0,6) != "err000"){
+        	err.add(a)
+        }
+        
         i = 0
         j++
     }
