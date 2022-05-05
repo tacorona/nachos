@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="7a010f36-6ba2-465f-85cd-90e23781a0ec" activeEnvironment="Default" name="ASSISTANCE" resourceRoot="" soapui-version="5.6.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="QuoteAssistance"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="QUOTE"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="7a531625-4acc-431a-9992-35ab6aa2c1b3" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://test.api.coronadirect.be" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://${#Project#BaseURL}</con:endpoint><con:endpoint>https://test.api.coronadirect.be</con:endpoint></con:endpoints><con:resource name="quote" path="/external/assistance/insurance/v1/quote" id="1a2c436e-7bca-4108-83f1-b158e70edd04"><con:settings/><con:parameters/><con:method name="Method 1" id="dbe7cb1d-13ce-4a09-a898-b91822a11ed3" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:quot="https://test.api.coronadirect.be/external/assistance/insurance/v1/quote">quot:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Quote Assistance" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="offer" path="/external/assistance/insurance/v1/offer" id="eff2d356-5b06-4ceb-9fa7-99ee1d2508d2"><con:settings/><con:parameters/><con:method name="Method 1" id="7c22991a-6c87-4fe8-90cc-a3bec9725c67" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:quot="https://test.api.coronadirect.be/external/assistance/insurance/v1/quote">quot:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:quot="https://test.api.coronadirect.be/external/assistance/insurance/v1/quote">quot:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Offer Assistance" id="1aab7d82-1e5a-424c-99fb-4549e319f6e1" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="9b9cae2c-5a27-40c2-bc4e-72cca68560da" name="QuoteAssistance"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="0e4d55e6-262c-4eb0-9128-b37d5c7eb2e6" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="QUOTE" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Quote" id="a6d43049-bba6-4032-af72-4c79c4e3315f"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/assistance/insurance/v1/quote" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Quote" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Ocp-Apim-Subscription-Key" value="8cd7290f9eab496880f72d1009a1c164" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>[{
+    "requester": {
+        "organizationIdentifier": "CORONA",
+        "transactionIdentifier": "abcdef123456789",
+        "coronaTransactionIdentifier": "abcdef123456789",
+        "digitalSigning": ${Variables#digitalSigning}
+    },
+    "contract": {
+        "packageType": "${Variables#packageType}",
+        "numberOfCars": ${Variables#numberOfCars},
+        "numberOfMotors": ${Variables#numberOfMotors},
+        "numberOfBicyclesAndOthers": ${Variables#numberOfBicyclesAndOthers},
+        "numberOfFamilyMembers": ${Variables#numberOfFamilyMembers},
+        "personalAssistance": ${Variables#personalAssistance},
+        "luggage": ${Variables#luggage},
+        "policyReference": ${Variables#policyReference},
+        "propositionDate": "2022-04-01",
+        "contractEffectiveDateKnown": false,
+        "contractEffectiveDate": "2021-12-01",
+        "payment": {
+            "frequencyCode": ${Variables#frequencyCode}
+        }
+    }
+}]
+</con:request><con:originalUri>https://test.api.coronadirect.be/external/assistance/insurance/v1/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="9a9016e6-6c2a-4651-bbf6-8f3407152517" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="QUOTE-RUN" searchProperties="true"><con:settings/><con:testStep type="groovy" name="LoadTestData" id="fd1701a2-c649-4fdd-bbf2-00ed6a8133d4"><con:settings/><con:config><script><![CDATA[import org.apache.poi.ss.usermodel.*
+import org.apache.poi.hssf.usermodel.*
+import org.apache.poi.ss.util.*
+import groovy.json.JsonSlurper
+
+
+//Global variables
+def stopAtLine = 0  //0 = run all
+def excelName = "TestCases-Assistance-Quote"
+date = new Date().format( 'yyyyMMdd' )
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+projectPath = groovyUtils.projectPath
+log.info "Detected project path: " + projectPath
+def variables = testRunner.testCase.getTestStepByName("Variables")
+def tCaseRun = testRunner.testCase.testSuite.testCases["QUOTE"]
+def fail = false
+errorLog = []
+
+
+//Initiate external Functions.groovy
+GroovyScriptEngine gse = new GroovyScriptEngine(projectPath)
+externalScript = gse.loadScriptByName("Functions.groovy")  
+Functions = externalScript.newInstance(context: context, log: log, testRunner: testRunner)
+Functions.printCall()
+
+	
+// Initiate EXCEL
+def inputStream = new FileInputStream(projectPath + "\\" + excelName + ".xls");
+HSSFWorkbook wb = new HSSFWorkbook(inputStream);
+HSSFSheet ws = wb.getSheet("TestCases")  
+def totalRows = ws.getPhysicalNumberOfRows()
+def totalColumns = ws.getRow(0).getPhysicalNumberOfCells()
+
+// Initiate LOG dirs
+Functions.checkAndCreateFolder("Requests", projectPath, date)
+Functions.checkAndCreateFolder("Fails", projectPath, date)
+
+
+// Iterate rows / TESTCASES
+for(def i=1; i<totalRows; i++){
+	// Reset variables
+	def request = ""
+	def response = ""
+	errorLog.clear()
+	fail = false
+	def row = ws.getRow(i)
+	
+	//Populate variables with data from excel
+	for (var in variables.getPropertyList()){
+		//correct column of given row is selected using the function 'getColumn()
+		Cell cell = row.getCell(Functions.getColumn(var.getName(), ws, totalColumns))
+		
+		//the variable name is extracted from property list. Value from cell is extracted with function
+		variables.setPropertyValue(var.getName(),Functions.getCellValue(cell))
+	 }
+	 
+//-- REQUEST --
+	//API call .run()
+	def tStep = tCaseRun.getTestStepByName("Quote")
+	def runner = tStep.run(testRunner, context)
+	
+	
+	//Request as String
+	request = runner.getTestStep().getPropertyValue('RawRequest')
+	
+	//Create requestLog
+	def requestLog = new File(projectPath + "\\Requests\\" + date + "\\row " + (i+1) +".txt");
+	requestLog.write (request);
+
+
+// -- RESPONSE --
+	def httpResponseHeaders = runner.getTestStep().testRequest.response.responseHeaders    //context.testCase.testSteps["Quote"].testRequest.response.responseHeaders
+	def httpStatus = httpResponseHeaders["#status#"]
+	def httpStatusCode = (httpStatus =~ "[1-5]\\d\\d")[0]
+
+	
+	//if JSON is not correct, statusCode will be 500
+	if (httpStatusCode != "500"){
+		response = runner.getTestStep().getPropertyValue('Response')
+		def jsonSlurper = new JsonSlurper()
+		def object = jsonSlurper.parseText(response)
+
+		
+// -- ASSERTIONS --
+		//Check if server accepted the request, or if the returnCode is as expected
+		try {
+	 		assert object[0].control.applicationReturnCode == variables.getPropertyValue("returnCode")
+		}
+		catch (AssertionError e) {
+			fail = true
+			errorLog.addAll(Functions.createErrorLogText("ApplicationReturnCode not "+ variables.getPropertyValue("returnCode")+" \n" + "errorMessage: " + object[0].control.errorMessage ,variables.getPropertyValue("returnCode"),object[0].control.applicationReturnCode))
+		}
+		//only if the returnCode is 00000, the following assertions can be done
+		if (object[0].control.applicationReturnCode == '00000'){
+			
+			//Check if premium CAR is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.premiumCar.toString(), variables.getPropertyValue("premiumCar"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("premium CAR FAIL",variables.getPropertyValue("premiumCar"),object[0].results.premiumCar))
+			}	
+			
+			//Check if premium Motor is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.premiumMotor.toString(), variables.getPropertyValue("premiumMotor"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("premium Motor FAIL",variables.getPropertyValue("premiumMotor"),object[0].results.premiumMotor))
+			}	
+			
+			//Check if premium Bicycle is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.premiumBicycle.toString(), variables.getPropertyValue("premiumBicycle"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("premium Bicycle FAIL",variables.getPropertyValue("premiumBicycle"),object[0].results.premiumBicycle))
+			}	
+			
+			//Check if premium Personal Assistance is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.premiumPersonalAssistance.toString(), variables.getPropertyValue("premiumPersonalAssistance"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("premium Personal Assistance FAIL",variables.getPropertyValue("premiumPersonalAssistance"),object[0].results.premiumPersonalAssistance))
+			}	
+			//Check if premium Luggage is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.premiumLuggage.toString(), variables.getPropertyValue("premiumLuggage"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("premium Luggage FAIL",variables.getPropertyValue("premiumLuggage"),object[0].results.premiumLuggage))
+			}	
+
+			//Check if premium Total is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.premiumTotal.toString(), variables.getPropertyValue("premiumTotal"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("premium Total FAIL",variables.getPropertyValue("premiumTotal"),object[0].results.premiumTotal))
+			}
+
+			//Check if premium Total Incl Discount is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.premiumTotalInclDiscount.toString(), variables.getPropertyValue("premiumTotalInclDiscount"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("premium Total Incl Discount FAIL",variables.getPropertyValue("premiumTotalInclDiscount"),object[0].results.premiumTotalInclDiscount))
+			}
+		}
+	}
+
+	
+// -- CREATE LOGS --
+	// When httpStatusCode == 500:
+	else{ 
+		fail = true
+		errorLog << "JSON error"
+		errorLog << httpStatus
+		Functions.errorLines << "FAIL line " + row + " : JSON error \n"
+	}
+		
+	//Create and write .txt logs
+	if (fail){
+		Functions.rowFailed(errorLog, i, projectPath, date, row);
+	}
+	else{
+		Functions.rowPassed(i, row);
+	}
+
+	//stop loop
+	if(i == stopAtLine){
+		break;
+	}
+}
+
+// -- AFTER ALL --
+Functions.finishTestSuite(excelName, projectPath, wb);
+
+
+
+
+
+
+]]></script></con:config></con:testStep><con:testStep type="properties" name="Variables" id="ed3f5a57-408e-44d7-8f6b-e9d75b7c717d"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>digitalSigning</con:name><con:value>false</con:value></con:property><con:property><con:name>numberOfCars</con:name><con:value>0.0</con:value></con:property><con:property><con:name>numberOfMotors</con:name><con:value>0.0</con:value></con:property><con:property><con:name>numberOfBicyclesAndOthers</con:name><con:value>2.0</con:value></con:property><con:property><con:name>numberOfFamilyMembers</con:name><con:value>1.0</con:value></con:property><con:property><con:name>personalAssistance</con:name><con:value>true</con:value></con:property><con:property><con:name>luggage</con:name><con:value>false</con:value></con:property><con:property><con:name>frequencyCode</con:name><con:value>1</con:value></con:property><con:property><con:name>packageType</con:name><con:value>BE</con:value></con:property><con:property><con:name>returnCode</con:name><con:value>99999</con:value></con:property><con:property><con:name>premiumCar</con:name><con:value>0.0</con:value></con:property><con:property><con:name>premiumMotor</con:name><con:value>0.0</con:value></con:property><con:property><con:name>premiumBicycle</con:name><con:value>20.0</con:value></con:property><con:property><con:name>premiumPersonalAssistance</con:name><con:value>50.0</con:value></con:property><con:property><con:name>premiumLuggage</con:name><con:value>35.0</con:value></con:property><con:property><con:name>premiumTotal</con:name><con:value>70.0</con:value></con:property><con:property><con:name>premiumTotalInclDiscount</con:name><con:value>56.0</con:value></con:property><con:property><con:name>policyReference</con:name><con:value>"3001004514"</con:value></con:property></con:properties></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="51a39b56-cad2-47cd-9dc0-3c99883cd34c" name="OfferAssistance"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="858ec51c-2ff7-4db6-aed5-76c8c1e82c13" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OFFER" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Offer1" id="582ad3ae-0d23-46be-8b47-77258ca45476"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/assistance/insurance/v1/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Offer1" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Ocp-Apim-Subscription-Key" value="8cd7290f9eab496880f72d1009a1c164" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>
+{
+
+"parties": [
+        {
+        "familyName": "Assitance",
+        "firstGivenName": "Offer VII",
+        "birthDate": "1960-10-01",
+        "genderCode": "1",
+        "streetName": "${Variables#streetName}",
+        "houseNumberIdentifier": "${Variables#houseNumberIdentifier}",
+        "boxNumberIdentifier": "${Variables#boxNumberIdentifier}",
+        "postalCode": "${Variables#postalCode}",
+        "cityName": "MECHELEN",
+        "languageCode": "1",
+        "homeTelephone": "031112233",
+        "emailAddress": "michael.kulpok@coronadirect.com",
+        "mobileTelephone": "031112233",
+        "roleCode": [
+                    "VN"
+                    ]
+        }
+    ],
+
+"requester": {
+	"organizationIdentifier": "CORONA",
+     "transactionIdentifier": "abcdef123456789",
+     "coronaTransactionIdentifier": "abcdef123456789",
+     "digitalSigning": ${Variables#digitalSigning}
+	},
+    
+"contract": {
+    "packageType": "${Variables#packageType}",
+    "personalAssistance": ${Variables#personalAssistance},
+    "luggage": ${Variables#luggage},
+    "policyReference": ${Variables#policyReference},
+    "licensePlatesCar": [${Variables#licensePlatesCar}],
+    "licensePlatesMotor": [${Variables#licensePlatesMotor}],
+    
+    "numberOfBicycles": ${Variables#numberOfBicycles},
+    "numberOfPedelecs": ${Variables#numberOfPedelecs},
+    "numberOfHoverboards": ${Variables#numberOfHoverboards},
+    "numberOfSteps": ${Variables#numberOfSteps},
+    "numberOfSegways": ${Variables#numberOfSegways},
+    
+    "propositionDate": "2022-05-01",
+    
+    "contractEffectiveDateKnown": true,
+    "contractEffectiveDate": "${Variables#contractEffectiveDate}",
+    "payment": {
+	    "frequencyCode": ${Variables#frequencyCode},
+	    "meansCode": 1,
+	    "accountnumber": "${Variables#accountnumber}",
+	    "bic": "VDSPBE91"
+	    }
+	}
+}
+</con:request><con:originalUri>https://test.api.coronadirect.be/external/assistance/insurance/v1/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Offer2" id="98e2ab64-ddf6-4d88-9d66-d4af19b17791"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/assistance/insurance/v1/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Offer2" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Ocp-Apim-Subscription-Key" value="8cd7290f9eab496880f72d1009a1c164" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>
+{
+
+"parties": [
+              {
+        "familyName": "Assitance",
+        "firstGivenName": "Offer VII",
+        "birthDate": "1960-10-01",
+        "genderCode": "1",
+        "streetName": "${Variables#streetName}",
+        "houseNumberIdentifier": "${Variables#houseNumberIdentifier}",
+        "boxNumberIdentifier": "${Variables#boxNumberIdentifier}",
+        "postalCode": "${Variables#postalCode}",
+        "cityName": "MECHELEN",
+        "languageCode": "1",
+        "homeTelephone": "031112233",
+        "emailAddress": "michael.kulpok@coronadirect.com",
+        "mobileTelephone": "031112233",
+        "roleCode": [
+                    "VN"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior VII",
+        "birthDate": "1980-10-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        }
+    ],
+
+"requester": {
+	"organizationIdentifier": "CORONA",
+     "transactionIdentifier": "abcdef123456789",
+     "coronaTransactionIdentifier": "abcdef123456789",
+     "digitalSigning": ${Variables#digitalSigning}
+	},
+    
+"contract": {
+    "packageType": "${Variables#packageType}",
+    "personalAssistance": ${Variables#personalAssistance},
+    "luggage": ${Variables#luggage},
+    "policyReference": ${Variables#policyReference},
+    "licensePlatesCar": [${Variables#licensePlatesCar}],
+    "licensePlatesMotor": [${Variables#licensePlatesMotor}],
+    
+    "numberOfBicycles": ${Variables#numberOfBicycles},
+    "numberOfPedelecs": ${Variables#numberOfPedelecs},
+    "numberOfHoverboards": ${Variables#numberOfHoverboards},
+    "numberOfSteps": ${Variables#numberOfSteps},
+    "numberOfSegways": ${Variables#numberOfSegways},
+    
+    "propositionDate": "2022-05-01",
+    
+    "contractEffectiveDateKnown": true,
+    "contractEffectiveDate": "${Variables#contractEffectiveDate}",
+    "payment": {
+	    "frequencyCode": ${Variables#frequencyCode},
+	    "meansCode": 1,
+	    "accountnumber": "${Variables#accountnumber}",
+	    "bic": "VDSPBE91"
+	    }
+	}
+}
+</con:request><con:originalUri>https://test.api.coronadirect.be/external/assistance/insurance/v1/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Offer3" id="4afd0d9e-e5a4-4e58-b854-871a46fa1163"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/assistance/insurance/v1/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Offer3" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Ocp-Apim-Subscription-Key" value="8cd7290f9eab496880f72d1009a1c164" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>
+{
+
+"parties": [
+               {
+        "familyName": "Assitance",
+        "firstGivenName": "Offer VII",
+        "birthDate": "1960-10-01",
+        "genderCode": "1",
+        "streetName": "${Variables#streetName}",
+        "houseNumberIdentifier": "${Variables#houseNumberIdentifier}",
+        "boxNumberIdentifier": "${Variables#boxNumberIdentifier}",
+        "postalCode": "${Variables#postalCode}",
+        "cityName": "MECHELEN",
+        "languageCode": "1",
+        "homeTelephone": "031112233",
+        "emailAddress": "michael.kulpok@coronadirect.com",
+        "mobileTelephone": "031112233",
+        "roleCode": [
+                    "VN"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 1",
+        "birthDate": "1980-10-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        }
+    ],
+
+"requester": {
+	"organizationIdentifier": "CORONA",
+     "transactionIdentifier": "abcdef123456789",
+     "coronaTransactionIdentifier": "abcdef123456789",
+     "digitalSigning": ${Variables#digitalSigning}
+	},
+    
+"contract": {
+    "packageType": "${Variables#packageType}",
+    "personalAssistance": ${Variables#personalAssistance},
+    "luggage": ${Variables#luggage},
+    "policyReference": ${Variables#policyReference},
+    "licensePlatesCar": [${Variables#licensePlatesCar}],
+    "licensePlatesMotor": [${Variables#licensePlatesMotor}],
+    
+    "numberOfBicycles": ${Variables#numberOfBicycles},
+    "numberOfPedelecs": ${Variables#numberOfPedelecs},
+    "numberOfHoverboards": ${Variables#numberOfHoverboards},
+    "numberOfSteps": ${Variables#numberOfSteps},
+    "numberOfSegways": ${Variables#numberOfSegways},
+    
+    "propositionDate": "2022-05-01",
+    
+    "contractEffectiveDateKnown": true,
+    "contractEffectiveDate": "${Variables#contractEffectiveDate}",
+    "payment": {
+	    "frequencyCode": ${Variables#frequencyCode},
+	    "meansCode": 1,
+	    "accountnumber": "${Variables#accountnumber}",
+	    "bic": "VDSPBE91"
+	    }
+	}
+}
+</con:request><con:originalUri>https://test.api.coronadirect.be/external/assistance/insurance/v1/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Offer4" id="187652da-6e10-474c-9305-ff313c6f8ad8"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/assistance/insurance/v1/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Offer4" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Ocp-Apim-Subscription-Key" value="8cd7290f9eab496880f72d1009a1c164" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>
+{
+
+"parties": [
+              {
+        "familyName": "Assitance",
+        "firstGivenName": "Offer VII",
+        "birthDate": "1960-10-01",
+        "genderCode": "1",
+        "streetName": "${Variables#streetName}",
+        "houseNumberIdentifier": "${Variables#houseNumberIdentifier}",
+        "boxNumberIdentifier": "${Variables#boxNumberIdentifier}",
+        "postalCode": "${Variables#postalCode}",
+        "cityName": "MECHELEN",
+        "languageCode": "1",
+        "homeTelephone": "031112233",
+        "emailAddress": "michael.kulpok@coronadirect.com",
+        "mobileTelephone": "031112233",
+        "roleCode": [
+                    "VN"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 1",
+        "birthDate": "1980-10-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        }
+    ],
+
+"requester": {
+	"organizationIdentifier": "CORONA",
+     "transactionIdentifier": "abcdef123456789",
+     "coronaTransactionIdentifier": "abcdef123456789",
+     "digitalSigning": ${Variables#digitalSigning}
+	},
+    
+"contract": {
+    "packageType": "${Variables#packageType}",
+    "personalAssistance": ${Variables#personalAssistance},
+    "luggage": ${Variables#luggage},
+    "policyReference": ${Variables#policyReference},
+    "licensePlatesCar": [${Variables#licensePlatesCar}],
+    "licensePlatesMotor": [${Variables#licensePlatesMotor}],
+    
+    "numberOfBicycles": ${Variables#numberOfBicycles},
+    "numberOfPedelecs": ${Variables#numberOfPedelecs},
+    "numberOfHoverboards": ${Variables#numberOfHoverboards},
+    "numberOfSteps": ${Variables#numberOfSteps},
+    "numberOfSegways": ${Variables#numberOfSegways},
+    
+    "propositionDate": "2022-05-01",
+    
+    "contractEffectiveDateKnown": true,
+    "contractEffectiveDate": "${Variables#contractEffectiveDate}",
+    "payment": {
+	    "frequencyCode": ${Variables#frequencyCode},
+	    "meansCode": 1,
+	    "accountnumber": "${Variables#accountnumber}",
+	    "bic": "VDSPBE91"
+	    }
+	}
+}
+</con:request><con:originalUri>https://test.api.coronadirect.be/external/assistance/insurance/v1/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Offer5" id="d793dfea-c5fa-41fb-85b6-a72b20a39b43"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/assistance/insurance/v1/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Offer5" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Ocp-Apim-Subscription-Key" value="8cd7290f9eab496880f72d1009a1c164" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>
+{
+
+"parties": [
+               {
+        "familyName": "Assitance",
+        "firstGivenName": "Offer VII",
+        "birthDate": "1960-10-01",
+        "genderCode": "1",
+        "streetName": "${Variables#streetName}",
+        "houseNumberIdentifier": "${Variables#houseNumberIdentifier}",
+        "boxNumberIdentifier": "${Variables#boxNumberIdentifier}",
+        "postalCode": "${Variables#postalCode}",
+        "cityName": "MECHELEN",
+        "languageCode": "1",
+        "homeTelephone": "031112233",
+        "emailAddress": "michael.kulpok@coronadirect.com",
+        "mobileTelephone": "031112233",
+        "roleCode": [
+                    "VN"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 1",
+        "birthDate": "1980-10-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        }
+    ],
+
+"requester": {
+	"organizationIdentifier": "CORONA",
+     "transactionIdentifier": "abcdef123456789",
+     "coronaTransactionIdentifier": "abcdef123456789",
+     "digitalSigning": ${Variables#digitalSigning}
+	},
+    
+"contract": {
+    "packageType": "${Variables#packageType}",
+    "personalAssistance": ${Variables#personalAssistance},
+    "luggage": ${Variables#luggage},
+    "policyReference": ${Variables#policyReference},
+    "licensePlatesCar": [${Variables#licensePlatesCar}],
+    "licensePlatesMotor": [${Variables#licensePlatesMotor}],
+    
+    "numberOfBicycles": ${Variables#numberOfBicycles},
+    "numberOfPedelecs": ${Variables#numberOfPedelecs},
+    "numberOfHoverboards": ${Variables#numberOfHoverboards},
+    "numberOfSteps": ${Variables#numberOfSteps},
+    "numberOfSegways": ${Variables#numberOfSegways},
+    
+    "propositionDate": "2022-05-01",
+    
+    "contractEffectiveDateKnown": true,
+    "contractEffectiveDate": "${Variables#contractEffectiveDate}",
+    "payment": {
+	    "frequencyCode": ${Variables#frequencyCode},
+	    "meansCode": 1,
+	    "accountnumber": "${Variables#accountnumber}",
+	    "bic": "VDSPBE91"
+	    }
+	}
+}
+</con:request><con:originalUri>https://test.api.coronadirect.be/external/assistance/insurance/v1/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Offer6" id="816e9ff9-b3e6-4cb6-9734-0c27d1f0cec9"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/assistance/insurance/v1/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Offer6" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Ocp-Apim-Subscription-Key" value="8cd7290f9eab496880f72d1009a1c164" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>
+{
+
+"parties": [
+               {
+        "familyName": "Assitance",
+        "firstGivenName": "Offer VII",
+        "birthDate": "1960-10-01",
+        "genderCode": "1",
+        "streetName": "${Variables#streetName}",
+        "houseNumberIdentifier": "${Variables#houseNumberIdentifier}",
+        "boxNumberIdentifier": "${Variables#boxNumberIdentifier}",
+        "postalCode": "${Variables#postalCode}",
+        "cityName": "MECHELEN",
+        "languageCode": "1",
+        "homeTelephone": "031112233",
+        "emailAddress": "michael.kulpok@coronadirect.com",
+        "mobileTelephone": "031112233",
+        "roleCode": [
+                    "VN"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 1",
+        "birthDate": "1980-10-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        }
+    ],
+
+"requester": {
+	"organizationIdentifier": "CORONA",
+     "transactionIdentifier": "abcdef123456789",
+     "coronaTransactionIdentifier": "abcdef123456789",
+     "digitalSigning": ${Variables#digitalSigning}
+	},
+    
+"contract": {
+    "packageType": "${Variables#packageType}",
+    "personalAssistance": ${Variables#personalAssistance},
+    "luggage": ${Variables#luggage},
+    "policyReference": ${Variables#policyReference},
+    "licensePlatesCar": [${Variables#licensePlatesCar}],
+    "licensePlatesMotor": [${Variables#licensePlatesMotor}],
+    
+    "numberOfBicycles": ${Variables#numberOfBicycles},
+    "numberOfPedelecs": ${Variables#numberOfPedelecs},
+    "numberOfHoverboards": ${Variables#numberOfHoverboards},
+    "numberOfSteps": ${Variables#numberOfSteps},
+    "numberOfSegways": ${Variables#numberOfSegways},
+    
+    "propositionDate": "2022-05-01",
+    
+    "contractEffectiveDateKnown": true,
+    "contractEffectiveDate": "${Variables#contractEffectiveDate}",
+    "payment": {
+	    "frequencyCode": ${Variables#frequencyCode},
+	    "meansCode": 1,
+	    "accountnumber": "${Variables#accountnumber}",
+	    "bic": "VDSPBE91"
+	    }
+	}
+}
+</con:request><con:originalUri>https://test.api.coronadirect.be/external/assistance/insurance/v1/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Offer7" id="aded60c9-a5cf-42cb-91e8-e8b131ac564f"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/assistance/insurance/v1/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Offer7" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Ocp-Apim-Subscription-Key" value="8cd7290f9eab496880f72d1009a1c164" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>
+{
+
+"parties": [
+               {
+        "familyName": "Assitance",
+        "firstGivenName": "Offer VII",
+        "birthDate": "1960-10-01",
+        "genderCode": "1",
+        "streetName": "${Variables#streetName}",
+        "houseNumberIdentifier": "${Variables#houseNumberIdentifier}",
+        "boxNumberIdentifier": "${Variables#boxNumberIdentifier}",
+        "postalCode": "${Variables#postalCode}",
+        "cityName": "MECHELEN",
+        "languageCode": "1",
+        "homeTelephone": "031112233",
+        "emailAddress": "michael.kulpok@coronadirect.com",
+        "mobileTelephone": "031112233",
+        "roleCode": [
+                    "VN"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 1",
+        "birthDate": "1980-10-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        }
+    ],
+
+"requester": {
+	"organizationIdentifier": "CORONA",
+     "transactionIdentifier": "abcdef123456789",
+     "coronaTransactionIdentifier": "abcdef123456789",
+     "digitalSigning": ${Variables#digitalSigning}
+	},
+    
+"contract": {
+    "packageType": "${Variables#packageType}",
+    "personalAssistance": ${Variables#personalAssistance},
+    "luggage": ${Variables#luggage},
+    "policyReference": ${Variables#policyReference},
+    "licensePlatesCar": [${Variables#licensePlatesCar}],
+    "licensePlatesMotor": [${Variables#licensePlatesMotor}],
+    
+    "numberOfBicycles": ${Variables#numberOfBicycles},
+    "numberOfPedelecs": ${Variables#numberOfPedelecs},
+    "numberOfHoverboards": ${Variables#numberOfHoverboards},
+    "numberOfSteps": ${Variables#numberOfSteps},
+    "numberOfSegways": ${Variables#numberOfSegways},
+    
+    "propositionDate": "2022-05-01",
+    
+    "contractEffectiveDateKnown": true,
+    "contractEffectiveDate": "${Variables#contractEffectiveDate}",
+    "payment": {
+	    "frequencyCode": ${Variables#frequencyCode},
+	    "meansCode": 1,
+	    "accountnumber": "${Variables#accountnumber}",
+	    "bic": "VDSPBE91"
+	    }
+	}
+}
+</con:request><con:originalUri>https://test.api.coronadirect.be/external/assistance/insurance/v1/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Offer8" id="c00d9eb0-c89f-47cb-9f0d-f73b48128275"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/assistance/insurance/v1/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Offer8" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Ocp-Apim-Subscription-Key" value="8cd7290f9eab496880f72d1009a1c164" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>
+{
+
+"parties": [
+               {
+        "familyName": "Assitance",
+        "firstGivenName": "Offer VII",
+        "birthDate": "1960-10-01",
+        "genderCode": "1",
+        "streetName": "${Variables#streetName}",
+        "houseNumberIdentifier": "${Variables#houseNumberIdentifier}",
+        "boxNumberIdentifier": "${Variables#boxNumberIdentifier}",
+        "postalCode": "${Variables#postalCode}",
+        "cityName": "MECHELEN",
+        "languageCode": "1",
+        "homeTelephone": "031112233",
+        "emailAddress": "michael.kulpok@coronadirect.com",
+        "mobileTelephone": "031112233",
+        "roleCode": [
+                    "VN"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 1",
+        "birthDate": "1980-10-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        }
+    ],
+
+"requester": {
+	"organizationIdentifier": "CORONA",
+     "transactionIdentifier": "abcdef123456789",
+     "coronaTransactionIdentifier": "abcdef123456789",
+     "digitalSigning": ${Variables#digitalSigning}
+	},
+    
+"contract": {
+    "packageType": "${Variables#packageType}",
+    "personalAssistance": ${Variables#personalAssistance},
+    "luggage": ${Variables#luggage},
+    "policyReference": ${Variables#policyReference},
+    "licensePlatesCar": [${Variables#licensePlatesCar}],
+    "licensePlatesMotor": [${Variables#licensePlatesMotor}],
+    
+    "numberOfBicycles": ${Variables#numberOfBicycles},
+    "numberOfPedelecs": ${Variables#numberOfPedelecs},
+    "numberOfHoverboards": ${Variables#numberOfHoverboards},
+    "numberOfSteps": ${Variables#numberOfSteps},
+    "numberOfSegways": ${Variables#numberOfSegways},
+    
+    "propositionDate": "2022-05-01",
+    
+    "contractEffectiveDateKnown": true,
+    "contractEffectiveDate": "${Variables#contractEffectiveDate}",
+    "payment": {
+	    "frequencyCode": ${Variables#frequencyCode},
+	    "meansCode": 1,
+	    "accountnumber": "${Variables#accountnumber}",
+	    "bic": "VDSPBE91"
+	    }
+	}
+}
+</con:request><con:originalUri>https://test.api.coronadirect.be/external/assistance/insurance/v1/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Offer9" id="5e499fc4-c438-4d8d-8a17-370863d560ee"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/assistance/insurance/v1/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Offer9" id="53292f9e-1740-457e-8cf1-7507661abda4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Ocp-Apim-Subscription-Key" value="8cd7290f9eab496880f72d1009a1c164" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>
+{
+
+"parties": [
+               {
+        "familyName": "Assitance",
+        "firstGivenName": "Offer VII",
+        "birthDate": "1960-10-01",
+        "genderCode": "1",
+        "streetName": "${Variables#streetName}",
+        "houseNumberIdentifier": "${Variables#houseNumberIdentifier}",
+        "boxNumberIdentifier": "${Variables#boxNumberIdentifier}",
+        "postalCode": "${Variables#postalCode}",
+        "cityName": "MECHELEN",
+        "languageCode": "1",
+        "homeTelephone": "031112233",
+        "emailAddress": "michael.kulpok@coronadirect.com",
+        "mobileTelephone": "031112233",
+        "roleCode": [
+                    "VN"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 1",
+        "birthDate": "1980-10-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        },
+        {
+        "familyName": "Assistance",
+        "firstGivenName": "Offer Junior 2",
+        "birthDate": "1990-9-01",
+        "genderCode": "1",
+        "roleCode": [
+                    "FM"
+                    ]
+        }
+    ],
+
+"requester": {
+	"organizationIdentifier": "CORONA",
+     "transactionIdentifier": "abcdef123456789",
+     "coronaTransactionIdentifier": "abcdef123456789",
+     "digitalSigning": ${Variables#digitalSigning}
+	},
+    
+"contract": {
+    "packageType": "${Variables#packageType}",
+    "personalAssistance": ${Variables#personalAssistance},
+    "luggage": ${Variables#luggage},
+    "policyReference": ${Variables#policyReference},
+    "licensePlatesCar": [${Variables#licensePlatesCar}],
+    "licensePlatesMotor": [${Variables#licensePlatesMotor}],
+    
+    "numberOfBicycles": ${Variables#numberOfBicycles},
+    "numberOfPedelecs": ${Variables#numberOfPedelecs},
+    "numberOfHoverboards": ${Variables#numberOfHoverboards},
+    "numberOfSteps": ${Variables#numberOfSteps},
+    "numberOfSegways": ${Variables#numberOfSegways},
+    
+    "propositionDate": "2022-05-01",
+    
+    "contractEffectiveDateKnown": true,
+    "contractEffectiveDate": "${Variables#contractEffectiveDate}",
+    "payment": {
+	    "frequencyCode": ${Variables#frequencyCode},
+	    "meansCode": 1,
+	    "accountnumber": "${Variables#accountnumber}",
+	    "bic": "VDSPBE91"
+	    }
+	}
+}
+</con:request><con:originalUri>https://test.api.coronadirect.be/external/assistance/insurance/v1/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="862a590b-2a77-4d5b-8f59-017e84748eb1" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OFFER-RUN" searchProperties="true"><con:settings/><con:testStep type="groovy" name="LoadTestData" id="748c6935-3414-41f6-83dc-1752400810a1"><con:settings/><con:config><script><![CDATA[import org.apache.poi.ss.usermodel.*
+import org.apache.poi.hssf.usermodel.*
+import org.apache.poi.ss.util.*
+import groovy.json.JsonSlurper
+
+
+//Global variables
+def stopAtLine = 0  //0 = run all
+def excelName = "TestCases-Assistance-Offer"
+date = new Date().format( 'yyyyMMdd' )
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+projectPath = groovyUtils.projectPath
+log.info "Detected project path: " + projectPath
+//projectPath = "D:\\a\\1\\s";
+def tCaseRun = testRunner.testCase.testSuite.testCases["OFFER"]
+def variables = testRunner.testCase.getTestStepByName("Variables")
+def fail = false
+errorLog = []
+
+
+
+//Initiate external Functions.groovy
+GroovyScriptEngine gse = new GroovyScriptEngine(projectPath)
+externalScript = gse.loadScriptByName("Functions.groovy")  
+Functions = externalScript.newInstance(context: context, log: log, testRunner: testRunner)
+Functions.printCall()
+
+	
+// Initiate EXCEL
+def inputStream = new FileInputStream(projectPath + "\\" + excelName + ".xls");
+HSSFWorkbook wb = new HSSFWorkbook(inputStream);
+HSSFSheet ws = wb.getSheet("TestCases")  
+def totalRows = ws.getPhysicalNumberOfRows()
+def totalColumns = ws.getRow(0).getPhysicalNumberOfCells()
+
+// Initiate LOG dirs
+Functions.checkAndCreateFolder("Requests", projectPath, date)
+Functions.checkAndCreateFolder("Fails", projectPath, date)
+
+
+// Iterate rows / TESTCASES
+for(def i=1; i<totalRows; i++){
+	// Reset variables
+	def request = ""
+	def response = ""
+	errorLog.clear()
+	fail = false
+	def row = ws.getRow(i)
+	
+	//Populate variables with data from excel
+	for (var in variables.getPropertyList()){
+		//correct column of given row is selected using the function 'getColumn()
+		Cell cell = row.getCell(Functions.getColumn(var.getName(), ws, totalColumns))
+		
+		//the variable name is extracted from property list. Value from cell is extracted with function
+		variables.setPropertyValue(var.getName(),Functions.getCellValue(cell))
+	 }
+	 
+//-- REQUEST --
+	//API call .run()
+	def familyMembers = variables.getPropertyValue("numberOfFamilyMembers").substring(0,1)
+	def Offer = "Offer" + familyMembers
+	def tStep = tCaseRun.getTestStepByName(Offer)
+	def runner = tStep.run(testRunner, context)
+
+	//Request as String
+	request = runner.getTestStep().getPropertyValue('RawRequest')
+	
+	
+	//Create requestLog
+	def requestLog = new File(projectPath + "\\Requests\\" + date + "\\row " + (i+1) +".txt");
+	requestLog.write (request);
+
+
+// -- RESPONSE --
+	def httpResponseHeaders = runner.getTestStep().testRequest.response.responseHeaders //context.testCase.testSteps[Offer].testRequest.response.responseHeaders
+	def httpStatus = httpResponseHeaders["#status#"]
+	def httpStatusCode = (httpStatus =~ "[1-5]\\d\\d")[0]
+
+	
+	//if JSON is not correct, statusCode will be 500
+	if (httpStatusCode != "500"){
+		response = runner.getTestStep().getPropertyValue('Response')
+		def jsonSlurper = new JsonSlurper()
+		def object = jsonSlurper.parseText(response)
+		
+// -- ASSERTIONS --
+		//Check if server accepted the request, or if the returnCode is as expected
+		try {
+	 		assert object.control.applicationReturnCode == variables.getPropertyValue("returnCode")
+		}
+		catch (AssertionError e) {
+			fail = true
+			errorLog.addAll(Functions.createErrorLogText("ApplicationReturnCode not "+ variables.getPropertyValue("returnCode")+" \n" + "errorMessage: " + object.control.errorMessage ,variables.getPropertyValue("returnCode"),object.control.applicationReturnCode))
+		}
+	}
+
+	
+// -- CREATE LOGS --
+	// When httpStatusCode == 500:
+	else{ 
+		fail = true
+		errorLog << "JSON error"
+		errorLog << httpStatus
+		Functions.errorLines << "FAIL line " + row + " : JSON error \n"
+	}
+		
+	//Create and write .txt logs
+	if (fail){
+		Functions.rowFailed(errorLog, i, projectPath, date, row);
+	}
+	else{
+		Functions.rowPassed(i, row);
+	}
+
+	//stop loop
+	if(i == stopAtLine){
+		break;
+	}
+}
+
+// -- AFTER ALL --
+Functions.finishTestSuite(excelName, projectPath, wb);
+
+
+
+
+
+]]></script></con:config></con:testStep><con:testStep type="properties" name="Variables" id="30d1286c-7c1f-4020-9032-837fe15ee36e"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>policyReference</con:name><con:value>"3001005225"</con:value></con:property><con:property><con:name>digitalSigning</con:name><con:value>false</con:value></con:property><con:property><con:name>personalAssistance</con:name><con:value>false</con:value></con:property><con:property><con:name>luggage</con:name><con:value>false</con:value></con:property><con:property><con:name>frequencyCode</con:name><con:value>1</con:value></con:property><con:property><con:name>packageType</con:name><con:value>EU</con:value></con:property><con:property><con:name>licensePlatesCar</con:name><con:value>"test1"</con:value></con:property><con:property><con:name>licensePlatesMotor</con:name><con:value/></con:property><con:property><con:name>numberOfBicycles</con:name><con:value>1.0</con:value></con:property><con:property><con:name>numberOfPedelecs</con:name><con:value>1.0</con:value></con:property><con:property><con:name>numberOfHoverboards</con:name><con:value>1.0</con:value></con:property><con:property><con:name>numberOfSteps</con:name><con:value>1.0</con:value></con:property><con:property><con:name>numberOfSegways</con:name><con:value>1.0</con:value></con:property><con:property><con:name>contractEffectiveDate</con:name><con:value>2022-06-01</con:value></con:property><con:property><con:name>numberOfFamilyMembers</con:name><con:value>1.0</con:value></con:property><con:property><con:name>returnCode</con:name><con:value>00000</con:value></con:property><con:property><con:name>accountnumber</con:name><con:value>BE44897156894245</con:value></con:property><con:property><con:name>streetName</con:name><con:value/></con:property><con:property><con:name>houseNumberIdentifier</con:name><con:value/></con:property><con:property><con:name>postalCode</con:name><con:value/></con:property><con:property><con:name>boxNumberIdentifier</con:name><con:value/></con:property></con:properties></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
