@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="b2ae0461-7fcc-4923-9274-dec331399758" activeEnvironment="Default" name="VEHICLES" resourceRoot="${projectDir}" soapui-version="5.6.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="c477a981-fc87-42b6-94b4-562e6f22e08e" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://test.api.coronadirect.be" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://test.api.coronadirect.be</con:endpoint></con:endpoints><con:resource name="Quote" path="/external/assistance/insurance/v1/quote" id="f3a7ca16-c7bf-4fc8-9c45-c88608b4c2a7"><con:settings/><con:parameters/><con:method name="Quote 1" id="dfab5695-6c8e-4382-b9ba-163c3bc4f67e" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="6839cedb-b185-4d3b-bcda-ea75a77b0283" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="offer" path="/external/assistance/insurance/v1/offer" id="5995fd89-2cd0-40c3-8aa4-30b537c12961"><con:settings/><con:parameters/><con:method name="Method 1" id="ec64dacd-1857-45d9-81ce-f6630904ec10" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/html; charset=UTF-8</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:off="https://test-api.cs107.force.com/external/assistance/insurance/v1/offer">off:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>401</con:status><con:params/><con:element xmlns:off="https://test-api.cs107.force.com/external/assistance/insurance/v1/offer">off:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="90af5a79-a116-4f50-8359-c59ba736a08c" mediaType="application/json" postQueryString="false"><con:settings/><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="offer" path="/external/vehicle/insurance/v2/offer" id="8c849afb-8e4c-4653-8efe-d0751e338bc1"><con:settings/><con:parameters/><con:method name="Method 1" id="b3574838-0b86-49e1-9296-022339aa98a0" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:off="https://test.api.coronadirect.be/external/vehicle/insurance/v2/offer">off:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>401 500</con:status><con:params/><con:element xmlns:off="https://test.api.coronadirect.be/external/vehicle/insurance/v2/offer">off:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="9513d268-2804-4e07-afc2-9a9cde2f22a4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>[{
+	"requester": {
+		"resultFileName": "string",
+		"reactivationId": "string",
+		"organizationIdentifier": "string",
+		"transactionIdentifier": "string",
+		"coronaTransactionIdentifier": "string"
+	},
+	"onlineSigning": {
+		"inProgress": true,
+		"requiredDocuments": true
+	},
+	"parties": [{
+		"familyName": "string",
+		"firstGivenName": "string",
+		"streetName": "string",
+		"houseNumberIdentifier": "string",
+		"boxNumberIdentifier": "string",
+		"postalCode": "string",
+		"cityName": "string",
+		"homeTelephone": "string",
+		"birthDate": "string",
+		"genderCode": "1",
+		"languageCodee": "1",
+		"professionCategoryCodee": "0",
+		"drivingLicenceDate": "string",
+		"emailAddress": "string",
+		"optInCorona": true,
+		"optInPartners": true,
+		"mobileTelephone": "string",
+		"exclusionIndicator": true,
+		"convictionDeclaration": true,
+		"rejectionDeclaration": true,
+		"vatStatusCode": "string",
+		"identifier": "string",
+		"roleCode": "VN"
+	}],
+	"vehicle": {
+		"lookupPlateNumber": "string",
+		"categoryCode": "string",
+		"eurotaxCode": 0,
+		"specification": {
+			"vehicleMakeName": "string",
+			"vehicleTypeName": "string",
+			"engineCapacityMeasure": 0,
+			"vehicleTypeCode": "string",
+			"additionalSeatsCount": 0,
+			"fuelTypeCode": "string",
+			"cylinderCapacity": 0,
+			"wheelsCount": 0,
+			"length": 0,
+			"height": 0
+		},
+		"vehicleFirstBroughtInTrafficDate": "string",
+		"vehicleUnitPriceAmount": 0,
+		"equipmentUnitPriceAmount": 0,
+		"audioUnitPriceAmount": 0,
+		"propertyTypeCode": "1",
+		"vehicleUseCode": "1",
+		"securitySystemTypeCode": "0",
+		"garagingTypeCode": "0",
+		"trailerTypeCode": "0",
+		"maximumAuthorisedWeightQuantity": 0,
+		"dangerousGoodsTypeCode": "string",
+		"constructionUnitPriceAmount": 0,
+		"vehicleRegistrationPlateNumber": "string",
+		"chassisNumber": "string",
+		"odometerActualReadingQuantity": 0,
+		"trailerRegistrationPlateNumber": "string"
+	},
+	"terminations": [{
+		"companyCode": "string",
+		"expirationDate": "string",
+		"contractReference": "string",
+		"insuranceTypeCode": "BA",
+		"noticeCode": 0
+	}],
+	"contract": {
+		"averageMileagePerYearCount": 0,
+		"contractEffectiveDateKnown": true,
+		"contractEffectiveDate": "string",
+		"propositionDate": "string",
+		"bonusMalus": "string",
+		"promotionalCode": "string",
+		"additionalInsurance": true,
+		"yearsProvableInsured": 0,
+		"contractTypeCode": "1",
+		"insuredValueTypeCode": "1",
+		"coverageCluster": [{
+			"coverage": "string",
+			"selectedByCustomer": true,
+			"insuranceContinuation": true,
+			"deductableType": "V",
+			"deductableValue": 0,
+			"deductablePercentage": 0,
+			"claimsCountPastFiveYears": {
+				"total": 0,
+				"totalResponsible": 0
+			}
+		}],
+		"payment": {
+			"frequencyCode": "1",
+			"meansCode": "1",
+			"accountnumber": "string"
+		},
+		"purchaseSituationCode": true
+	}
+}]</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="quote" path="/external/vehicle/insurance/v2/quote" id="5ecfd570-127b-4c3d-b571-10773dc3ef41"><con:settings/><con:parameters/><con:method name="Method 1" id="d2e6cd2d-953d-44b9-856f-764c794a94e2" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>401</con:status><con:params/><con:element xmlns:quot="https://test.api.coronadirect.be/external/vehicle/insurance/v2/quote">quot:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="c40def70-b071-4b47-a9ec-25b016de19cf" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request>[{
+	"requester": {
+		"organizationIdentifier": "string",
+		"transactionIdentifier": "string",
+		"coronaTransactionIdentifier": "string"
+	},
+	"parties": [{
+		"familyName": "string",
+		"firstGivenName": "string",
+		"streetName": "string",
+		"houseNumberIdentifier": "string",
+		"boxNumberIdentifier": "string",
+		"postalCode": "string",
+		"cityName": "string",
+		"homeTelephone": "string",
+		"birthDate": "string",
+		"genderCode": "1",
+		"languageCodee": "1",
+		"professionCategoryCodee": "0",
+		"drivingLicenceDate": "string",
+		"emailAddress": "string",
+		"optInCorona": true,
+		"optInPartners": true,
+		"mobileTelephone": "string",
+		"exclusionIndicator": true,
+		"convictionDeclaration": true,
+		"rejectionDeclaration": true,
+		"vatStatusCode": "string",
+		"identifier": "string",
+		"roleCode": "VN"
+	}],
+	"vehicle": {
+		"categoryCode": "string",
+		"eurotaxCode": 0,
+		"specification": {
+			"vehicleMakeName": "string",
+			"vehicleTypeName": "string",
+			"engineCapacityMeasure": 0,
+			"vehicleTypeCode": "string",
+			"additionalSeatsCount": 0,
+			"fuelTypeCode": "string",
+			"cylinderCapacity": 0,
+			"wheelsCount": 0,
+			"length": 0,
+			"height": 0
+		},
+		"vehicleFirstBroughtInTrafficDate": "string",
+		"vehicleUnitPriceAmount": 0,
+		"equipmentUnitPriceAmount": 0,
+		"audioUnitPriceAmount": 0,
+		"propertyTypeCode": "1",
+		"vehicleUseCode": "1",
+		"securitySystemTypeCode": "0",
+		"garagingTypeCode": "0",
+		"trailerTypeCode": "0",
+		"maximumAuthorisedWeightQuantity": 0,
+		"dangerousGoodsTypeCode": "string",
+		"constructionUnitPriceAmount": 0,
+		"vehicleRegistrationPlateNumber": "string",
+		"chassisNumber": "string",
+		"odometerActualReadingQuantity": 0,
+		"trailerRegistrationPlateNumber": "string"
+	},
+	"contract": {
+		"averageMileagePerYearCount": 0,
+		"contractEffectiveDateKnown": true,
+		"contractEffectiveDate": "string",
+		"propositionDate": "string",
+		"bonusMalus": "string",
+		"promotionalCode": "string",
+		"additionalInsurance": true,
+		"yearsProvableInsured": 0,
+		"contractTypeCode": "1",
+		"insuredValueTypeCode": "1",
+		"coverageCluster": [{
+			"coverage": "string",
+			"selectedByCustomer": true,
+			"insuranceContinuation": true,
+			"deductableType": "V",
+			"deductableValue": 0,
+			"deductablePercentage": 0,
+			"claimsCountPastFiveYears": {
+				"total": 0,
+				"totalResponsible": 0
+			}
+		}],
+		"payment": {
+			"frequencyCode": "1",
+			"meansCode": "1",
+			"accountnumber": "string"
+		},
+		"purchaseSituationCode": true
+	}
+}]</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="3b0177aa-47a3-4729-8321-0458937463f7" name="CAR"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="b8008cce-e61f-4587-910c-bd966df95551" failOnError="false" failTestCaseOnErrors="false" keepSession="false" maxResults="0" name="QUOTE-INT" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="groovy" name="GroovyScript" id="83423f68-afc1-417a-be82-e9e0cead6ba8"><con:settings/><con:config><script><![CDATA[import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+import groovy.json.JsonSlurper
+
+tCase = testRunner.testCase.testSuite.testCases[context.getTestCase().getLabel()]
+
+def cleanTest() {
+    def propertyNames = tCase.getPropertyNames()
+    for (name in propertyNames) {
+        tCase.removeProperty(name)
+    }
+}
+
+def execStep(es, j) {
+    tStep01 = tCase.testSteps[es]
+    tStep01.run(testRunner, context)
+    jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
+    if (jsonSlurper != "") {
+    		returnCode = "err000"
+        statusVerb = "passed"
+        def propertyNames = tCase.getPropertyNames()
+        for (name in propertyNames) {
+            if (name.substring(0, 2) == "c_") {
+                checkValue = tCase.getPropertyValue(name).split("<-")
+                if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
+                    statusVerb = "failed"
+                    returnCode = "err001"
+                }
+            }
+        }
+    }
+    return returnCode + " Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
+}
+
+def readXls(fn) {
+    Workbook workbook1 = Workbook.getWorkbook(new File(fn))
+    Sheet sheet1 = workbook1.getSheet(0)
+    sizeR = sheet1.getRows().toInteger() - 1
+    sizeC = sheet1.getColumns().toInteger() - 1
+    sysarray = new Object[sizeC + 1][sizeR + 1]
+    def i = 0, j = 0
+    while (j <= sizeR) {
+        while (i <= sizeC) {
+            cellValue = " "
+            if (sheet1.getCell(i, j).getContents() != "") {
+                cellValue = sheet1.getCell(i, j).getContents()
+            }
+            sysarray[i][j] = cellValue
+            log.info(sysarray[i][0] + " <- " + cellValue)
+            i++
+        }
+        i = 0
+        j++
+    }
+    workbook1.close()
+    j = 0
+}
+
+def execSet(from, to, es) {
+    ArrayList err = []
+    cleanTest()
+    def i = 0, j = from
+    while (j <= to && j <= sizeR) {
+        while (i <= sizeC) {
+            tCase.setPropertyValue(sysarray[i][0], sysarray[i][j])
+            log.info(sysarray[i][0] + " : " + sysarray[i][j])
+            i++
+        }
+        a = execStep es, j
+        if(a.substring(0,6) != "err000"){
+        	err.add(a)
+        }
+        
+        i = 0
+        j++
+    }
+    if (err.size() > 0) {
+        throw new Exception("\n" + err)
+    }
+    j = 0
+}
+
+//###########################################
+
+readXls "C:\\Temp\\mMethod\\car-quote-int.xls"
+execSet 1, 3, "process"]]></script></con:config></con:testStep><con:testStep type="restrequest" name="process" id="48b32d16-5792-4875-83e9-215298964a19"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/quote" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="73e09949-db67-4404-82b9-9d26f6293928" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="${#TestCase#p_key}"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+  &lt;con:entry key="Content-Type" value="application/json"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://${#TestCase#p_env}.api.coronadirect.be</con:endpoint><con:request>[{
+    "requester": {
+        "organizationIdentifier": "CORONA",
+        "transactionIdentifier": "abcdef123456789",
+        "coronaTransactionIdentifier": "abcdef123456789"
+    },
+    "parties": [
+        {
+            "familyName": "Klant",
+            "firstGivenName": "Test Senior",
+            "streetName": "Brusselsesteenweg",
+            "houseNumberIdentifier": "2",
+            "boxNumberIdentifier": "A",
+            "postalCode": "2800",
+            "cityName": "MECHELEN",
+            "birthDate": "1960-10-01",
+            "genderCode": "1",
+            "languageCode": "2",
+            "professionCategoryCode": "23",
+            "drivingLicenceDate": "1980-02-02",
+            "vatStatusCode": "1",
+            "mobileTelephone": "0499119911",
+            "homeTelephone": "03818181",
+            "emailAddress": "testsenior.klant@gmail.com",
+            "roleCode": [
+                "VN"
+            ]
+        },
+        {
+            "familyName": "Klant",
+            "firstGivenName": "Test Junior",
+            "streetName": "Brusselsesteenweg",
+            "houseNumberIdentifier": "2",
+            "boxNumberIdentifier": "A",
+            "postalCode": "2800",
+            "cityName": "MECHELEN",
+            "birthDate": "1980-10-01",
+            "genderCode": "1",
+            "languageCode": "2",
+            "professionCategoryCode": "2",
+            "drivingLicenceDate": "2000-02-02",
+            "vatStatusCode": "1",
+            "roleCode": [
+                "MD"
+            ]
+        }
+    ],
+    "vehicle": {
+        "categoryCode": "MV",
+        "vehicleFirstBroughtInTrafficYear": ${#TestCase#p_vehicleFirstBroughtInTrafficYear},
+        "purchaseAmountInclTax": ${#TestCase#p_purchaseAmountInclTax},
+        "propertyTypeCode": "1",
+        "specification": {
+            "vehicleMakeName": "Peugeot",
+            "length": ${#TestCase#p_length},//4.76
+            "heigth": ${#TestCase#p_height} //1.55
+        }
+    },
+    "contract": {
+        "averageMileagePerYearCount": 7500,
+        "contractEffectiveDateKnown": true,
+        "contractEffectiveDate": "2022-05-05",
+        "yearsProvableInsured": 5,
+        "situationCode": 1,
+        "otherYoungDriver": true,
+        "increaseInsuredAmount": true,
+        "coverageCluster": [
+            {
+                "coverage": "BA",
+                "insuranceContinuation": false,
+                "claimsCountPastFiveYears": {
+                    "total": 2,
+                    "totalResponsible": 1
+                }
+            },
+            {
+                "coverage": "FO",
+                "insuranceContinuation": false,
+                "deductableValue": 500,
+                "deductableType": "V"
+            }
+        ],
+        "payment": {
+            "frequencyCode": "12",
+            "meansCode": "1"
+        }
+    }
+}]</con:request><con:originalUri>https://test.api.coronadirect.be/external/vehicle/insurance/v2/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>p_env</con:name><con:value>test</con:value></con:property><con:property><con:name>p_key</con:name><con:value>aff574a957d64a5488fcde1e0ba2aef3</con:value></con:property><con:property><con:name>p_vehicleFirstBroughtInTrafficYear</con:name><con:value>2000</con:value></con:property><con:property><con:name>p_purchaseAmountInclTax</con:name><con:value>2003</con:value></con:property><con:property><con:name>p_length</con:name><con:value>4.78</con:value></con:property><con:property><con:name>p_height</con:name><con:value>1.57</con:value></con:property><con:property><con:name>c_check1</con:name><con:value>results.deductableinfo.value&lt;-501</con:value></con:property></con:properties></con:testCase><con:testCase id="541bf79b-5a41-43b4-a9b9-aa36a90fc0f1" failOnError="false" failTestCaseOnErrors="false" keepSession="false" maxResults="0" name="QUOTE-ACC" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="groovy" name="GroovyScript" id="fb3b1bf4-95bf-4307-92e7-d735901e0b5e"><con:settings/><con:config><script><![CDATA[import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+import groovy.json.JsonSlurper
+
+tCase = testRunner.testCase.testSuite.testCases[context.getTestCase().getLabel()]
+
+def cleanTest() {
+    def propertyNames = tCase.getPropertyNames()
+    for (name in propertyNames) {
+        tCase.removeProperty(name)
+    }
+}
+
+def execStep(es, j) {
+    tStep01 = tCase.testSteps[es]
+    tStep01.run(testRunner, context)
+    jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
+    if (jsonSlurper != "") {
+    		returnCode = "err000"
+        statusVerb = "passed"
+        def propertyNames = tCase.getPropertyNames()
+        for (name in propertyNames) {
+            if (name.substring(0, 2) == "c_") {
+                checkValue = tCase.getPropertyValue(name).split("<-")
+                if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
+                    statusVerb = "failed"
+                    returnCode = "err001"
+                }
+            }
+        }
+    }
+    return returnCode + " Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
+}
+
+def readXls(fn) {
+    Workbook workbook1 = Workbook.getWorkbook(new File(fn))
+    Sheet sheet1 = workbook1.getSheet(0)
+    sizeR = sheet1.getRows().toInteger() - 1
+    sizeC = sheet1.getColumns().toInteger() - 1
+    sysarray = new Object[sizeC + 1][sizeR + 1]
+    def i = 0, j = 0
+    while (j <= sizeR) {
+        while (i <= sizeC) {
+            cellValue = " "
+            if (sheet1.getCell(i, j).getContents() != "") {
+                cellValue = sheet1.getCell(i, j).getContents()
+            }
+            sysarray[i][j] = cellValue
+            log.info(sysarray[i][0] + " <- " + cellValue)
+            i++
+        }
+        i = 0
+        j++
+    }
+    workbook1.close()
+    j = 0
+}
+
+def execSet(from, to, es) {
+    ArrayList err = []
+    cleanTest()
+    def i = 0, j = from
+    while (j <= to && j <= sizeR) {
+        while (i <= sizeC) {
+            tCase.setPropertyValue(sysarray[i][0], sysarray[i][j])
+            log.info(sysarray[i][0] + " : " + sysarray[i][j])
+            i++
+        }
+        a = execStep es, j
+        if(a.substring(0,6) != "err000"){
+        	err.add(a)
+        }
+        
+        i = 0
+        j++
+    }
+    if (err.size() > 0) {
+        throw new Exception("\n" + err)
+    }
+    j = 0
+}
+
+//###########################################
+
+readXls "C:\\Temp\\mMethod\\car-quote-acc.xls"
+execSet 1, 3, "process"]]></script></con:config></con:testStep><con:testStep type="restrequest" name="process" id="5df806c1-1376-447d-8dd0-20eb8b30f980"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/quote" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="73e09949-db67-4404-82b9-9d26f6293928" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="${#TestCase#p_key}"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+  &lt;con:entry key="Content-Type" value="application/json"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://${#TestCase#p_env}.api.coronadirect.be</con:endpoint><con:request>[{
+    "requester": {
+        "organizationIdentifier": "CORONA",
+        "transactionIdentifier": "abcdef123456789",
+        "coronaTransactionIdentifier": "abcdef123456789"
+    },
+    "parties": [
+        {
+            "familyName": "Klant",
+            "firstGivenName": "Test Senior",
+            "streetName": "Brusselsesteenweg",
+            "houseNumberIdentifier": "2",
+            "boxNumberIdentifier": "A",
+            "postalCode": "2800",
+            "cityName": "MECHELEN",
+            "birthDate": "1960-10-01",
+            "genderCode": "1",
+            "languageCode": "2",
+            "professionCategoryCode": "23",
+            "drivingLicenceDate": "1980-02-02",
+            "vatStatusCode": "1",
+            "mobileTelephone": "0499119911",
+            "homeTelephone": "03818181",
+            "emailAddress": "testsenior.klant@gmail.com",
+            "roleCode": [
+                "VN"
+            ]
+        },
+        {
+            "familyName": "Klant",
+            "firstGivenName": "Test Junior",
+            "streetName": "Brusselsesteenweg",
+            "houseNumberIdentifier": "2",
+            "boxNumberIdentifier": "A",
+            "postalCode": "2800",
+            "cityName": "MECHELEN",
+            "birthDate": "1980-10-01",
+            "genderCode": "1",
+            "languageCode": "2",
+            "professionCategoryCode": "2",
+            "drivingLicenceDate": "2000-02-02",
+            "vatStatusCode": "1",
+            "roleCode": [
+                "MD"
+            ]
+        }
+    ],
+    "vehicle": {
+        "categoryCode": "MV",
+        "vehicleFirstBroughtInTrafficYear": ${#TestCase#p_vehicleFirstBroughtInTrafficYear},
+        "purchaseAmountInclTax": ${#TestCase#p_purchaseAmountInclTax},
+        "propertyTypeCode": "1",
+        "specification": {
+            "vehicleMakeName": "Peugeot",
+            "length": ${#TestCase#p_length},//4.76
+            "heigth": ${#TestCase#p_height} //1.55
+        }
+    },
+    "contract": {
+        "averageMileagePerYearCount": 7500,
+        "contractEffectiveDateKnown": true,
+        "contractEffectiveDate": "2022-05-05",
+        "yearsProvableInsured": 5,
+        "situationCode": 1,
+        "otherYoungDriver": true,
+        "increaseInsuredAmount": true,
+        "coverageCluster": [
+            {
+                "coverage": "BA",
+                "insuranceContinuation": false,
+                "claimsCountPastFiveYears": {
+                    "total": 2,
+                    "totalResponsible": 1
+                }
+            },
+            {
+                "coverage": "FO",
+                "insuranceContinuation": false,
+                "deductableValue": 500,
+                "deductableType": "V"
+            }
+        ],
+        "payment": {
+            "frequencyCode": "12",
+            "meansCode": "1"
+        }
+    }
+}]</con:request><con:originalUri>https://test.api.coronadirect.be/external/vehicle/insurance/v2/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>p_env</con:name><con:value>acc</con:value></con:property><con:property><con:name>p_key</con:name><con:value>d8570050ca6446e0895bc7329750c795</con:value></con:property><con:property><con:name>p_vehicleFirstBroughtInTrafficYear</con:name><con:value>2000</con:value></con:property><con:property><con:name>p_purchaseAmountInclTax</con:name><con:value>2003</con:value></con:property><con:property><con:name>p_length</con:name><con:value>4.78</con:value></con:property><con:property><con:name>p_height</con:name><con:value>1.57</con:value></con:property><con:property><con:name>c_check1</con:name><con:value>results.deductableinfo.value&lt;-501</con:value></con:property></con:properties></con:testCase><con:testCase id="cff7d838-88cd-4684-9c60-ed4464fceb6d" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OFFER-INT" searchProperties="true"><con:settings/><con:testStep type="groovy" name="GroovyScript" id="656157c1-5407-4adb-936e-f21cdbbb48b5"><con:settings/><con:config><script><![CDATA[import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+import groovy.json.JsonSlurper
+
+tCase = testRunner.testCase.testSuite.testCases[context.getTestCase().getLabel()]
+
+def cleanTest() {
+    def propertyNames = tCase.getPropertyNames()
+    for (name in propertyNames) {
+        tCase.removeProperty(name)
+    }
+}
+
+def execStep(es, j) {
+    tStep01 = tCase.testSteps[es]
+    tStep01.run(testRunner, context)
+    jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
+    if (jsonSlurper != "") {
+    		returnCode = "err000"
+        statusVerb = "passed"
+        def propertyNames = tCase.getPropertyNames()
+        for (name in propertyNames) {
+            if (name.substring(0, 2) == "c_") {
+                checkValue = tCase.getPropertyValue(name).split("<-")
+                if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
+                    statusVerb = "failed"
+                    returnCode = "err001"
+                }
+            }
+        }
+    }
+    return returnCode + " Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
+}
+
+def readXls(fn) {
+    Workbook workbook1 = Workbook.getWorkbook(new File(fn))
+    Sheet sheet1 = workbook1.getSheet(0)
+    sizeR = sheet1.getRows().toInteger() - 1
+    sizeC = sheet1.getColumns().toInteger() - 1
+    sysarray = new Object[sizeC + 1][sizeR + 1]
+    def i = 0, j = 0
+    while (j <= sizeR) {
+        while (i <= sizeC) {
+            cellValue = " "
+            if (sheet1.getCell(i, j).getContents() != "") {
+                cellValue = sheet1.getCell(i, j).getContents()
+            }
+            sysarray[i][j] = cellValue
+            log.info(sysarray[i][0] + " <- " + cellValue)
+            i++
+        }
+        i = 0
+        j++
+    }
+    workbook1.close()
+    j = 0
+}
+
+def execSet(from, to, es) {
+    ArrayList err = []
+    cleanTest()
+    def i = 0, j = from
+    while (j <= to && j <= sizeR) {
+        while (i <= sizeC) {
+            tCase.setPropertyValue(sysarray[i][0], sysarray[i][j])
+            log.info(sysarray[i][0] + " : " + sysarray[i][j])
+            i++
+        }
+        a = execStep es, j
+        if(a.substring(0,6) != "err000"){
+        	err.add(a)
+        }
+        
+        i = 0
+        j++
+    }
+    if (err.size() > 0) {
+        throw new Exception("\n" + err)
+    }
+    j = 0
+}
+
+//###########################################
+
+readXls "C:\\Temp\\mMethod\\car-offer-int.xls"
+execSet 1, 3, "process"]]></script></con:config></con:testStep><con:testStep type="restrequest" name="process" id="43138d52-31ff-4847-a499-0a00bc9c96a1"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="26d0b5a9-e330-4afa-ac52-1934079090eb" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="${#TestCase#p_key}"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+  &lt;con:entry key="Content-Type" value="application/json"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://${#TestCase#p_env}.api.coronadirect.be</con:endpoint><con:request>{
+	"vehicle": {
+		"vehicleUseCode": "1",
+		"vehicleRegistrationPlateNumber": "2ASN888",
+		"vehicleFirstBroughtInTrafficYear": "2019",
+		"trailerTypeCode": "0",
+		"specification": {
+			"vehicleTypeName": "KANGOO EXPRESS MAXI ZE - 2013",
+			"vehicleMakeName": "RENAULT",
+			"length": 4500,
+			"height": 1500,
+			"fuelTypeCode": "5"
+		},
+		"securitySystemTypeCode": "8",
+		"purchaseAmountInclTax": 12345.0,
+		"propertyTypeCode": "1",
+		"odometerActualReadingQuantity": 9,
+		"equipmentUnitPriceAmount": 0,
+		"chassisNumber": "11111111111111115",
+		"categoryCode": "LV"
+	},
+	"requester": {
+		"transactionIdentifier": "9894B0E871BED757DC5FE0CD7214A599",
+		"organizationIdentifier": "CORONA",
+		"digitalSigning": true,
+		"coronaTransactionIdentifier": "E915E759C371A87CF4483BAE140C9C5A"
+	},
+	"parties": [{
+		"vatStatusCode": "1",
+		"streetName": "Beekveldrede",
+		"roleCode": ["VN"],
+		"rejectionDeclaration": false,
+		"professionCategoryCode": "24",
+		"postalCode": "9340",
+		"optInPartners": false,
+		"optInCorona": false,
+		"languageCode": "1",
+		"houseNumberIdentifier": "1000",
+		"genderCode": "2",
+		"firstGivenName": "INTCARTWOOFFER-I",
+		"familyName": "INTCARTWOOFFER-I",
+		"exclusionIndicator": false,
+		"emailAddress": "michael.kulpok@coronadirect.be",
+		"drivingLicenceDate": "2009-01-01",
+		"convictionDeclaration": false,
+		"cityName": "VLIERZELE (LEDE)",
+		"boxNumberIdentifier": "000a",
+		"birthDate": "1991-03-02"
+	}, {
+		"vatStatusCode": "1",
+		"streetName": "Beekveldrede",
+		"roleCode": ["MD"],
+		"rejectionDeclaration": false,
+		"professionCategoryCode": "24",
+		"postalCode": "9340",
+		"optInPartners": false,
+		"optInCorona": false,
+		"languageCode": "1",
+		"houseNumberIdentifier": "1000",
+		"genderCode": "2",
+		"firstGivenName": "INTCARTWOOFFER-I-HB",
+		"familyName": "INTCARTWOOFFER-I-HB",
+		"exclusionIndicator": false,
+		"drivingLicenceDate": "2007-01-01",
+		"convictionDeclaration": false,
+		"cityName": "VLIERZELE (LEDE)",
+		"boxNumberIdentifier": "000a",
+		"birthDate": "1989-04-16"
+	}],
+	"contract": {
+		"yearsProvableInsured": 5,
+		"situationCode": 2,
+		"propositionDate": "2022-02-09",
+		"payment": {
+			"meansCode": "1",
+			"frequencyCode": "12",
+			"accountnumber": "BE33734051811446"
+		},
+		"otherYoungDriver": true,
+		"increaseInsuredAmount": true,
+		"coverageCluster": [{
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"deductableValue": 250,
+			"deductableType": "V",
+			"coverage": "FO"
+		}, {
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"coverage": "BA",
+			"claimsCountPastFiveYears": {
+				"totalResponsible": 0,
+				"total": 1
+			}
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "CD"
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "ST"
+		}, {
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"coverage": "SP"
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "RB"
+		}],
+		"contractEffectiveDateKnown": true,
+		"contractEffectiveDate": "${#TestCase#p_contractEffectiveDate}",
+		"averageMileagePerYearCount": 9999,
+		"additionalInsurance": false
+	}
+}</con:request><con:originalUri>https://test.api.coronadirect.be/external/vehicle/insurance/v2/offer</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>p_env</con:name><con:value>test</con:value></con:property><con:property><con:name>p_key</con:name><con:value>aff574a957d64a5488fcde1e0ba2aef3</con:value></con:property><con:property><con:name>p_contractEffectiveDate</con:name><con:value>2022-05-05</con:value></con:property><con:property><con:name>c_check1</con:name><con:value>control.applicationReturnCode&lt;-00000</con:value></con:property></con:properties></con:testCase><con:testCase id="ad68ef31-654d-4e84-9c96-dd7e8d0b467e" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OFFER-ACC" searchProperties="true"><con:settings/><con:testStep type="groovy" name="GroovyScript" id="70e1fb80-662f-436c-a3ad-0f2593c73ec9"><con:settings/><con:config><script><![CDATA[import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+import groovy.json.JsonSlurper
+
+tCase = testRunner.testCase.testSuite.testCases[context.getTestCase().getLabel()]
+
+def cleanTest() {
+    def propertyNames = tCase.getPropertyNames()
+    for (name in propertyNames) {
+        tCase.removeProperty(name)
+    }
+}
+
+def execStep(es, j) {
+    tStep01 = tCase.testSteps[es]
+    tStep01.run(testRunner, context)
+    jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
+    if (jsonSlurper != "") {
+    		returnCode = "err000"
+        statusVerb = "passed"
+        def propertyNames = tCase.getPropertyNames()
+        for (name in propertyNames) {
+            if (name.substring(0, 2) == "c_") {
+                checkValue = tCase.getPropertyValue(name).split("<-")
+                if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
+                    statusVerb = "failed"
+                    returnCode = "err001"
+                }
+            }
+        }
+    }
+    return returnCode + " Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
+}
+
+def readXls(fn) {
+    Workbook workbook1 = Workbook.getWorkbook(new File(fn))
+    Sheet sheet1 = workbook1.getSheet(0)
+    sizeR = sheet1.getRows().toInteger() - 1
+    sizeC = sheet1.getColumns().toInteger() - 1
+    sysarray = new Object[sizeC + 1][sizeR + 1]
+    def i = 0, j = 0
+    while (j <= sizeR) {
+        while (i <= sizeC) {
+            cellValue = " "
+            if (sheet1.getCell(i, j).getContents() != "") {
+                cellValue = sheet1.getCell(i, j).getContents()
+            }
+            sysarray[i][j] = cellValue
+            log.info(sysarray[i][0] + " <- " + cellValue)
+            i++
+        }
+        i = 0
+        j++
+    }
+    workbook1.close()
+    j = 0
+}
+
+def execSet(from, to, es) {
+    ArrayList err = []
+    cleanTest()
+    def i = 0, j = from
+    while (j <= to && j <= sizeR) {
+        while (i <= sizeC) {
+            tCase.setPropertyValue(sysarray[i][0], sysarray[i][j])
+            log.info(sysarray[i][0] + " : " + sysarray[i][j])
+            i++
+        }
+        a = execStep es, j
+        if(a.substring(0,6) != "err000"){
+        	err.add(a)
+        }
+        
+        i = 0
+        j++
+    }
+    if (err.size() > 0) {
+        throw new Exception("\n" + err)
+    }
+    j = 0
+}
+
+//###########################################
+
+readXls "C:\\Temp\\mMethod\\car-offer-acc.xls"
+execSet 1, 3, "process"]]></script></con:config></con:testStep><con:testStep type="restrequest" name="process" id="6bed3be0-0b95-4463-b09c-9e9080c949b0"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="26d0b5a9-e330-4afa-ac52-1934079090eb" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="${#TestCase#p_key}"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+  &lt;con:entry key="Content-Type" value="application/json"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://${#TestCase#p_env}.api.coronadirect.be</con:endpoint><con:request>{
+	"vehicle": {
+		"vehicleUseCode": "1",
+		"vehicleRegistrationPlateNumber": "2ASN888",
+		"vehicleFirstBroughtInTrafficYear": "2019",
+		"trailerTypeCode": "0",
+		"specification": {
+			"vehicleTypeName": "KANGOO EXPRESS MAXI ZE - 2013",
+			"vehicleMakeName": "RENAULT",
+			"length": 4500,
+			"height": 1500,
+			"fuelTypeCode": "5"
+		},
+		"securitySystemTypeCode": "8",
+		"purchaseAmountInclTax": 12345.0,
+		"propertyTypeCode": "1",
+		"odometerActualReadingQuantity": 9,
+		"equipmentUnitPriceAmount": 0,
+		"chassisNumber": "11111111111111115",
+		"categoryCode": "LV"
+	},
+	"requester": {
+		"transactionIdentifier": "9894B0E871BED757DC5FE0CD7214A599",
+		"organizationIdentifier": "CORONA",
+		"digitalSigning": true,
+		"coronaTransactionIdentifier": "E915E759C371A87CF4483BAE140C9C5A"
+	},
+	"parties": [{
+		"vatStatusCode": "1",
+		"streetName": "Beekveldrede",
+		"roleCode": ["VN"],
+		"rejectionDeclaration": false,
+		"professionCategoryCode": "24",
+		"postalCode": "9340",
+		"optInPartners": false,
+		"optInCorona": false,
+		"languageCode": "1",
+		"houseNumberIdentifier": "1000",
+		"genderCode": "2",
+		"firstGivenName": "INTCARTWOOFFER-I",
+		"familyName": "INTCARTWOOFFER-I",
+		"exclusionIndicator": false,
+		"emailAddress": "michael.kulpok@coronadirect.be",
+		"drivingLicenceDate": "2009-01-01",
+		"convictionDeclaration": false,
+		"cityName": "VLIERZELE (LEDE)",
+		"boxNumberIdentifier": "000a",
+		"birthDate": "1991-03-02"
+	}, {
+		"vatStatusCode": "1",
+		"streetName": "Beekveldrede",
+		"roleCode": ["MD"],
+		"rejectionDeclaration": false,
+		"professionCategoryCode": "24",
+		"postalCode": "9340",
+		"optInPartners": false,
+		"optInCorona": false,
+		"languageCode": "1",
+		"houseNumberIdentifier": "1000",
+		"genderCode": "2",
+		"firstGivenName": "INTCARTWOOFFER-I-HB",
+		"familyName": "INTCARTWOOFFER-I-HB",
+		"exclusionIndicator": false,
+		"drivingLicenceDate": "2007-01-01",
+		"convictionDeclaration": false,
+		"cityName": "VLIERZELE (LEDE)",
+		"boxNumberIdentifier": "000a",
+		"birthDate": "1989-04-16"
+	}],
+	"contract": {
+		"yearsProvableInsured": 5,
+		"situationCode": 2,
+		"propositionDate": "2022-02-09",
+		"payment": {
+			"meansCode": "1",
+			"frequencyCode": "12",
+			"accountnumber": "BE33734051811446"
+		},
+		"otherYoungDriver": true,
+		"increaseInsuredAmount": true,
+		"coverageCluster": [{
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"deductableValue": 250,
+			"deductableType": "V",
+			"coverage": "FO"
+		}, {
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"coverage": "BA",
+			"claimsCountPastFiveYears": {
+				"totalResponsible": 0,
+				"total": 1
+			}
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "CD"
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "ST"
+		}, {
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"coverage": "SP"
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "RB"
+		}],
+		"contractEffectiveDateKnown": true,
+		"contractEffectiveDate": "${#TestCase#p_contractEffectiveDate}",
+		"averageMileagePerYearCount": 9999,
+		"additionalInsurance": false
+	}
+}</con:request><con:originalUri>https://test.api.coronadirect.be/external/vehicle/insurance/v2/offer</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>p_env</con:name><con:value>acc</con:value></con:property><con:property><con:name>p_key</con:name><con:value>d8570050ca6446e0895bc7329750c795</con:value></con:property><con:property><con:name>p_contractEffectiveDate</con:name><con:value>2022-05-03</con:value></con:property><con:property><con:name>c_check1</con:name><con:value>control.applicationReturnCode&lt;-00000</con:value></con:property></con:properties></con:testCase><con:properties/></con:testSuite><con:testSuite id="ad37a055-1e87-4b8d-8141-1f4b75ec9113" name="MOTO"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="d5fb1b4d-c7c3-48ae-9514-b6e61a7dad3b" failOnError="false" failTestCaseOnErrors="false" keepSession="false" maxResults="0" name="QUOTE-INT" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="groovy" name="GroovyScript" id="537f7a99-8d0b-4ded-a1be-882009332cf7"><con:settings/><con:config><script><![CDATA[import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+import groovy.json.JsonSlurper
+
+tCase = testRunner.testCase.testSuite.testCases[context.getTestCase().getLabel()]
+
+def cleanTest() {
+    def propertyNames = tCase.getPropertyNames()
+    for (name in propertyNames) {
+        tCase.removeProperty(name)
+    }
+}
+
+def execStep(es, j) {
+    tStep01 = tCase.testSteps[es]
+    tStep01.run(testRunner, context)
+    jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
+    if (jsonSlurper != "") {
+    		returnCode = "err000"
+        statusVerb = "passed"
+        def propertyNames = tCase.getPropertyNames()
+        for (name in propertyNames) {
+            if (name.substring(0, 2) == "c_") {
+                checkValue = tCase.getPropertyValue(name).split("<-")
+                if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
+                    statusVerb = "failed"
+                    returnCode = "err001"
+                }
+            }
+        }
+    }
+    return returnCode + " Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
+}
+
+def readXls(fn) {
+    Workbook workbook1 = Workbook.getWorkbook(new File(fn))
+    Sheet sheet1 = workbook1.getSheet(0)
+    sizeR = sheet1.getRows().toInteger() - 1
+    sizeC = sheet1.getColumns().toInteger() - 1
+    sysarray = new Object[sizeC + 1][sizeR + 1]
+    def i = 0, j = 0
+    while (j <= sizeR) {
+        while (i <= sizeC) {
+            cellValue = " "
+            if (sheet1.getCell(i, j).getContents() != "") {
+                cellValue = sheet1.getCell(i, j).getContents()
+            }
+            sysarray[i][j] = cellValue
+            log.info(sysarray[i][0] + " <- " + cellValue)
+            i++
+        }
+        i = 0
+        j++
+    }
+    workbook1.close()
+    j = 0
+}
+
+def execSet(from, to, es) {
+    ArrayList err = []
+    cleanTest()
+    def i = 0, j = from
+    while (j <= to && j <= sizeR) {
+        while (i <= sizeC) {
+            tCase.setPropertyValue(sysarray[i][0], sysarray[i][j])
+            log.info(sysarray[i][0] + " : " + sysarray[i][j])
+            i++
+        }
+        a = execStep es, j
+        if(a.substring(0,6) != "err000"){
+        	err.add(a)
+        }
+        
+        i = 0
+        j++
+    }
+    if (err.size() > 0) {
+        throw new Exception("\n" + err)
+    }
+    j = 0
+}
+
+//###########################################
+
+readXls "C:\\Temp\\mMethod\\moto-quote-int.xls"
+execSet 1, 3, "process"]]></script></con:config></con:testStep><con:testStep type="restrequest" name="process" id="fd64fdab-6dbe-44e9-9012-e1c59b5ef152"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/quote" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="73e09949-db67-4404-82b9-9d26f6293928" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="${#TestCase#p_key}"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+  &lt;con:entry key="Content-Type" value="application/json"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://${#TestCase#p_env}.api.coronadirect.be</con:endpoint><con:request>[{
+    "requester": {
+        "organizationIdentifier": "CORONA",
+        "transactionIdentifier": "abcdef123456789",
+        "coronaTransactionIdentifier": "abcdef123456789"
+    },
+    "parties": [
+        {
+            "familyName": "Klant",
+            "firstGivenName": "Test Senior",
+            "streetName": "Brusselsesteenweg",
+            "houseNumberIdentifier": "2",
+            "boxNumberIdentifier": "A",
+            "postalCode": "2800",
+            "cityName": "MECHELEN",
+            "birthDate": "1960-10-01",
+            "genderCode": "1",
+            "languageCode": "2",
+            "professionCategoryCode": "23",
+            "drivingLicenceDate": "1980-02-02",
+            "vatStatusCode": "1",
+            "mobileTelephone": "0499119911",
+            "homeTelephone": "03818181",
+            "emailAddress": "testsenior.klant@gmail.com",
+            "roleCode": [
+                "VN"
+            ]
+        },
+        {
+            "familyName": "Klant",
+            "firstGivenName": "Test Junior",
+            "streetName": "Brusselsesteenweg",
+            "houseNumberIdentifier": "2",
+            "boxNumberIdentifier": "A",
+            "postalCode": "2800",
+            "cityName": "MECHELEN",
+            "birthDate": "1980-10-01",
+            "genderCode": "1",
+            "languageCode": "2",
+            "professionCategoryCode": "2",
+            "drivingLicenceDate": "2000-02-02",
+            "vatStatusCode": "1",
+            "roleCode": [
+                "MD"
+            ]
+        }
+    ],
+    "vehicle": {
+        "categoryCode": "MV",
+        "vehicleFirstBroughtInTrafficYear": ${#TestCase#p_vehicleFirstBroughtInTrafficYear},
+        "purchaseAmountInclTax": ${#TestCase#p_purchaseAmountInclTax},
+        "propertyTypeCode": "1",
+        "specification": {
+            "vehicleMakeName": "Peugeot",
+            "length": ${#TestCase#p_length},//4.76
+            "heigth": ${#TestCase#p_height} //1.55
+        }
+    },
+    "contract": {
+        "averageMileagePerYearCount": 7500,
+        "contractEffectiveDateKnown": true,
+        "contractEffectiveDate": "2022-05-05",
+        "yearsProvableInsured": 5,
+        "situationCode": 1,
+        "otherYoungDriver": true,
+        "increaseInsuredAmount": true,
+        "coverageCluster": [
+            {
+                "coverage": "BA",
+                "insuranceContinuation": false,
+                "claimsCountPastFiveYears": {
+                    "total": 2,
+                    "totalResponsible": 1
+                }
+            },
+            {
+                "coverage": "FO",
+                "insuranceContinuation": false,
+                "deductableValue": 500,
+                "deductableType": "V"
+            }
+        ],
+        "payment": {
+            "frequencyCode": "12",
+            "meansCode": "1"
+        }
+    }
+}]</con:request><con:originalUri>https://test.api.coronadirect.be/external/vehicle/insurance/v2/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>p_env</con:name><con:value>test</con:value></con:property><con:property><con:name>p_key</con:name><con:value>aff574a957d64a5488fcde1e0ba2aef3</con:value></con:property><con:property><con:name>p_vehicleFirstBroughtInTrafficYear</con:name><con:value>2000</con:value></con:property><con:property><con:name>p_purchaseAmountInclTax</con:name><con:value>2003</con:value></con:property><con:property><con:name>p_length</con:name><con:value>4.78</con:value></con:property><con:property><con:name>p_height</con:name><con:value>1.57</con:value></con:property><con:property><con:name>c_check1</con:name><con:value>results.deductableinfo.value&lt;-501</con:value></con:property></con:properties></con:testCase><con:testCase id="b83da220-41a9-49ad-bc99-af2c19de3227" failOnError="false" failTestCaseOnErrors="false" keepSession="false" maxResults="0" name="QUOTE-ACC" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="groovy" name="GroovyScript" id="17518999-df27-454c-9aec-92e34bcb62ea"><con:settings/><con:config><script><![CDATA[import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+import groovy.json.JsonSlurper
+
+tCase = testRunner.testCase.testSuite.testCases[context.getTestCase().getLabel()]
+
+def cleanTest() {
+    def propertyNames = tCase.getPropertyNames()
+    for (name in propertyNames) {
+        tCase.removeProperty(name)
+    }
+}
+
+def execStep(es, j) {
+    tStep01 = tCase.testSteps[es]
+    tStep01.run(testRunner, context)
+    jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
+    if (jsonSlurper != "") {
+    		returnCode = "err000"
+        statusVerb = "passed"
+        def propertyNames = tCase.getPropertyNames()
+        for (name in propertyNames) {
+            if (name.substring(0, 2) == "c_") {
+                checkValue = tCase.getPropertyValue(name).split("<-")
+                if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
+                    statusVerb = "failed"
+                    returnCode = "err001"
+                }
+            }
+        }
+    }
+    return returnCode + " Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
+}
+
+def readXls(fn) {
+    Workbook workbook1 = Workbook.getWorkbook(new File(fn))
+    Sheet sheet1 = workbook1.getSheet(0)
+    sizeR = sheet1.getRows().toInteger() - 1
+    sizeC = sheet1.getColumns().toInteger() - 1
+    sysarray = new Object[sizeC + 1][sizeR + 1]
+    def i = 0, j = 0
+    while (j <= sizeR) {
+        while (i <= sizeC) {
+            cellValue = " "
+            if (sheet1.getCell(i, j).getContents() != "") {
+                cellValue = sheet1.getCell(i, j).getContents()
+            }
+            sysarray[i][j] = cellValue
+            log.info(sysarray[i][0] + " <- " + cellValue)
+            i++
+        }
+        i = 0
+        j++
+    }
+    workbook1.close()
+    j = 0
+}
+
+def execSet(from, to, es) {
+    ArrayList err = []
+    cleanTest()
+    def i = 0, j = from
+    while (j <= to && j <= sizeR) {
+        while (i <= sizeC) {
+            tCase.setPropertyValue(sysarray[i][0], sysarray[i][j])
+            log.info(sysarray[i][0] + " : " + sysarray[i][j])
+            i++
+        }
+        a = execStep es, j
+        if(a.substring(0,6) != "err000"){
+        	err.add(a)
+        }
+        
+        i = 0
+        j++
+    }
+    if (err.size() > 0) {
+        throw new Exception("\n" + err)
+    }
+    j = 0
+}
+
+//###########################################
+
+readXls "C:\\Temp\\mMethod\\moto-quote-acc.xls"
+execSet 1, 3, "process"]]></script></con:config></con:testStep><con:testStep type="restrequest" name="process" id="dcc53d65-c841-402d-ba5f-28eec7d70a68"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/quote" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="73e09949-db67-4404-82b9-9d26f6293928" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="${#TestCase#p_key}"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+  &lt;con:entry key="Content-Type" value="application/json"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://${#TestCase#p_env}.api.coronadirect.be</con:endpoint><con:request>[{
+    "requester": {
+        "organizationIdentifier": "CORONA",
+        "transactionIdentifier": "abcdef123456789",
+        "coronaTransactionIdentifier": "abcdef123456789"
+    },
+    "parties": [
+        {
+            "familyName": "Klant",
+            "firstGivenName": "Test Senior",
+            "streetName": "Brusselsesteenweg",
+            "houseNumberIdentifier": "2",
+            "boxNumberIdentifier": "A",
+            "postalCode": "2800",
+            "cityName": "MECHELEN",
+            "birthDate": "1960-10-01",
+            "genderCode": "1",
+            "languageCode": "2",
+            "professionCategoryCode": "23",
+            "drivingLicenceDate": "1980-02-02",
+            "vatStatusCode": "1",
+            "mobileTelephone": "0499119911",
+            "homeTelephone": "03818181",
+            "emailAddress": "testsenior.klant@gmail.com",
+            "roleCode": [
+                "VN"
+            ]
+        },
+        {
+            "familyName": "Klant",
+            "firstGivenName": "Test Junior",
+            "streetName": "Brusselsesteenweg",
+            "houseNumberIdentifier": "2",
+            "boxNumberIdentifier": "A",
+            "postalCode": "2800",
+            "cityName": "MECHELEN",
+            "birthDate": "1980-10-01",
+            "genderCode": "1",
+            "languageCode": "2",
+            "professionCategoryCode": "2",
+            "drivingLicenceDate": "2000-02-02",
+            "vatStatusCode": "1",
+            "roleCode": [
+                "MD"
+            ]
+        }
+    ],
+    "vehicle": {
+        "categoryCode": "MV",
+        "vehicleFirstBroughtInTrafficYear": ${#TestCase#p_vehicleFirstBroughtInTrafficYear},
+        "purchaseAmountInclTax": ${#TestCase#p_purchaseAmountInclTax},
+        "propertyTypeCode": "1",
+        "specification": {
+            "vehicleMakeName": "Peugeot",
+            "length": ${#TestCase#p_length},//4.76
+            "heigth": ${#TestCase#p_height} //1.55
+        }
+    },
+    "contract": {
+        "averageMileagePerYearCount": 7500,
+        "contractEffectiveDateKnown": true,
+        "contractEffectiveDate": "2022-05-05",
+        "yearsProvableInsured": 5,
+        "situationCode": 1,
+        "otherYoungDriver": true,
+        "increaseInsuredAmount": true,
+        "coverageCluster": [
+            {
+                "coverage": "BA",
+                "insuranceContinuation": false,
+                "claimsCountPastFiveYears": {
+                    "total": 2,
+                    "totalResponsible": 1
+                }
+            },
+            {
+                "coverage": "FO",
+                "insuranceContinuation": false,
+                "deductableValue": 500,
+                "deductableType": "V"
+            }
+        ],
+        "payment": {
+            "frequencyCode": "12",
+            "meansCode": "1"
+        }
+    }
+}]</con:request><con:originalUri>https://test.api.coronadirect.be/external/vehicle/insurance/v2/quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>p_env</con:name><con:value>acc</con:value></con:property><con:property><con:name>p_key</con:name><con:value>d8570050ca6446e0895bc7329750c795</con:value></con:property><con:property><con:name>p_vehicleFirstBroughtInTrafficYear</con:name><con:value>2000</con:value></con:property><con:property><con:name>p_purchaseAmountInclTax</con:name><con:value>2003</con:value></con:property><con:property><con:name>p_length</con:name><con:value>4.78</con:value></con:property><con:property><con:name>p_height</con:name><con:value>1.57</con:value></con:property><con:property><con:name>c_check1</con:name><con:value>results.deductableinfo.value&lt;-501</con:value></con:property></con:properties></con:testCase><con:testCase id="f6ef6cc6-b470-4416-ba9b-5d554e4fe939" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OFFER-INT" searchProperties="true"><con:settings/><con:testStep type="groovy" name="GroovyScript" id="6685413b-a080-45dd-bc52-85b84a002882"><con:settings/><con:config><script><![CDATA[import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+import groovy.json.JsonSlurper
+
+tCase = testRunner.testCase.testSuite.testCases[context.getTestCase().getLabel()]
+
+def cleanTest() {
+    def propertyNames = tCase.getPropertyNames()
+    for (name in propertyNames) {
+        tCase.removeProperty(name)
+    }
+}
+
+def execStep(es, j) {
+    tStep01 = tCase.testSteps[es]
+    tStep01.run(testRunner, context)
+    jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
+    if (jsonSlurper != "") {
+    		returnCode = "err000"
+        statusVerb = "passed"
+        def propertyNames = tCase.getPropertyNames()
+        for (name in propertyNames) {
+            if (name.substring(0, 2) == "c_") {
+                checkValue = tCase.getPropertyValue(name).split("<-")
+                if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
+                    statusVerb = "failed"
+                    returnCode = "err001"
+                }
+            }
+        }
+    }
+    return returnCode + " Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
+}
+
+def readXls(fn) {
+    Workbook workbook1 = Workbook.getWorkbook(new File(fn))
+    Sheet sheet1 = workbook1.getSheet(0)
+    sizeR = sheet1.getRows().toInteger() - 1
+    sizeC = sheet1.getColumns().toInteger() - 1
+    sysarray = new Object[sizeC + 1][sizeR + 1]
+    def i = 0, j = 0
+    while (j <= sizeR) {
+        while (i <= sizeC) {
+            cellValue = " "
+            if (sheet1.getCell(i, j).getContents() != "") {
+                cellValue = sheet1.getCell(i, j).getContents()
+            }
+            sysarray[i][j] = cellValue
+            log.info(sysarray[i][0] + " <- " + cellValue)
+            i++
+        }
+        i = 0
+        j++
+    }
+    workbook1.close()
+    j = 0
+}
+
+def execSet(from, to, es) {
+    ArrayList err = []
+    cleanTest()
+    def i = 0, j = from
+    while (j <= to && j <= sizeR) {
+        while (i <= sizeC) {
+            tCase.setPropertyValue(sysarray[i][0], sysarray[i][j])
+            log.info(sysarray[i][0] + " : " + sysarray[i][j])
+            i++
+        }
+        a = execStep es, j
+        if(a.substring(0,6) != "err000"){
+        	err.add(a)
+        }
+        
+        i = 0
+        j++
+    }
+    if (err.size() > 0) {
+        throw new Exception("\n" + err)
+    }
+    j = 0
+}
+
+//###########################################
+
+readXls "C:\\Temp\\mMethod\\moto-offer-int.xls"
+execSet 1, 3, "process"]]></script></con:config></con:testStep><con:testStep type="restrequest" name="process" id="fd5f2f17-5325-4cd4-b12f-e15cf9ebb09e"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="26d0b5a9-e330-4afa-ac52-1934079090eb" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="${#TestCase#p_key}"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+  &lt;con:entry key="Content-Type" value="application/json"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://${#TestCase#p_env}.api.coronadirect.be</con:endpoint><con:request>{
+	"vehicle": {
+		"vehicleUseCode": "1",
+		"vehicleRegistrationPlateNumber": "2ASN888",
+		"vehicleFirstBroughtInTrafficYear": "2019",
+		"trailerTypeCode": "0",
+		"specification": {
+			"vehicleTypeName": "KANGOO EXPRESS MAXI ZE - 2013",
+			"vehicleMakeName": "RENAULT",
+			"length": 4500,
+			"height": 1500,
+			"fuelTypeCode": "5"
+		},
+		"securitySystemTypeCode": "8",
+		"purchaseAmountInclTax": 12345.0,
+		"propertyTypeCode": "1",
+		"odometerActualReadingQuantity": 9,
+		"equipmentUnitPriceAmount": 0,
+		"chassisNumber": "11111111111111115",
+		"categoryCode": "LV"
+	},
+	"requester": {
+		"transactionIdentifier": "9894B0E871BED757DC5FE0CD7214A599",
+		"organizationIdentifier": "CORONA",
+		"digitalSigning": true,
+		"coronaTransactionIdentifier": "E915E759C371A87CF4483BAE140C9C5A"
+	},
+	"parties": [{
+		"vatStatusCode": "1",
+		"streetName": "Beekveldrede",
+		"roleCode": ["VN"],
+		"rejectionDeclaration": false,
+		"professionCategoryCode": "24",
+		"postalCode": "9340",
+		"optInPartners": false,
+		"optInCorona": false,
+		"languageCode": "1",
+		"houseNumberIdentifier": "1000",
+		"genderCode": "2",
+		"firstGivenName": "INTCARTWOOFFER-I",
+		"familyName": "INTCARTWOOFFER-I",
+		"exclusionIndicator": false,
+		"emailAddress": "michael.kulpok@coronadirect.be",
+		"drivingLicenceDate": "2009-01-01",
+		"convictionDeclaration": false,
+		"cityName": "VLIERZELE (LEDE)",
+		"boxNumberIdentifier": "000a",
+		"birthDate": "1991-03-02"
+	}, {
+		"vatStatusCode": "1",
+		"streetName": "Beekveldrede",
+		"roleCode": ["MD"],
+		"rejectionDeclaration": false,
+		"professionCategoryCode": "24",
+		"postalCode": "9340",
+		"optInPartners": false,
+		"optInCorona": false,
+		"languageCode": "1",
+		"houseNumberIdentifier": "1000",
+		"genderCode": "2",
+		"firstGivenName": "INTCARTWOOFFER-I-HB",
+		"familyName": "INTCARTWOOFFER-I-HB",
+		"exclusionIndicator": false,
+		"drivingLicenceDate": "2007-01-01",
+		"convictionDeclaration": false,
+		"cityName": "VLIERZELE (LEDE)",
+		"boxNumberIdentifier": "000a",
+		"birthDate": "1989-04-16"
+	}],
+	"contract": {
+		"yearsProvableInsured": 5,
+		"situationCode": 2,
+		"propositionDate": "2022-02-09",
+		"payment": {
+			"meansCode": "1",
+			"frequencyCode": "12",
+			"accountnumber": "BE33734051811446"
+		},
+		"otherYoungDriver": true,
+		"increaseInsuredAmount": true,
+		"coverageCluster": [{
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"deductableValue": 250,
+			"deductableType": "V",
+			"coverage": "FO"
+		}, {
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"coverage": "BA",
+			"claimsCountPastFiveYears": {
+				"totalResponsible": 0,
+				"total": 1
+			}
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "CD"
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "ST"
+		}, {
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"coverage": "SP"
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "RB"
+		}],
+		"contractEffectiveDateKnown": true,
+		"contractEffectiveDate": "2022-02-10",
+		"averageMileagePerYearCount": 9999,
+		"additionalInsurance": false
+	}
+}</con:request><con:originalUri>https://test.api.coronadirect.be/external/vehicle/insurance/v2/offer</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>p_env</con:name><con:value>test</con:value></con:property><con:property><con:name>p_key</con:name><con:value>aff574a957d64a5488fcde1e0ba2aef3</con:value></con:property><con:property><con:name>p_vehicleFirstBroughtInTrafficYear</con:name><con:value>1998</con:value></con:property><con:property><con:name>p_purchaseAmountInclTax</con:name><con:value>2001</con:value></con:property><con:property><con:name>p_length</con:name><con:value>4.76</con:value></con:property><con:property><con:name>p_height</con:name><con:value>1.55</con:value></con:property><con:property><con:name>c_check1</con:name><con:value>results.deductableinfo.value&lt;-500</con:value></con:property></con:properties></con:testCase><con:testCase id="b9b437a6-5472-4c85-b3a7-43bc9e83bc40" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OFFER-ACC" searchProperties="true"><con:settings/><con:testStep type="groovy" name="GroovyScript" id="e2251a58-cfca-4fc3-8796-9f131c84052e"><con:settings/><con:config><script><![CDATA[import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+import groovy.json.JsonSlurper
+
+tCase = testRunner.testCase.testSuite.testCases[context.getTestCase().getLabel()]
+
+def cleanTest() {
+    def propertyNames = tCase.getPropertyNames()
+    for (name in propertyNames) {
+        tCase.removeProperty(name)
+    }
+}
+
+def execStep(es, j) {
+    tStep01 = tCase.testSteps[es]
+    tStep01.run(testRunner, context)
+    jsonSlurper = new JsonSlurper().parseText(tStep01.testRequest.response.responseContent)
+    if (jsonSlurper != "") {
+    		returnCode = "err000"
+        statusVerb = "passed"
+        def propertyNames = tCase.getPropertyNames()
+        for (name in propertyNames) {
+            if (name.substring(0, 2) == "c_") {
+                checkValue = tCase.getPropertyValue(name).split("<-")
+                if (evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') != checkValue[1]) {
+                    statusVerb = "failed"
+                    returnCode = "err001"
+                }
+            }
+        }
+    }
+    return returnCode + " Row " + j + " " + statusVerb + " -> " + checkValue[0] + " : " + evaluate("jsonSlurper" + "." + checkValue[0]).toString().replace('[', '').replace(']', '') + ", expected value is " + checkValue[1]
+}
+
+def readXls(fn) {
+    Workbook workbook1 = Workbook.getWorkbook(new File(fn))
+    Sheet sheet1 = workbook1.getSheet(0)
+    sizeR = sheet1.getRows().toInteger() - 1
+    sizeC = sheet1.getColumns().toInteger() - 1
+    sysarray = new Object[sizeC + 1][sizeR + 1]
+    def i = 0, j = 0
+    while (j <= sizeR) {
+        while (i <= sizeC) {
+            cellValue = " "
+            if (sheet1.getCell(i, j).getContents() != "") {
+                cellValue = sheet1.getCell(i, j).getContents()
+            }
+            sysarray[i][j] = cellValue
+            log.info(sysarray[i][0] + " <- " + cellValue)
+            i++
+        }
+        i = 0
+        j++
+    }
+    workbook1.close()
+    j = 0
+}
+
+def execSet(from, to, es) {
+    ArrayList err = []
+    cleanTest()
+    def i = 0, j = from
+    while (j <= to && j <= sizeR) {
+        while (i <= sizeC) {
+            tCase.setPropertyValue(sysarray[i][0], sysarray[i][j])
+            log.info(sysarray[i][0] + " : " + sysarray[i][j])
+            i++
+        }
+        a = execStep es, j
+        if(a.substring(0,6) != "err000"){
+        	err.add(a)
+        }
+        
+        i = 0
+        j++
+    }
+    if (err.size() > 0) {
+        throw new Exception("\n" + err)
+    }
+    j = 0
+}
+
+//###########################################
+
+readXls "C:\\Temp\\mMethod\\moto-offer-acc.xls"
+execSet 1, 3, "process"]]></script></con:config></con:testStep><con:testStep type="restrequest" name="process" id="8612bf5b-0db7-4ac7-b3a8-57a98edabe81"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/vehicle/insurance/v2/offer" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="process" id="26d0b5a9-e330-4afa-ac52-1934079090eb" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="${#TestCase#p_key}"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+  &lt;con:entry key="Content-Type" value="application/json"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>https://${#TestCase#p_env}.api.coronadirect.be</con:endpoint><con:request>{
+	"vehicle": {
+		"vehicleUseCode": "1",
+		"vehicleRegistrationPlateNumber": "2ASN888",
+		"vehicleFirstBroughtInTrafficYear": "2019",
+		"trailerTypeCode": "0",
+		"specification": {
+			"vehicleTypeName": "KANGOO EXPRESS MAXI ZE - 2013",
+			"vehicleMakeName": "RENAULT",
+			"length": 4500,
+			"height": 1500,
+			"fuelTypeCode": "5"
+		},
+		"securitySystemTypeCode": "8",
+		"purchaseAmountInclTax": 12345.0,
+		"propertyTypeCode": "1",
+		"odometerActualReadingQuantity": 9,
+		"equipmentUnitPriceAmount": 0,
+		"chassisNumber": "11111111111111115",
+		"categoryCode": "LV"
+	},
+	"requester": {
+		"transactionIdentifier": "9894B0E871BED757DC5FE0CD7214A599",
+		"organizationIdentifier": "CORONA",
+		"digitalSigning": true,
+		"coronaTransactionIdentifier": "E915E759C371A87CF4483BAE140C9C5A"
+	},
+	"parties": [{
+		"vatStatusCode": "1",
+		"streetName": "Beekveldrede",
+		"roleCode": ["VN"],
+		"rejectionDeclaration": false,
+		"professionCategoryCode": "24",
+		"postalCode": "9340",
+		"optInPartners": false,
+		"optInCorona": false,
+		"languageCode": "1",
+		"houseNumberIdentifier": "1000",
+		"genderCode": "2",
+		"firstGivenName": "INTCARTWOOFFER-I",
+		"familyName": "INTCARTWOOFFER-I",
+		"exclusionIndicator": false,
+		"emailAddress": "michael.kulpok@coronadirect.be",
+		"drivingLicenceDate": "2009-01-01",
+		"convictionDeclaration": false,
+		"cityName": "VLIERZELE (LEDE)",
+		"boxNumberIdentifier": "000a",
+		"birthDate": "1991-03-02"
+	}, {
+		"vatStatusCode": "1",
+		"streetName": "Beekveldrede",
+		"roleCode": ["MD"],
+		"rejectionDeclaration": false,
+		"professionCategoryCode": "24",
+		"postalCode": "9340",
+		"optInPartners": false,
+		"optInCorona": false,
+		"languageCode": "1",
+		"houseNumberIdentifier": "1000",
+		"genderCode": "2",
+		"firstGivenName": "INTCARTWOOFFER-I-HB",
+		"familyName": "INTCARTWOOFFER-I-HB",
+		"exclusionIndicator": false,
+		"drivingLicenceDate": "2007-01-01",
+		"convictionDeclaration": false,
+		"cityName": "VLIERZELE (LEDE)",
+		"boxNumberIdentifier": "000a",
+		"birthDate": "1989-04-16"
+	}],
+	"contract": {
+		"yearsProvableInsured": 5,
+		"situationCode": 2,
+		"propositionDate": "2022-02-09",
+		"payment": {
+			"meansCode": "1",
+			"frequencyCode": "12",
+			"accountnumber": "BE33734051811446"
+		},
+		"otherYoungDriver": true,
+		"increaseInsuredAmount": true,
+		"coverageCluster": [{
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"deductableValue": 250,
+			"deductableType": "V",
+			"coverage": "FO"
+		}, {
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"coverage": "BA",
+			"claimsCountPastFiveYears": {
+				"totalResponsible": 0,
+				"total": 1
+			}
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "CD"
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "ST"
+		}, {
+			"selectedByCustomer": true,
+			"insuranceContinuation": false,
+			"coverage": "SP"
+		}, {
+			"selectedByCustomer": true,
+			"coverage": "RB"
+		}],
+		"contractEffectiveDateKnown": true,
+		"contractEffectiveDate": "2022-02-10",
+		"averageMileagePerYearCount": 9999,
+		"additionalInsurance": false
+	}
+}</con:request><con:originalUri>https://test.api.coronadirect.be/external/vehicle/insurance/v2/offer</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>p_env</con:name><con:value>acc</con:value></con:property><con:property><con:name>p_key</con:name><con:value>d8570050ca6446e0895bc7329750c795</con:value></con:property><con:property><con:name>p_vehicleFirstBroughtInTrafficYear</con:name><con:value>1998</con:value></con:property><con:property><con:name>p_purchaseAmountInclTax</con:name><con:value>2001</con:value></con:property><con:property><con:name>p_length</con:name><con:value>4.76</con:value></con:property><con:property><con:name>p_height</con:name><con:value>1.55</con:value></con:property><con:property><con:name>c_check1</con:name><con:value>results.deductableinfo.value&lt;-500</con:value></con:property></con:properties></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
