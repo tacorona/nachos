@@ -418,12 +418,11 @@ for(def i=1; i<totalRows; i++){
 		variables.setPropertyValue(var.getName(),Functions.getCellValue(cell))
 	}
 	
-	//API call .run()
-	def tStep = tCaseRun.getTestStepByName("Offer")
-	def runner = tStep.run(testRunner, context)
 
 //-- REQUEST --
 	//API call .run()
+	def tStep = tCaseRun.getTestStepByName("Offer")
+	def runner = tStep.run(testRunner, context)
 	request = runner.getTestStep().getPropertyValue('RawRequest')
 	
 	//Create requestLog
