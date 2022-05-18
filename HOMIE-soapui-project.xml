@@ -176,7 +176,7 @@ for(def i=1; i<totalRows; i++){
 		fail = true
 		errorLog << "JSON error"
 		errorLog << httpStatus
-		Functions.errorLines << "FAIL line " + row + " : JSON error \n"
+		Functions.errorLines << "FAIL line " + i + " : JSON error \n"
 	}
 		
 	//Create and write .txt logs
