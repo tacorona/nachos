@@ -81,7 +81,7 @@ import groovy.json.JsonSlurper
 
 
 //Global variables
-def stopAtLine = 0  //0 = run all
+def stopAtLine = 3  //0 = run all
 def excelName = "Testcases-Homie-Offer"
 date = new Date().format( 'yyyyMMdd' )
 def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
@@ -92,16 +92,12 @@ def tCaseRun = testRunner.testCase.testSuite.testCases["OFFER"]
 def fail = false
 errorLog = []
 
-
-
-
 //Initiate external Functions.groovy
 GroovyScriptEngine gse = new GroovyScriptEngine(projectPath)
 externalScript = gse.loadScriptByName("Functions.groovy")  
 Functions = externalScript.newInstance(context: context, log: log, testRunner: testRunner)
 Functions.printCall()
 
-	
 // Initiate EXCEL
 def inputStream = new FileInputStream(projectPath + "\\" + excelName + ".xls");
 HSSFWorkbook wb = new HSSFWorkbook(inputStream);
@@ -122,16 +118,13 @@ for(def i=1; i<totalRows; i++){
 	errorLog.clear()
 	fail = false
 	def row = ws.getRow(i)
-
 	//Populate variables with data from excel
 	for (var in variables.getPropertyList()){
 		//correct column of given row is selected using the function 'getColumn()
 		Cell cell = row.getCell(Functions.getColumn(var.getName(), ws, totalColumns))
-
 		//the variable name is extracted from property list. Value from cell is extracted with function
 		variables.setPropertyValue(var.getName(),Functions.getCellValue(cell))
 	}
-	
 
 //-- REQUEST --
 	//API call .run()
@@ -144,13 +137,11 @@ for(def i=1; i<totalRows; i++){
 	//Create requestLog
 	def requestLog = new File(projectPath + "\\Requests\\" + date + "\\row " + (i+1) +".txt");
 	requestLog.write (request);
-
-
+	
 // -- RESPONSE --
 	def httpResponseHeaders = runner.getTestStep().testRequest.response.responseHeaders
 	def httpStatus = httpResponseHeaders["#status#"]
 	def httpStatusCode = (httpStatus =~ "[1-5]\\d\\d")[0]
-
 	
 	//if JSON is not correct, statusCode will be 500
 	if (httpStatusCode != "500"){
@@ -168,7 +159,6 @@ for(def i=1; i<totalRows; i++){
 			errorLog.addAll(Functions.createErrorLogText("ApplicationReturnCode not "+ variables.getPropertyValue("returnCode")+" \n" + "errorMessage: " + object.control.errorMessage ,variables.getPropertyValue("returnCode"),object.control.applicationReturnCode))
 		}
 	}
-
 	
 // -- CREATE LOGS --
 	// When httpStatusCode == 500:
@@ -176,7 +166,7 @@ for(def i=1; i<totalRows; i++){
 		fail = true
 		errorLog << "JSON error"
 		errorLog << httpStatus
-		Functions.errorLines << "FAIL line " + i + " : JSON error \n"
+		Functions.errorLines << "FAIL line " + (i+1) + " : JSON error \n"
 	}
 		
 	//Create and write .txt logs
@@ -186,7 +176,6 @@ for(def i=1; i<totalRows; i++){
 	else{
 		Functions.rowPassed(i, row);
 	}
-
 	//stop loop
 	if(i == stopAtLine){
 		break;
@@ -194,6 +183,4 @@ for(def i=1; i<totalRows; i++){
 }
 
 // -- AFTER ALL --
-Functions.finishTestSuite(excelName, projectPath, wb);
-
-]]></script></con:config></con:testStep><con:testStep type="properties" name="Variables" id="fbb28813-58a4-4340-b631-cce91f7d80b6"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>cityName</con:name><con:value>BRUGGE</con:value></con:property><con:property><con:name>commercialUsageIndicator</con:name><con:value>false</con:value></con:property><con:property><con:name>contentsAmount</con:name><con:value>60000</con:value></con:property><con:property><con:name>contractEffectiveDate</con:name><con:value>2022-06-25</con:value></con:property><con:property><con:name>dwellingTypeCode</con:name><con:value>2</con:value></con:property><con:property><con:name>groundFloor</con:name><con:value>false</con:value></con:property><con:property><con:name>houseNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>housePropertyTypeCode</con:name><con:value>3</con:value></con:property><con:property><con:name>postalCode</con:name><con:value>8000</con:value></con:property><con:property><con:name>rentMonthlyAmount</con:name><con:value>750</con:value></con:property><con:property><con:name>returnCode</con:name><con:value>00000</con:value></con:property><con:property><con:name>roofTypeCode</con:name><con:value>2</con:value></con:property><con:property><con:name>secondHomeIndicator</con:name><con:value>false</con:value></con:property><con:property><con:name>streetName</con:name><con:value>'t Pand</con:value></con:property><con:property><con:name>verandaCount</con:name><con:value>0</con:value></con:property><con:property><con:name>boxNumberIdentifier</con:name><con:value/></con:property><con:property><con:name>coverageChoice</con:name><con:value>standard</con:value></con:property><con:property><con:name>contentsTopup</con:name><con:value>false</con:value></con:property><con:property><con:name>insidePool</con:name><con:value>false</con:value></con:property><con:property><con:name>contractEffectiveDateKnown</con:name><con:value>false</con:value></con:property><con:property><con:name>frequencyCode</con:name><con:value>12</con:value></con:property></con:properties></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>BaseURL</con:name><con:value>https://test.api.coronadirect.be</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+Functions.finishTestSuite(excelName, projectPath, wb);]]></script></con:config></con:testStep><con:testStep type="properties" name="Variables" id="fbb28813-58a4-4340-b631-cce91f7d80b6"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>cityName</con:name><con:value>Sint-joost-ten-noode</con:value></con:property><con:property><con:name>commercialUsageIndicator</con:name><con:value>false</con:value></con:property><con:property><con:name>contentsAmount</con:name><con:value>25000</con:value></con:property><con:property><con:name>contractEffectiveDate</con:name><con:value>2022-06-25</con:value></con:property><con:property><con:name>dwellingTypeCode</con:name><con:value>2</con:value></con:property><con:property><con:name>groundFloor</con:name><con:value>false</con:value></con:property><con:property><con:name>houseNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>housePropertyTypeCode</con:name><con:value>3</con:value></con:property><con:property><con:name>postalCode</con:name><con:value>1210</con:value></con:property><con:property><con:name>rentMonthlyAmount</con:name><con:value>0</con:value></con:property><con:property><con:name>returnCode</con:name><con:value>99999</con:value></con:property><con:property><con:name>roofTypeCode</con:name><con:value>1</con:value></con:property><con:property><con:name>secondHomeIndicator</con:name><con:value>false</con:value></con:property><con:property><con:name>streetName</con:name><con:value>Artisjokstraat</con:value></con:property><con:property><con:name>verandaCount</con:name><con:value>0</con:value></con:property><con:property><con:name>boxNumberIdentifier</con:name><con:value/></con:property><con:property><con:name>coverageChoice</con:name><con:value>standard</con:value></con:property><con:property><con:name>contentsTopup</con:name><con:value>false</con:value></con:property><con:property><con:name>insidePool</con:name><con:value>false</con:value></con:property><con:property><con:name>contractEffectiveDateKnown</con:name><con:value>true</con:value></con:property><con:property><con:name>frequencyCode</con:name><con:value>1</con:value></con:property></con:properties></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>BaseURL</con:name><con:value>https://test.api.coronadirect.be</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
