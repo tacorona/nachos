@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="16dfae98-160b-4e2c-a167-accb142cb554" activeEnvironment="Default" name="BRAND" resourceRoot="${projectDir}" soapui-version="5.6.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="e1057638-6fef-41d1-9fd6-06afc56f2963" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://test.api.coronadirect.be" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>${#Project#BaseURL}</con:endpoint><con:endpoint>https://acc.api.coronadirect.be</con:endpoint><con:endpoint>https://test.api.coronadirect.be</con:endpoint></con:endpoints><con:resource name="Quote" path="/external/home/insurance/v1/Quote" id="a8eb126b-5410-48b3-8a43-2255f426b779"><con:settings/><con:parameters/><con:method name="Quote 1" id="d258f3ce-75fd-4078-8bcb-e33226576ca0" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>401</con:status><con:params/><con:element xmlns:quot="https://test.api.coronadirect.be/external/home/insurance/v1/Quote">quot:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="c6c577a0-d7fc-4174-9410-9afd13bc76ef" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request/><con:originalUri>https://test.api.coronadirect.be/external/home/insurance/v1/Quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Offer" path="/external/home/insurance/v1/Offer" id="c7515072-9f21-45b0-8257-3c3afb71b7cb"><con:settings/><con:parameters/><con:method name="Offer 1" id="daf0b9bb-01ec-4946-ac02-8cff03d1f954" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>401</con:status><con:params/><con:element xmlns:quot="https://test.api.coronadirect.be/external/home/insurance/v1/Quote">quot:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:quot="https://test.api.coronadirect.be/external/home/insurance/v1/Quote">quot:Response</con:element></con:representation><con:request name="Offer BRAND" id="e381d5ca-6ab4-4493-8ee4-3965aef884ce" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://test.api.coronadirect.be</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="9ce13f0f-b55b-474e-9b86-ccacb92aa8bf" name="QuoteBrand"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="84f09b22-b95d-4a66-b895-e6adc57cd247" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="QUOTE" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Quote" id="986ff311-7b97-482e-bc68-ef9d7460a942"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/home/insurance/v1/Quote" methodName="Quote 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Quote" id="25618d6b-21dd-46cf-ba8e-f74838a97427" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Content-type" value="application/json"/>&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="61bc05cab5ed4d7da21533ce122df310"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:encoding/><con:endpoint>${#Project#BaseURL}</con:endpoint><con:request>[
+	{
+	"requester": {
+		"transactionIdentifier": "7CB961CC6EFA47C2C3DB57B78712D653",
+		"organizationIdentifier": "CORONA",
+		"coronaTransactionIdentifier": "1ADC44F8173A90D89226158CC176BDE2"
+		//INT: e945bd1c72d84fe99f7a48c40039a462
+		//ACC: 61bc05cab5ed4d7da21533ce122df310
+		},
+		
+	"persons": {
+		"policyHolder": {
+			"streetName": "${Variables#streetName}",
+			"houseNumberIdentifier": "${Variables#houseNumber}",
+			"postalCode": "${Variables#postalCode}",
+			"cityName": "${Variables#cityName}",
+						
+			"languageCode": "2",
+			"genderCode": "1",
+			"firstGivenName": "KDH",
+			"familyName": "Corona",
+			"eMailAddress": "koen.dhoore@coronadirect.be",
+			"birthDate": "1982-01-01"
+			}
+		},
+	"contract": {
+		//Adres variabelen
+		"houseAddressEqualsPolicyHolderAddress":true,
+		"streetName": "",
+    		"boxNumberIdentifier": "",
+    		"houseNumberIdentifier": "",
+    		"cityName": "",
+    		"postalCode": "",
+		"secondHomeIndicator": ${Variables#secondHomeIndicator},
+
+		//Woning variabelen
+		"housePropertyTypeCode": "${Variables#housePropertyTypeCode}", 
+		"dwellingTypeCode": "${Variables#dwellingTypeCode}",
+		"commercialUsageIndicator": ${Variables#commercialUsageIndicator}, 
+		"groundFloor": ${Variables#groundFloor},     
+
+		//Waardebepaling van de woning			
+		"valuationChoice": "${Variables#valuationChoice}",
+		"volume": ${Variables#volume},
+		
+		"salonCount": ${Variables#salonCount},
+		"diningroomCount": ${Variables#diningroomCount},
+		"bathroomCount": ${Variables#bathroomCount},
+		"bedroomCount": ${Variables#bedroomCount},
+		"studyroomCount": ${Variables#studyroomCount},
+		"otherroomCount": ${Variables#otherroomCount},
+		"garageCount": ${Variables#garageCount},
+
+		"rentMonthlyAmount": ${Variables#rentMonthlyAmount},
+
+		//Waarde inhoud
+		"contentsAmount": ${Variables#contentsAmount},
+
+		//Extra risico's
+		"verandaCount": ${Variables#verandaCount},
+		"roofTypeCode": ${Variables#roofTypeCode},
+		"outBuildingIndicator": false,
+
+		//Opties polis
+		"insuredAmountTheftPercentage": ${Variables#insuredAmountTheftPercentage},
+		"indirectLossesPercentage": ${Variables#indirectLossesPercentage},
+
+		//Waarborggroepen
+		"contentsInsuranceWantedIndicator": true,
+		"buildingInsuranceWantedIndicator": true,
+		"contentsTheftInsuranceWantedIndicator": false,
+		"legalAssistanceInsuranceWantedIndicator": false,
+		
+
+		//Andere
+		"contractEffectiveDate": "${Variables#contractEffectiveDate}",
+		"listedPropertyIndicator": false,
+		"claimsPastFiveYearsAmount": 0,
+		"buildingId": "grb_4782337.1N4Zl7p8jhpgKyforFjs3Obh5NQ",
+		"payment": {
+			"frequencyCode": "1"
+			}
+		}
+	}
+]</con:request><con:originalUri>https://test.api.coronadirect.be/external/home/insurance/v1/Quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>grant_Type</con:name><con:value>client_credentials</con:value></con:property><con:property><con:name>scope</con:name><con:value>openid</con:value></con:property><con:property><con:name>validity_period</con:name><con:value>-2</con:value></con:property><con:property><con:name>yesterday</con:name><con:value>2022-03-08</con:value></con:property><con:property><con:name>currentDate</con:name><con:value>2022-03-09</con:value></con:property><con:property><con:name>tomorrow</con:name><con:value>2022-03-10</con:value></con:property><con:property><con:name>selectedToken</con:name><con:value>token2</con:value></con:property><con:property><con:name>requestLanguage</con:name><con:value>NL</con:value></con:property><con:property><con:name>email</con:name><con:value>testRunner@gmail.com</con:value></con:property><con:property><con:name>CommercialProduct</con:name><con:value>V1</con:value></con:property><con:property><con:name>Scenario</con:name><con:value>scn_004_Carv2Quote</con:value></con:property><con:property><con:name>ExternalContractNumber</con:name><con:value>mMethod</con:value></con:property><con:property><con:name>ExternalContractVersionNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>activeFromDate</con:name><con:value>2022-03-09</con:value></con:property><con:property><con:name>activeToDate</con:name><con:value>2022-03-16</con:value></con:property><con:property><con:name>dialogResult</con:name><con:value>Run</con:value></con:property><con:property><con:name>firstName</con:name><con:value>${#TestCase#ExternalContractNumber}</con:value></con:property><con:property><con:name>organizationIdentifier</con:name><con:value>CORONA</con:value></con:property><con:property><con:name>transactionIdentifier</con:name><con:value>abcdef123456789</con:value></con:property><con:property><con:name>coronaTransactionIdentifier</con:name><con:value>4182c357ce7a4d268d4d131e90086c63</con:value></con:property><con:property><con:name>digitalSigning</con:name><con:value>true</con:value></con:property><con:property><con:name>packageType</con:name><con:value>BE</con:value></con:property><con:property><con:name>personalAssistance</con:name><con:value>true</con:value></con:property><con:property><con:name>luggage</con:name><con:value>false</con:value></con:property><con:property><con:name>policyReference</con:name><con:value>123-223-223</con:value></con:property><con:property><con:name>licensePlatesCar</con:name><con:value>"1ABC123","1XYZ456","1QRS789"</con:value></con:property><con:property><con:name>licensePlatesMotor</con:name><con:value>"1MAB123", "1MYZ456"</con:value></con:property><con:property><con:name>numberOfBicycles</con:name><con:value>3</con:value></con:property><con:property><con:name>numberOfPedelecs</con:name><con:value>1</con:value></con:property><con:property><con:name>numberOfHoverboards</con:name><con:value>0</con:value></con:property><con:property><con:name>numberOfSteps</con:name><con:value>1</con:value></con:property><con:property><con:name>numberOfSegways</con:name><con:value>1</con:value></con:property><con:property><con:name>propositionDate</con:name><con:value>2021-10-25</con:value></con:property><con:property><con:name>contractEffectiveDateKnown</con:name><con:value>true</con:value></con:property><con:property><con:name>contractEffectiveDate</con:name><con:value>2021-10-25</con:value></con:property><con:property><con:name>frequencyCode</con:name><con:value>12</con:value></con:property><con:property><con:name>meansCode</con:name><con:value>1</con:value></con:property><con:property><con:name>accountnumber</con:name><con:value>BE4700000000</con:value></con:property><con:property><con:name>bic</con:name><con:value>GBSDJKDSJ</con:value></con:property><con:property><con:name>familyName1</con:name><con:value>Klant</con:value></con:property><con:property><con:name>firstGivenName1</con:name><con:value>Test Senior</con:value></con:property><con:property><con:name>birthDate1</con:name><con:value>1980-10-01</con:value></con:property><con:property><con:name>genderCode1</con:name><con:value>1</con:value></con:property><con:property><con:name>streetName</con:name><con:value>Brusselsesteenweg</con:value></con:property><con:property><con:name>houseNumberIdentifier</con:name><con:value>2</con:value></con:property><con:property><con:name>boxNumberIdentifier</con:name><con:value>C</con:value></con:property><con:property><con:name>postalCode</con:name><con:value>2800</con:value></con:property><con:property><con:name>cityName</con:name><con:value>Kontich</con:value></con:property><con:property><con:name>languageCode</con:name><con:value>1</con:value></con:property><con:property><con:name>homeTelephone</con:name><con:value>031112233</con:value></con:property><con:property><con:name>emailAddress</con:name><con:value>test.senior@email.com</con:value></con:property><con:property><con:name>mobileTelephone</con:name><con:value>031112233</con:value></con:property><con:property><con:name>roleCode1</con:name><con:value>VM</con:value></con:property><con:property><con:name>familyName2</con:name><con:value>Klant</con:value></con:property><con:property><con:name>firstGivenName2</con:name><con:value>Test Junior</con:value></con:property><con:property><con:name>birthDate2</con:name><con:value>1960-10-01</con:value></con:property><con:property><con:name>genderCode2</con:name><con:value>1</con:value></con:property><con:property><con:name>roleCode2</con:name><con:value>FM</con:value></con:property><con:property><con:name>quotePost</con:name><con:value/></con:property><con:property><con:name>LoopOnReusableAction</con:name><con:value>1</con:value></con:property><con:property><con:name>reusableAction</con:name><con:value>quotecarv2</con:value></con:property></con:properties></con:testCase><con:testCase id="d726fd8f-77f8-481b-9fee-a2a989fe5db8" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="QUOTE-RUN" searchProperties="true"><con:settings/><con:testStep type="groovy" name="LoadTestData" id="7369730c-114c-4658-8f6c-43f11aee20a1"><con:settings/><con:config><script><![CDATA[import org.apache.poi.ss.usermodel.*
+import org.apache.poi.hssf.usermodel.*
+import org.apache.poi.ss.util.*
+import groovy.json.JsonSlurper
+import com.eviware.soapui.support.types.StringToStringMap 
+
+
+//Global variables
+def stopAtLine = 1 //0 = run all
+def excelName = "Testcases-Brand-Quote"
+date = new Date().format( 'yyyyMMdd' )
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+projectPath = groovyUtils.projectPath
+log.info "Detected project path: " + projectPath
+def variables = testRunner.testCase.getTestStepByName("Variables")
+def tCaseRun = testRunner.testCase.testSuite.testCases["QUOTE"]
+def fail = false
+errorLog = []
+
+
+//FOR TESTING 
+//log.info tCaseRun.properties['endpoint']
+//com.eviware.soapui.SoapUI.globalProperties.setPropertyValue( "Envir", "TEST" )
+testRunner.testCase.testSuite.project.setPropertyValue("BaseUrl", "https://acc.api.coronadirect.be")
+
+
+
+log.info com.eviware.soapui.SoapUI.globalProperties.getPropertyValue("Envir")
+//log.info testRunner.testCase.testSuite.project.getPropertyValue( "BaseUrl" )
+
+
+// Initiate ENVIRONMENT
+def headers = new StringToStringMap()
+headers.put("Content-type", "application/json");
+headers.put("Cache-Control", "no-cache");
+
+
+
+
+headers.put("Ocp-Apim-Subscription-Key", "61bc05cab5ed4d7da21533ce122df310");
+tCaseRun.getTestStepByName("Quote").httpRequest.requestHeaders = headers
+log.info tCaseRun.getTestStepByName("Quote").httpRequest.requestHeaders
+
+
+//Initiate external Functions.groovy
+GroovyScriptEngine gse = new GroovyScriptEngine(projectPath)
+externalScript = gse.loadScriptByName("Functions.groovy")  
+Functions = externalScript.newInstance(context: context, log: log, testRunner: testRunner)
+Functions.printCall()
+
+	
+// Initiate EXCEL
+def inputStream = new FileInputStream(projectPath+"\\" + excelName + ".xls");
+HSSFWorkbook wb = new HSSFWorkbook(inputStream);
+HSSFSheet ws = wb.getSheet("TestCases")  
+def totalRows = ws.getPhysicalNumberOfRows()
+def totalColumns = ws.getRow(0).getPhysicalNumberOfCells()
+
+// Initiate LOG dirs
+Functions.checkAndCreateFolder("Requests", projectPath, date)
+Functions.checkAndCreateFolder("Fails", projectPath, date)
+
+
+// Iterate rows / TESTCASES
+for(def i=1; i<totalRows; i++){
+	// Reset variables
+	def request = ""
+	def response = ""
+	errorLog.clear()
+	fail = false
+	def row = ws.getRow(i)
+
+	//Populate variables with data from excel
+	for (var in variables.getPropertyList()){
+		//correct column of given row is selected using the function 'getColumn()
+		Cell cell = row.getCell(Functions.getColumn(var.getName(), ws, totalColumns))
+		
+		//the variable name is extracted from property list. Value from cell is extracted with function
+		variables.setPropertyValue(var.getName(),Functions.getCellValue(cell))
+	 }
+	 
+//-- REQUEST --
+	//API call .run()
+	def tStep = tCaseRun.getTestStepByName("Quote")
+	def runner = tStep.run(testRunner, context)
+
+	//REQUEST being send
+	request = runner.getTestStep().getPropertyValue('RawRequest')
+	
+	//Create requestLog
+	def requestLog = new File(projectPath + "\\Requests\\" + date + "\\row " + (i+1) +".txt");
+	requestLog.write (request);
+
+
+// -- RESPONSE --
+	def httpResponseHeaders = runner.getTestStep().testRequest.response.responseHeaders
+	def httpStatus = httpResponseHeaders["#status#"]
+	def httpStatusCode = (httpStatus =~ "[1-5]\\d\\d")[0]
+
+	
+	//if JSON is not correct, statusCode will be 500
+	if (httpStatusCode != "500"){
+		response = runner.getTestStep().getPropertyValue('Response')
+		def jsonSlurper = new JsonSlurper()
+		def object = jsonSlurper.parseText(response)
+		
+// -- ASSERTIONS --
+			//Check if server accepted the request, or if the returnCode is as expected
+		try {
+	 		assert object[0].control.applicationReturnCode == variables.getPropertyValue("returnCode")
+		}
+		catch (AssertionError e) {
+			fail = true
+			errorLog.addAll(Functions.createErrorLogText("ApplicationReturnCode not "+ variables.getPropertyValue("returnCode")+" \n" + "errorMessage: " + object[0].control.errorMessage ,variables.getPropertyValue("returnCode"),object[0].control.applicationReturnCode))
+		}
+		//only if the returnCode is 00000, the following assertions can be done
+		if (object[0].control.applicationReturnCode == '00000'){
+			
+			//Check if BD - Building is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.coverages[0].grossPremium.toString(), variables.getPropertyValue("BD"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("BD - Building premium FAIL",variables.getPropertyValue("BD"),object[0].results.coverages[0].grossPremium))
+			}	
+			
+			//Check if CO / Contents is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.coverages[1].grossPremium.toString(), variables.getPropertyValue("CO"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("CO / Contents premium FAIL",variables.getPropertyValue("CO"),object[0].results.coverages[1].grossPremium))
+			}	
+			
+			//Check if CT / ContentsTheft is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.coverages[2].grossPremium.toString(), variables.getPropertyValue("CT"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("CT / ContentsTheft premium FAIL",variables.getPropertyValue("CT"),object[0].results.coverages[2].grossPremium))
+			}	
+			
+			//Check if LA / LegalAssistance is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.coverages[3].grossPremium.toString(), variables.getPropertyValue("LA"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("LA / LegalAssistance premium FAIL",variables.getPropertyValue("LA"),object[0].results.coverages[3].grossPremium))
+			}	
+			//Check if AS / Assistance is as expected
+			try {
+		 		assert Functions.checkValues(object[0].results.coverages[4].grossPremium.toString(), variables.getPropertyValue("AS"))
+			}
+			catch (AssertionError e) {
+				fail = true
+				errorLog.addAll(Functions.createErrorLogText("AS / Assistance premium FAIL",variables.getPropertyValue("AS"),object[0].results.coverages[4].grossPremium))
+			}	
+		}
+	}
+
+// -- CREATE LOGS --
+	// When httpStatusCode == 500:
+	else{ 
+		fail = true
+		errorLog << "JSON error"
+		errorLog << httpStatus
+		Functions.errorLines << "FAIL line " + (i+1) + " : JSON error \n"
+	}
+		
+	//Create and write .txt logs
+	if (fail){
+		Functions.rowFailed(errorLog, i, projectPath, date, row);
+	}
+	else{
+		Functions.rowPassed(i, row);
+	}
+
+	//stop loop
+	if(i == stopAtLine){
+		break;
+	}
+}
+
+// -- AFTER ALL --
+Functions.finishTestSuite(excelName, projectPath, wb);
+
+
+]]></script></con:config></con:testStep><con:testStep type="properties" name="Variables" id="9a13369f-a47f-4695-a104-35f40a362237"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>volume</con:name><con:value>500</con:value></con:property><con:property><con:name>verandaCount</con:name><con:value>0</con:value></con:property><con:property><con:name>valuationChoice</con:name><con:value>AP</con:value></con:property><con:property><con:name>studyroomCount</con:name><con:value>0</con:value></con:property><con:property><con:name>streetName</con:name><con:value>Artisjokstraat</con:value></con:property><con:property><con:name>secondHomeIndicator</con:name><con:value>false</con:value></con:property><con:property><con:name>saloncount</con:name><con:value>1</con:value></con:property><con:property><con:name>roofTypeCode</con:name><con:value>1</con:value></con:property><con:property><con:name>rentMonthlyAmount</con:name><con:value>750</con:value></con:property><con:property><con:name>postalCode</con:name><con:value>1210</con:value></con:property><con:property><con:name>otherroomCount</con:name><con:value>0</con:value></con:property><con:property><con:name>LA</con:name><con:value>11.89</con:value></con:property><con:property><con:name>insuredAmountTheftPercentage</con:name><con:value>50</con:value></con:property><con:property><con:name>indirectLossesPercentage</con:name><con:value>10</con:value></con:property><con:property><con:name>housePropertyTypeCode</con:name><con:value>1</con:value></con:property><con:property><con:name>houseNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>groundFloor</con:name><con:value>false</con:value></con:property><con:property><con:name>garageCount</con:name><con:value>0</con:value></con:property><con:property><con:name>dwellingTypeCode</con:name><con:value>2</con:value></con:property><con:property><con:name>diningroomCount</con:name><con:value>1</con:value></con:property><con:property><con:name>CT</con:name><con:value>43.41</con:value></con:property><con:property><con:name>contractEffectiveDate</con:name><con:value>2022-05-25</con:value></con:property><con:property><con:name>contentsAmount</con:name><con:value>25000</con:value></con:property><con:property><con:name>commercialUsageIndicator</con:name><con:value>false</con:value></con:property><con:property><con:name>CO</con:name><con:value>35.50</con:value></con:property><con:property><con:name>cityName</con:name><con:value>Sint-joost-ten-noode</con:value></con:property><con:property><con:name>bedroomCount</con:name><con:value>0</con:value></con:property><con:property><con:name>BD</con:name><con:value>191.38</con:value></con:property><con:property><con:name>bathroomCount</con:name><con:value>1</con:value></con:property><con:property><con:name>AS</con:name><con:value>1.25</con:value></con:property><con:property><con:name>returnCode</con:name><con:value>00000</con:value></con:property></con:properties></con:config></con:testStep><con:properties><con:property><con:name>grant_Type</con:name><con:value>client_credentials</con:value></con:property><con:property><con:name>scope</con:name><con:value>openid</con:value></con:property><con:property><con:name>validity_period</con:name><con:value>-2</con:value></con:property><con:property><con:name>yesterday</con:name><con:value>2022-03-08</con:value></con:property><con:property><con:name>currentDate</con:name><con:value>2022-03-09</con:value></con:property><con:property><con:name>tomorrow</con:name><con:value>2022-03-10</con:value></con:property><con:property><con:name>selectedToken</con:name><con:value>token2</con:value></con:property><con:property><con:name>requestLanguage</con:name><con:value>NL</con:value></con:property><con:property><con:name>email</con:name><con:value>testRunner@gmail.com</con:value></con:property><con:property><con:name>CommercialProduct</con:name><con:value>V1</con:value></con:property><con:property><con:name>Scenario</con:name><con:value>scn_004_Carv2Quote</con:value></con:property><con:property><con:name>ExternalContractNumber</con:name><con:value>mMethod</con:value></con:property><con:property><con:name>ExternalContractVersionNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>activeFromDate</con:name><con:value>2022-03-09</con:value></con:property><con:property><con:name>activeToDate</con:name><con:value>2022-03-16</con:value></con:property><con:property><con:name>dialogResult</con:name><con:value>Run</con:value></con:property><con:property><con:name>firstName</con:name><con:value>${#TestCase#ExternalContractNumber}</con:value></con:property><con:property><con:name>organizationIdentifier</con:name><con:value>CORONA</con:value></con:property><con:property><con:name>transactionIdentifier</con:name><con:value>abcdef123456789</con:value></con:property><con:property><con:name>coronaTransactionIdentifier</con:name><con:value>4182c357ce7a4d268d4d131e90086c63</con:value></con:property><con:property><con:name>digitalSigning</con:name><con:value>true</con:value></con:property><con:property><con:name>packageType</con:name><con:value>BE</con:value></con:property><con:property><con:name>personalAssistance</con:name><con:value>true</con:value></con:property><con:property><con:name>luggage</con:name><con:value>false</con:value></con:property><con:property><con:name>policyReference</con:name><con:value>123-223-223</con:value></con:property><con:property><con:name>licensePlatesCar</con:name><con:value>"1ABC123","1XYZ456","1QRS789"</con:value></con:property><con:property><con:name>licensePlatesMotor</con:name><con:value>"1MAB123", "1MYZ456"</con:value></con:property><con:property><con:name>numberOfBicycles</con:name><con:value>3</con:value></con:property><con:property><con:name>numberOfPedelecs</con:name><con:value>1</con:value></con:property><con:property><con:name>numberOfHoverboards</con:name><con:value>0</con:value></con:property><con:property><con:name>numberOfSteps</con:name><con:value>1</con:value></con:property><con:property><con:name>numberOfSegways</con:name><con:value>1</con:value></con:property><con:property><con:name>propositionDate</con:name><con:value>2021-10-25</con:value></con:property><con:property><con:name>contractEffectiveDateKnown</con:name><con:value>true</con:value></con:property><con:property><con:name>contractEffectiveDate</con:name><con:value>2021-10-25</con:value></con:property><con:property><con:name>frequencyCode</con:name><con:value>12</con:value></con:property><con:property><con:name>meansCode</con:name><con:value>1</con:value></con:property><con:property><con:name>accountnumber</con:name><con:value>BE4700000000</con:value></con:property><con:property><con:name>bic</con:name><con:value>GBSDJKDSJ</con:value></con:property><con:property><con:name>familyName1</con:name><con:value>Klant</con:value></con:property><con:property><con:name>firstGivenName1</con:name><con:value>Test Senior</con:value></con:property><con:property><con:name>birthDate1</con:name><con:value>1980-10-01</con:value></con:property><con:property><con:name>genderCode1</con:name><con:value>1</con:value></con:property><con:property><con:name>streetName</con:name><con:value>Brusselsesteenweg</con:value></con:property><con:property><con:name>houseNumberIdentifier</con:name><con:value>2</con:value></con:property><con:property><con:name>boxNumberIdentifier</con:name><con:value>C</con:value></con:property><con:property><con:name>postalCode</con:name><con:value>2800</con:value></con:property><con:property><con:name>cityName</con:name><con:value>Kontich</con:value></con:property><con:property><con:name>languageCode</con:name><con:value>1</con:value></con:property><con:property><con:name>homeTelephone</con:name><con:value>031112233</con:value></con:property><con:property><con:name>emailAddress</con:name><con:value>test.senior@email.com</con:value></con:property><con:property><con:name>mobileTelephone</con:name><con:value>031112233</con:value></con:property><con:property><con:name>roleCode1</con:name><con:value>VM</con:value></con:property><con:property><con:name>familyName2</con:name><con:value>Klant</con:value></con:property><con:property><con:name>firstGivenName2</con:name><con:value>Test Junior</con:value></con:property><con:property><con:name>birthDate2</con:name><con:value>1960-10-01</con:value></con:property><con:property><con:name>genderCode2</con:name><con:value>1</con:value></con:property><con:property><con:name>roleCode2</con:name><con:value>FM</con:value></con:property><con:property><con:name>quotePost</con:name><con:value/></con:property><con:property><con:name>LoopOnReusableAction</con:name><con:value>1</con:value></con:property><con:property><con:name>reusableAction</con:name><con:value>quotecarv2</con:value></con:property></con:properties></con:testCase><con:properties><con:property><con:name>BaseURL</con:name><con:value>https://test.api.coronadirect.be</con:value></con:property></con:properties></con:testSuite><con:testSuite id="67955449-6a4a-4a5e-8c1f-5a63b553764c" name="OfferBrand"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="b0c6ca20-85e8-423c-b760-90baa91a0ac6" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OFFER" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="restrequest" name="Offer" id="5698f097-b762-425c-bff2-751fd85a1278"><con:settings/><con:config service="https://test.api.coronadirect.be" resourcePath="/external/home/insurance/v1/Offer" methodName="Offer 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Offer" id="25618d6b-21dd-46cf-ba8e-f74838a97427" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">&#13;
+  &lt;con:entry key="Content-type" value="application/json"/>&#13;
+  &lt;con:entry key="Ocp-Apim-Subscription-Key" value="61bc05cab5ed4d7da21533ce122df310"/>&#13;
+  &lt;con:entry key="Cache-Control" value="no-cache"/>&#13;
+&lt;/xml-fragment></con:setting></con:settings><con:encoding/><con:endpoint>${#Project#BaseURL}</con:endpoint><con:request>{
+	"requester": {
+		//INT: e945bd1c72d84fe99f7a48c40039a462
+		//ACC: 61bc05cab5ed4d7da21533ce122df310
+		"transactionIdentifier": "7CB961CC6EFA47C2C3DB57B78712D653",
+		"organizationIdentifier": "CORONA",
+		"coronaTransactionIdentifier": "1ADC44F8173A90D89226158CC176BDE2"
+		},
+		
+	"persons": {
+		"policyHolder": {
+			"streetName": "${Variables#streetName}",
+			"houseNumberIdentifier": "${Variables#houseNumber}",
+			"postalCode": "${Variables#postalCode}",
+			"cityName": "${Variables#cityName}",
+						
+			"languageCode": "2",
+			"genderCode": "1",
+			"firstGivenName": "KDH",
+			"familyName": "Corona",
+			"eMailAddress": "koen.dhoore@coronadirect.be",
+			"birthDate": "1982-01-01"
+			}
+		},
+	"contract": {
+		//Adres variabelen
+		"houseAddressEqualsPolicyHolderAddress":true,
+		"secondHomeIndicator": ${Variables#secondHomeIndicator},
+
+		//Woning variabelen
+		"housePropertyTypeCode": "${Variables#housePropertyTypeCode}", 
+		"dwellingTypeCode": "${Variables#dwellingTypeCode}",
+		"commercialUsageIndicator": ${Variables#commercialUsageIndicator}, 
+		"groundFloor": ${Variables#groundFloor},     
+
+		//Waardebepaling van de woning			
+		"valuationChoice": "${Variables#valuationChoice}",
+		"volume": ${Variables#volume},
+		
+		"salonCount": ${Variables#salonCount},
+		"diningroomCount": ${Variables#diningroomCount},
+		"bathroomCount": ${Variables#bathroomCount},
+		"bedroomCount": ${Variables#bedroomCount},
+		"studyroomCount": ${Variables#studyroomCount},
+		"otherroomCount": ${Variables#otherroomCount},
+		"garageCount": ${Variables#garageCount},
+
+		"rentMonthlyAmount": ${Variables#rentMonthlyAmount},
+
+		//Waarde inhoud
+		"contentsAmount": ${Variables#contentsAmount},
+
+		//Extra risico's
+		"verandaCount": ${Variables#verandaCount},
+		"roofTypeCode": ${Variables#roofTypeCode},
+		"outBuildingIndicator": false,
+
+		//Opties polis
+		"insuredAmountTheftPercentage": ${Variables#insuredAmountTheftPercentage},
+		"indirectLossesPercentage": ${Variables#indirectLossesPercentage},
+
+		//Waarborggroepen
+		"contentsInsuranceWantedIndicator": true,
+		"buildingInsuranceWantedIndicator": true,
+		"contentsTheftInsuranceWantedIndicator": true,
+		"legalAssistanceInsuranceWantedIndicator": true,
+
+
+		//Eigenschappen offerte
+		"waverOfRecourse": false,
+    		"buildingInConstruction": false,
+    		"claimsPastFiveYearsAmount": 0,
+
+		//Huidige verzekeraar
+	    	"mortgagePresent": false,
+	    	"creditProvider": "",
+	    	"creditProviderReference": "",
+
+	    	//Gebruikt in HOMIE
+	    	"insuranceContinuation": false,
+	    	"insidePool": false,
+	    	"contentsTopup": false,
+	    	"coverageChoice": "",
+
+
+
+		//Andere
+		"contractEffectiveDate": "${Variables#contractEffectiveDate}",
+		"contractEffectiveDateKnown": false,
+		
+		"listedPropertyIndicator": false,
+		"buildingId": "grb_4782337.1N4Zl7p8jhpgKyforFjs3Obh5NQ",
+		"payment": {
+			"frequencyCode": "1",
+			"accountNumber": "BE58561182372379"
+
+			}
+		},
+
+	//Termination huidig contract	
+	"terminations": [{ 
+	    "name": "a", 
+	    "companyCode": "14", 
+	    "contractReference": "123456789", 
+	    "ExpirationDate": "2022-04-20", 
+	    "noticeCode": 2
+	    }] 
+}</con:request><con:originalUri>https://test.api.coronadirect.be/external/home/insurance/v1/Quote</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="7f85c890-0b55-420e-9f7d-651e1d54c239" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OFFER-RUN" searchProperties="true"><con:settings/><con:testStep type="groovy" name="LoadTestData" id="b9add90b-c53a-4082-8f7e-e2927c6d71f1"><con:settings/><con:config><script><![CDATA[import org.apache.poi.ss.usermodel.*
+import org.apache.poi.hssf.usermodel.*
+import org.apache.poi.ss.util.*
+import groovy.json.JsonSlurper
+
+
+//Global variables
+def stopAtLine = 4  //0 = run all
+def excelName = "Testcases-Brand-Offer"
+date = new Date().format( 'yyyyMMdd' )
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+projectPath = groovyUtils.projectPath
+log.info "Detected project path: " + projectPath
+def variables = testRunner.testCase.getTestStepByName("Variables")
+def tCaseRun = testRunner.testCase.testSuite.testCases["OFFER"]
+def fail = false
+errorLog = []
+
+
+//FOR TESTING:
+testRunner.testCase.testSuite.project.setPropertyValue("BaseUrl", "https://acc.api.coronadirect.be" )
+
+//Initiate external Functions.groovy
+GroovyScriptEngine gse = new GroovyScriptEngine(projectPath)
+externalScript = gse.loadScriptByName("Functions.groovy")  
+Functions = externalScript.newInstance(context: context, log: log, testRunner: testRunner)
+Functions.printCall()
+
+	
+// Initiate EXCEL
+def inputStream = new FileInputStream(projectPath + "\\" + excelName + ".xls");
+HSSFWorkbook wb = new HSSFWorkbook(inputStream);
+HSSFSheet ws = wb.getSheet("TestCases")  
+def totalRows = ws.getPhysicalNumberOfRows()
+def totalColumns = ws.getRow(0).getPhysicalNumberOfCells()
+
+// Initiate LOG dirs
+Functions.checkAndCreateFolder("Requests", projectPath, date)
+Functions.checkAndCreateFolder("Fails", projectPath, date)
+
+
+// Iterate rows / TESTCASES
+for(def i=1; i<totalRows; i++){
+	// Reset variables
+	def request = ""
+	def response = ""
+	errorLog.clear()
+	fail = false
+	def row = ws.getRow(i)
+
+	//Populate variables with data from excel
+	for (var in variables.getPropertyList()){
+		//correct column of given row is selected using the function 'getColumn()
+		Cell cell = row.getCell(Functions.getColumn(var.getName(), ws, totalColumns))
+		
+		//the variable name is extracted from property list. Value from cell is extracted with function
+		variables.setPropertyValue(var.getName(),Functions.getCellValue(cell))
+	}
+	
+
+//-- REQUEST --
+	//API call .run()
+	def tStep = tCaseRun.getTestStepByName("Offer")
+	def runner = tStep.run(testRunner, context)
+	
+	//REQUEST being send
+	request = runner.getTestStep().getPropertyValue('RawRequest')
+	
+	//Create requestLog
+	def requestLog = new File(projectPath + "\\Requests\\" + date + "\\row " + (i+1) +".txt");
+	requestLog.write (request);
+
+
+// -- RESPONSE --
+	def httpResponseHeaders = runner.getTestStep().testRequest.response.responseHeaders
+	def httpStatus = httpResponseHeaders["#status#"]
+	def httpStatusCode = (httpStatus =~ "[1-5]\\d\\d")[0]
+
+	
+	//if JSON is not correct, statusCode will be 500
+	if (httpStatusCode != "500"){
+		response = runner.getTestStep().getPropertyValue('Response')
+		def jsonSlurper = new JsonSlurper()
+		def object = jsonSlurper.parseText(response)
+		
+// -- ASSERTIONS --
+		//Check if server accepted the request, or if the returnCode is as expected
+		try {
+	 		assert object.control.applicationReturnCode == variables.getPropertyValue("returnCode")
+		}
+		catch (AssertionError e) {
+			fail = true
+			errorLog.addAll(Functions.createErrorLogText("ApplicationReturnCode not "+ variables.getPropertyValue("returnCode")+" \n" + "errorMessage: " + object.control.errorMessage ,variables.getPropertyValue("returnCode"),object.control.applicationReturnCode))
+		}
+	}
+
+	
+// -- CREATE LOGS --
+	// When httpStatusCode == 500:
+	else{ 
+		fail = true
+		errorLog << "JSON error"
+		errorLog << httpStatus
+		Functions.errorLines << "FAIL line " + (i+1) + " : JSON error \n"
+	}
+		
+	//Create and write .txt logs
+	if (fail){
+		Functions.rowFailed(errorLog, i, projectPath, date, row);
+	}
+	else{
+		Functions.rowPassed(i, row);
+	}
+
+	//stop loop
+	if(i == stopAtLine){
+		break;
+	}
+}
+
+// -- AFTER ALL --
+Functions.finishTestSuite(excelName, projectPath, wb);
+
+]]></script></con:config></con:testStep><con:testStep type="properties" name="Variables" id="9fc86c96-f527-4fd7-9092-f69b21068d17"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>AS</con:name><con:value>291.69</con:value></con:property><con:property><con:name>bathroomCount</con:name><con:value>1</con:value></con:property><con:property><con:name>BD</con:name><con:value>448.40</con:value></con:property><con:property><con:name>bedroomCount</con:name><con:value>2</con:value></con:property><con:property><con:name>cityName</con:name><con:value>LUIK</con:value></con:property><con:property><con:name>CO</con:name><con:value>46.31</con:value></con:property><con:property><con:name>commercialUsageIndicator</con:name><con:value>false</con:value></con:property><con:property><con:name>contentsAmount</con:name><con:value>30000</con:value></con:property><con:property><con:name>contractEffectiveDate</con:name><con:value>2022-05-25</con:value></con:property><con:property><con:name>CT</con:name><con:value>52.09</con:value></con:property><con:property><con:name>diningroomCount</con:name><con:value>1</con:value></con:property><con:property><con:name>dwellingTypeCode</con:name><con:value>2</con:value></con:property><con:property><con:name>garageCount</con:name><con:value>0</con:value></con:property><con:property><con:name>groundFloor</con:name><con:value>false</con:value></con:property><con:property><con:name>houseNumber</con:name><con:value>1</con:value></con:property><con:property><con:name>housePropertyTypeCode</con:name><con:value>1</con:value></con:property><con:property><con:name>indirectLossesPercentage</con:name><con:value>10</con:value></con:property><con:property><con:name>insuredAmountTheftPercentage</con:name><con:value>50</con:value></con:property><con:property><con:name>LA</con:name><con:value>11.89</con:value></con:property><con:property><con:name>otherroomCount</con:name><con:value>2</con:value></con:property><con:property><con:name>postalCode</con:name><con:value>4000</con:value></con:property><con:property><con:name>rentMonthlyAmount</con:name><con:value>750</con:value></con:property><con:property><con:name>returnCode</con:name><con:value>00000</con:value></con:property><con:property><con:name>roofTypeCode</con:name><con:value>1</con:value></con:property><con:property><con:name>saloncount</con:name><con:value>1</con:value></con:property><con:property><con:name>secondHomeIndicator</con:name><con:value>false</con:value></con:property><con:property><con:name>streetName</con:name><con:value>Luikstraat</con:value></con:property><con:property><con:name>studyroomCount</con:name><con:value>0</con:value></con:property><con:property><con:name>valuationChoice</con:name><con:value>AP</con:value></con:property><con:property><con:name>verandaCount</con:name><con:value>0</con:value></con:property><con:property><con:name>volume</con:name><con:value>500</con:value></con:property></con:properties></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>BaseURL</con:name><con:value>https://acc.api.coronadirect.be</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
