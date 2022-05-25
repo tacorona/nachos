@@ -115,11 +115,11 @@ def headers = new StringToStringMap()
 headers.put("Content-type", "application/json");
 headers.put("Cache-Control", "no-cache");
 
-if(environment.equals("TST"){
+if(environment.equals("TST")){
 headers.put("Ocp-Apim-Subscription-Key", "5c6ebe49aaa94d02aae2d3e8b018128e");
 testRunner.testCase.testSuite.project.setPropertyValue("BaseUrl", "https://test.api.coronadirect.be")	
-}else
-if(environment.equals("ACC"){
+}
+else if(environment.equals("ACC")){
 headers.put("Ocp-Apim-Subscription-Key", "62196e7c7e464804bc2deefe3552bb1a");
 testRunner.testCase.testSuite.project.setPropertyValue("BaseUrl", "https://acc.api.coronadirect.be")	
 }
@@ -411,11 +411,11 @@ def headers = new StringToStringMap()
 headers.put("Content-type", "application/json");
 headers.put("Cache-Control", "no-cache");
 
-if(environment.equals("TST"){
+if(environment.equals("TST")){
 headers.put("Ocp-Apim-Subscription-Key", "5c6ebe49aaa94d02aae2d3e8b018128e");
 testRunner.testCase.testSuite.project.setPropertyValue("BaseUrl", "https://test.api.coronadirect.be")	
-}else
-if(environment.equals("ACC"){
+}
+else if(environment.equals("ACC")){
 headers.put("Ocp-Apim-Subscription-Key", "62196e7c7e464804bc2deefe3552bb1a");
 testRunner.testCase.testSuite.project.setPropertyValue("BaseUrl", "https://acc.api.coronadirect.be")	
 }
