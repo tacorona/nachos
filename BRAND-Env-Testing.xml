@@ -113,8 +113,10 @@ errorLog = []
 testRunner.testCase.testSuite.project.setPropertyValue("BaseUrl", "https://acc.api.coronadirect.be")
 
 
-
+log.info("global variabele 1:")
 log.info com.eviware.soapui.SoapUI.globalProperties.getPropertyValue("Envir")
+log.info("global variabele 2:")
+log.info testRunner.testCase.testSuite.project.getPropertyValue("Envir")
 //log.info testRunner.testCase.testSuite.project.getPropertyValue( "BaseUrl" )
 
 
