@@ -95,7 +95,7 @@ import com.eviware.soapui.support.types.StringToStringMap
 
 
 //Global variables
-def stopAtLine = 1 //0 = run all
+def stopAtLine = 4 //0 = run all
 def excelName = "Testcases-Brand-Quote"
 date = new Date().format( 'yyyyMMdd' )
 def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
@@ -389,6 +389,7 @@ Functions.finishTestSuite(excelName, projectPath, wb);
 import org.apache.poi.hssf.usermodel.*
 import org.apache.poi.ss.util.*
 import groovy.json.JsonSlurper
+import com.eviware.soapui.support.types.StringToStringMap 
 
 
 //Global variables
