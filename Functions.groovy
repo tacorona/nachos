@@ -58,7 +58,7 @@ class Functions{
 							break;
 						case "NUMERIC":
 						case 0:
-							value = cell.getNumericCellValue();
+							value = cell.getNumericCellValue().trunc(2);
 							break;
 						case "STRING":
 						case 1:
@@ -72,7 +72,7 @@ class Functions{
 					break;
 				case "NUMERIC":
 				case 0:
-					value = cell.getNumericCellValue();
+					value = cell.getNumericCellValue().trunc(2);
 					break;
 				default:
 					value = ""
@@ -85,25 +85,28 @@ class Functions{
 		return value.toString()
 	}
 
-	//check the difference between 2 values: <=0.05 is acceptable
+	//check the difference between 2 values: <=0.10 is acceptable
 	def checkValues(val1,val2){
 		def float dec1 
 		def float dec2
+		//Fixing values as string
+		String value1 = val1.replaceAll(',','.')
+		String value2 = val2.replaceAll(',','.')
 		try{
-			dec1 = Float.parseFloat(val1);
-			dec2 = Float.parseFloat(val2);
+			dec1 = Float.parseFloat(value1);
 		}
 		catch(Exception e){
-			log.info "EXCEPTION val1: " + val1
-			log.info "EXCEPTION val2: " +val2
+			log.info "EXCEPTION value1: " + value1
+		}
+		try{
+			dec2 = Float.parseFloat(value2);
+		}
+		catch(Exception e){
+			log.info "EXCEPTION value2: " + value2
 		}
 		//make the value absolute and truncate at 2 decimals
 		def difference = Math.abs(dec1 - dec2).trunc(2)
-		if (difference > 0.05){
-			return false
-		}else{
-			return true
-		}
+		return difference > 0.10 ? false : true
 	}
 
 	//create Error Log Text from given arguments
